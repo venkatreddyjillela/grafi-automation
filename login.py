@@ -8,10 +8,18 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
+import logging
 
+# Set the logging level to CRITICAL
+logging.basicConfig(level=logging.CRITICAL)
 
-# set up the Chrome WebDriver using the driver manager
-driver = webdriver.Chrome(ChromeDriverManager().install())
+# Create Chrome options object
+chrome_options = Options()
+# chrome_options.add_argument('--headless')
+
+# Create driver object with the ChromeDriverManager and the options object
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
 # set up the Edge WebDriver using the driver manager
 # driver = webdriver.Edge(EdgeChromiumDriverManager().install())
