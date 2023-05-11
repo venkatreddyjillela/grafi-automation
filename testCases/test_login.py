@@ -2,6 +2,7 @@ import pytest
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
+import time
 
 class Test_001_Login:
     baseURL = ReadConfig.getApplicationURL()
@@ -16,6 +17,7 @@ class Test_001_Login:
         self.driver = setup
         self.logger.info("****Opening URL****")
         self.driver.get(self.baseURL)
+        time.sleep(2)
         act_title=self.driver.title
 
         if act_title=="Grafi - Where AI Meets Writing":
