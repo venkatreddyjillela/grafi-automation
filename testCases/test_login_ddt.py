@@ -39,6 +39,7 @@ class Test_002_DDT_Login():
             if current_url==expected_url:
                 if self.exp=='Pass':
                     self.logger.info("**** passed ****")
+                    self.logger.info("**** Home Page is Opened ****")
                     self.lp.clickSignoutDropdown()
                     self.logger.info("**** Drop down is clicked ****")
                     self.lp.clickSignout()
@@ -46,10 +47,6 @@ class Test_002_DDT_Login():
                     lst_status.append("Pass")
                 elif self.exp=='Fail':
                     self.logger.info("**** failed ****")
-                    self.lp.clickSignoutDropdown()
-                    self.logger.info("**** Drop down is clicked ****")
-                    self.lp.clickSignout()
-                    self.logger.info("**** Click signout ****")
                     lst_status.append("Fail")
 
             elif current_url!=expected_url:
