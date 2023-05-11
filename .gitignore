@@ -1,1 +1,5 @@
-/*.log
+/venv
+/utilities/__pycache__
+/testCases/__pycache__
+/pageObjects/__pycache__
+/Screenshots/*
