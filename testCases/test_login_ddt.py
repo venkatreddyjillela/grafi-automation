@@ -24,29 +24,35 @@ class Test_002_DDT_Login():
         lst_status=[]
 
         for r in range(2,self.rows+1):
-            self.user=XLUtils.readData(self.path,'Sheet1',r,1)
+            self.email=XLUtils.readData(self.path,'Sheet1',r,1)
             self.password = XLUtils.readData(self.path, 'Sheet1', r, 2)
             self.exp = XLUtils.readData(self.path, 'Sheet1', r, 3)
 
-            self.lp.setUserName(self.user)
+            self.lp.setEmail(self.email)
             self.lp.setPassword(self.password)
             self.lp.clickLogin()
             time.sleep(5)
 
-            act_title=self.driver.title
-            exp_title="Dashboard / nopCommerce administration"
-
-            if act_title==exp_title:
+            current_url=self.driver.current_url
+            expected_url=self.baseURL+'home'
+            
+            if current_url==expected_url:
                 if self.exp=='Pass':
                     self.logger.info("**** passed ****")
-                    self.lp.clickLogout();
+                    self.lp.clickSignoutDropdown()
+                    self.logger.info("**** Drop down is clicked ****")
+                    self.lp.clickSignout()
+                    self.logger.info("**** Click signout ****")
                     lst_status.append("Pass")
                 elif self.exp=='Fail':
                     self.logger.info("**** failed ****")
-                    self.lp.clickLogout();
+                    self.lp.clickSignoutDropdown()
+                    self.logger.info("**** Drop down is clicked ****")
+                    self.lp.clickSignout()
+                    self.logger.info("**** Click signout ****")
                     lst_status.append("Fail")
 
-            elif act_title!=exp_title:
+            elif current_url!=expected_url:
                 if self.exp == 'Pass':
                     self.logger.info("**** failed ****")
                     lst_status.append("Fail")

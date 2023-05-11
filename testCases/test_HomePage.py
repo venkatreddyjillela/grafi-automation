@@ -3,6 +3,7 @@ from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from pageObjects.HomePage import HomePage
+import time
 
 class Test_002_HomePage:
     baseURL = ReadConfig.getApplicationURL()
@@ -20,6 +21,7 @@ class Test_002_HomePage:
         self.lp.setEmail(self.email)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
+        time.sleep(5)
         current_url=self.driver.current_url
         if current_url == self.baseURL + 'home':
             self.logger.info("****Home Page test passed ****")

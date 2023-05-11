@@ -40,8 +40,10 @@ class Test_001_Login:
         self.lp.setEmail(self.email)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
-        act_title=self.driver.title
-        if act_title == "Grafi":
+        time.sleep(5)
+        current_url=self.driver.current_url
+        if current_url == self.baseURL + 'home':
+            self.logger.info("****Home Page is opened****")
             self.logger.info("****Login test passed ****")
             self.driver.close()
             assert True

@@ -1,0 +1,77 @@
+05/11/2023 12:12:08 PM: INFO: ====== WebDriver manager ======
+05/11/2023 12:12:09 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 12:12:11 PM: INFO: *************** Test_001_Login *****************
+05/11/2023 12:12:11 PM: INFO: ****Started Login Page Title test ****
+05/11/2023 12:12:11 PM: INFO: ****Opening URL****
+05/11/2023 12:12:14 PM: INFO: **** Login Page Title test passed ****
+05/11/2023 12:12:14 PM: INFO: ====== WebDriver manager ======
+05/11/2023 12:12:15 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 12:12:17 PM: INFO: ****Started Login Test****
+05/11/2023 12:12:23 PM: INFO: ****Login test passed ****
+05/11/2023 12:13:52 PM: INFO: ====== WebDriver manager ======
+05/11/2023 12:13:53 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 12:13:55 PM: INFO: *************** Test_001_Login *****************
+05/11/2023 12:13:55 PM: INFO: ****Started Login Page Title test ****
+05/11/2023 12:13:55 PM: INFO: ****Opening URL****
+05/11/2023 12:13:57 PM: INFO: **** Login Page Title test passed ****
+05/11/2023 12:13:58 PM: INFO: ====== WebDriver manager ======
+05/11/2023 12:13:58 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 12:14:00 PM: INFO: ****Started Login Test****
+05/11/2023 12:14:06 PM: INFO: ****Login test passed ****
+05/11/2023 12:45:01 PM: INFO: ====== WebDriver manager ======
+05/11/2023 12:45:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 12:45:03 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+05/11/2023 12:45:03 PM: INFO: ******* Starting Login DDT Test **********
+05/11/2023 12:45:13 PM: INFO: **** failed ****
+05/11/2023 12:45:20 PM: INFO: **** passed ****
+05/11/2023 12:45:27 PM: INFO: **** passed ****
+05/11/2023 12:45:33 PM: INFO: **** passed ****
+05/11/2023 12:45:33 PM: ERROR: ******* DDT Login test failed **********
+05/11/2023 12:48:03 PM: INFO: ====== WebDriver manager ======
+05/11/2023 12:48:04 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 12:48:05 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+05/11/2023 12:48:05 PM: INFO: ******* Starting Login DDT Test **********
+05/11/2023 12:48:15 PM: INFO: **** failed ****
+05/11/2023 12:48:21 PM: INFO: **** passed ****
+05/11/2023 12:48:28 PM: INFO: **** passed ****
+05/11/2023 12:48:35 PM: INFO: **** passed ****
+05/11/2023 12:48:35 PM: ERROR: ******* DDT Login test failed **********
+05/11/2023 12:49:46 PM: INFO: ====== WebDriver manager ======
+05/11/2023 12:49:47 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 12:49:48 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+05/11/2023 12:49:48 PM: INFO: ******* Starting Login DDT Test **********
+05/11/2023 12:49:58 PM: INFO: **** passed ****
+05/11/2023 12:49:58 PM: INFO: **** Drop down is clicked ****
+05/11/2023 12:50:01 PM: INFO: **** Click signout ****
+05/11/2023 12:50:08 PM: INFO: **** passed ****
+05/11/2023 12:50:15 PM: INFO: **** passed ****
+05/11/2023 12:50:22 PM: INFO: **** passed ****
+05/11/2023 12:50:22 PM: INFO: ******* DDT Login test passed **********
+05/11/2023 12:50:22 PM: INFO: ******* End of Login DDT Test **********
+05/11/2023 12:50:22 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
+05/11/2023 01:01:31 PM: INFO: ====== WebDriver manager ======
+05/11/2023 01:01:32 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 01:01:33 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+05/11/2023 01:01:33 PM: INFO: ******* Starting Login DDT Test **********
+05/11/2023 01:01:43 PM: INFO: **** passed ****
+05/11/2023 01:01:43 PM: INFO: **** Drop down is clicked ****
+05/11/2023 01:01:46 PM: INFO: **** Click signout ****
+05/11/2023 01:01:53 PM: INFO: **** passed ****
+05/11/2023 01:01:59 PM: INFO: **** passed ****
+05/11/2023 01:02:06 PM: INFO: **** passed ****
+05/11/2023 01:02:06 PM: INFO: ******* DDT Login test passed **********
+05/11/2023 01:02:06 PM: INFO: ******* End of Login DDT Test **********
+05/11/2023 01:02:06 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
+05/11/2023 01:03:47 PM: INFO: ====== WebDriver manager ======
+05/11/2023 01:03:47 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+05/11/2023 01:03:49 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+05/11/2023 01:03:49 PM: INFO: ******* Starting Login DDT Test **********
+05/11/2023 01:03:59 PM: INFO: **** passed ****
+05/11/2023 01:03:59 PM: INFO: **** Drop down is clicked ****
+05/11/2023 01:04:00 PM: INFO: **** Click signout ****
+05/11/2023 01:04:06 PM: INFO: **** passed ****
+05/11/2023 01:04:12 PM: INFO: **** passed ****
+05/11/2023 01:04:19 PM: INFO: **** passed ****
+05/11/2023 01:04:19 PM: INFO: ******* DDT Login test passed **********
+05/11/2023 01:04:19 PM: INFO: ******* End of Login DDT Test **********
+05/11/2023 01:04:19 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
