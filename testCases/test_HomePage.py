@@ -43,6 +43,7 @@ class Test_002_HomePage:
         self.lp.setEmail(self.email)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
+        time.sleep(5)
         self.hp=HomePage(self.driver)
         self.hp.clickFirstDraftGen()
         current_url=self.driver.current_url
@@ -66,6 +67,7 @@ class Test_002_HomePage:
         self.lp.setEmail(self.email)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
+        time.sleep(5)
         self.hp = HomePage(self.driver)
         self.hp.clickRephraser()
         current_url = self.driver.current_url
