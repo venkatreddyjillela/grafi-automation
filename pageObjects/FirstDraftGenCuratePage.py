@@ -13,7 +13,8 @@ class FirstDraftGenCurate:
 
     textbox_online_source_xpath = '(//input[@id="textBoxMedium"])[2]'
     button_add_url_xpath = '//button[normalize-space()="Add URL"]'
-    button_browse_file_xpath = '//label[normalize-space()="Browse File"]'
+    button_browse_file_xpath = '//input[@accept=".pdf"]'
+    
     button_next_xpath = '//button[normalize-space()="Next"]'
     # link_url_xpath = '(//p[@class="MuiTypography-root MuiTypography-body1 urlDataText FirstDraftGenerator-urlLink css-9l3uo3"])[2]'
     
@@ -46,7 +47,7 @@ class FirstDraftGenCurate:
     def selectReadingLevel(self, reading_level):
         reading_level_elements = self.driver.find_elements(By.XPATH, self.select_reading_level_xpath)
         for reading_level_element in reading_level_elements:
-            if reading_level_element.text == reading_level:
+            if reading_level_element.get_attribute("data-value") == reading_level:
                 reading_level_element.click()
                 break
 
