@@ -3,7 +3,7 @@ from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from pageObjects.HomePage import HomePage
-from pageObjects.FirstDraftGenCuratePage import FirstDraftGenCurate
+from pageObjects.CurateFirstDraftGenPage import FirstDraftGenCurate
 import time
 from TestData.testData import firstDraftGenPageData
 
