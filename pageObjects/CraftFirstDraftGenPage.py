@@ -30,8 +30,15 @@ class CraftFirstDraftGen:
     textbox_subtopic_xpath = '//input[@id="craftTopicsInput"]'
     button_addSubtopic_xpath = '//button[@id="addSubtopicButton"]'
 
+    # word count dropdown
+    dropdown_wordCount_xpath = '//div[@id="mui-component-select-wordCountDropDown"]'
+    lst_wordCount_xpath = '//ul[@role="listbox"]/li'
+
     # Generate button
     button_generate_xpath = '//button[normalize-space()="Generate"]'
+
+    # Back button
+    button_back_xpath = '//button[@id="craftTopicsBackButton"]'
     
 
     def __init__(self, driver):
@@ -180,11 +187,26 @@ class CraftFirstDraftGen:
     def clickAddSubtopic(self):
         self.driver.find_element(By.XPATH, self.button_addSubtopic_xpath).click()
 
+    # Word count
+    def clickWordCountDropdown(self):
+        self.driver.find_element(By.XPATH, self.dropdown_wordCount_xpath).click()
+
+    def selectWordCount(self, word_count):
+        word_count_elements = self.driver.find_elements(By.XPATH, self.lst_wordCount_xpath)
+        for word_count_element in word_count_elements:
+            if word_count_element.text == word_count:
+                word_count_element.click()
+                break
+
     # Generate button
     def clickGenerate(self):
         self.driver.find_element(By.XPATH, self.button_generate_xpath).click()
 
+    # Back button
+    def clickBack(self):
+        self.driver.find_element(By.XPATH, self.button_back_xpath).click()
     
+
 
     
 
