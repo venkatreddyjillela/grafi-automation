@@ -7,44 +7,50 @@ from pageObjects.CurateFirstDraftGenPage import FirstDraftGenCurate
 import time
 from TestData.testData import firstDraftGenPageData
 
+
 class Test_003_FirstDraftGenCurate:
     baseURL = ReadConfig.getApplicationURL()
     email = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
-    logger=LogGen.loggen()
+    logger = LogGen.loggen()
 
     @pytest.mark.regression
-    def test_FirstDraftGenCurateHeader(self,setup):
-        self.logger.info("*************** Test_003_FirstDraftGenCurate *****************")
-        self.logger.info("****Started First Draft Gen Curate Page header test ****")
+    def test_FirstDraftGenCurateHeader(self, setup):
+        self.logger.info(
+            "*************** Test_003_FirstDraftGenCurate *****************")
+        self.logger.info(
+            "****Started First Draft Gen Curate Page header test ****")
         self.driver = setup
         self.driver.get(self.baseURL)
-        self.lp=LoginPage(self.driver)
+        self.lp = LoginPage(self.driver)
         self.lp.setEmail(self.email)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
         time.sleep(5)
-        self.hp=HomePage(self.driver)
+        self.hp = HomePage(self.driver)
         self.hp.clickFirstDraftGen()
         self.logger.info("****First Draft Gen button is Clicked****")
-        self.fd=FirstDraftGenCurate(self.driver)
-        header_text=self.fd.getHeader()
+        self.fd = FirstDraftGenCurate(self.driver)
+        header_text = self.fd.getHeader()
         if header_text == 'Tell Grafi AI What Healthcare Topic You Want To Write About':
-            self.logger.info("****First Draft Gen Curate Page header test passed ****")
+            self.logger.info(
+                "****First Draft Gen Curate Page header test passed ****")
             self.driver.close()
             assert True
-            
+
         else:
-            self.logger.error("****First Draft Gen Curate Page header test failed****")
-            self.driver.save_screenshot(".\\Screenshots\\"+"test_FirstDraftGenCurateHeader.png")
+            self.logger.error(
+                "****First Draft Gen Curate Page header test failed****")
+            self.driver.save_screenshot(
+                ".\\Screenshots\\"+"test_FirstDraftGenCurateHeader.png")
             self.driver.close()
             assert False
-            
 
     @pytest.mark.sanity
     @pytest.mark.regression
     def test_FirstDraftCurateNextClick(self, setup):
-        self.logger.info("*************** Test_003_FirstDraftGenCurate *****************")
+        self.logger.info(
+            "*************** Test_003_FirstDraftGenCurate *****************")
         self.logger.info("****Started First Draft Curate Next Click Test****")
         self.driver = setup
         self.driver.get(self.baseURL)
@@ -92,38 +98,24 @@ class Test_003_FirstDraftGenCurate:
         time.sleep(2)
         self.fd.clickNext()
         self.logger.info("****Next Button is Clicked****")
-        self.logger.info("**** Waiting for 30 Seconds after clicking Next button ****")
-        
+        self.logger.info(
+            "**** Waiting for 30 Seconds after clicking Next button ****")
+
         time.sleep(60)
 
-        current_url=self.driver.current_url
+        current_url = self.driver.current_url
 
         if current_url == self.baseURL + 'inputContent/constructYourOutline':
-            self.logger.info("****First Draft Curate Next Click Test Passed****")
+            self.logger.info(
+                "****First Draft Curate Next Click Test Passed****")
             self.logger.info("****First Draft Craft Page is Opened****")
             self.driver.close()
             assert True
 
         else:
-            self.logger.error("****First Draft Curate Next Click Test Failed****")
-            self.driver.save_screenshot(".\\Screenshots\\" + "test_FirstDraftCurateNextClick.png")
+            self.logger.error(
+                "****First Draft Curate Next Click Test Failed****")
+            self.driver.save_screenshot(
+                ".\\Screenshots\\" + "test_FirstDraftCurateNextClick.png")
             self.driver.close()
             assert False
-
-
-
-
-
-
-
-
-        
-        
-
-        
-
-
-
-
-        
-

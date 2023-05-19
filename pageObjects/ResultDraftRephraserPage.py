@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+
 class ResultDraftRephraser:
     # Result Draft Rephraser Page
     textbox_title_xpath = '//input[@id="mui-64"]'
@@ -15,8 +16,6 @@ class ResultDraftRephraser:
 
     button_tips_xpath = '//button[normalize-space()="Tips"]'
     button_tipsClose_xpath = '//div[@class="drawerClosebtnWrapper repurposeEdit MuiBox-root css-0"]'
-    
-
 
     def __init__(self, driver):
         self.driver = driver
@@ -29,11 +28,11 @@ class ResultDraftRephraser:
 
     def getGeneratedText(self):
         return self.driver.find_element(By.XPATH, self.txt_generatedText_xpath).text
-    
+
     def clickDownloadDraft(self):
         self.driver.find_element(
             By.XPATH, self.button_downloadDraft_xpath).click()
-        
+
     def clickSaveDraft(self):
         self.driver.find_element(By.XPATH, self.button_saveDraft_xpath).click()
 
@@ -46,12 +45,14 @@ class ResultDraftRephraser:
 
     def getCalculateScore(self):
         return self.driver.find_element(By.XPATH, self.txt_calculateScore_xpath).text
-    
+
     def clickViewDetails(self):
-        self.driver.find_element(By.XPATH, self.button_viewDetails_xpath).click()
+        self.driver.find_element(
+            By.XPATH, self.button_viewDetails_xpath).click()
 
     def clickViewDetailsClose(self):
-        self.driver.find_element(By.XPATH, self.button_viewDetailsClose_xpath).click()
+        self.driver.find_element(
+            By.XPATH, self.button_viewDetailsClose_xpath).click()
 
     # Tips
     def clickTips(self):
@@ -59,5 +60,3 @@ class ResultDraftRephraser:
 
     def clickTipsClose(self):
         self.driver.find_element(By.XPATH, self.button_tipsClose_xpath).click()
-        
-
