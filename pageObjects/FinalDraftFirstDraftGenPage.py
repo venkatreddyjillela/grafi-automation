@@ -10,8 +10,9 @@ class FinalDraftFirstDraftGen:
     button_rephrase_xpath = '//button[@id="rephrase"]'
 
     button_calculate_xpath = '//button[@id="calculateButton"]'
-    txt_calculateScore_xpath = '//div[@class="MuiAccordionDetails-root accordianBox-contentBox css-u7qq7e"]/div[8]/div/p/a'
+    txt_calculateScore_xpath = '//p[@class="MuiTypography-root MuiTypography-body1 percentageText fontFamilyInter fontWeight-600 css-9l3uo3"]'
     button_viewDetails_xpath = '//button[@id="viewDetails"]'
+    button_viewDetailsClose_xpath = '//button[@class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium modalClose css-1yxmbwk"]'
 
     drp_reference_xpath = '//div[@class="MuiAccordionSummary-expandIconWrapper css-1fx8m19"]'
     lst_referenceCitations_xpath = '//div[@class="MuiAccordionDetails-root accordianBox-contentBox css-u7qq7e"]/div'
