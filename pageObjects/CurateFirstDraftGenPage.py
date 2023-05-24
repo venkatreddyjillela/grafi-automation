@@ -203,3 +203,15 @@ class FirstDraftGenCurate:
     # click next button
     def clickNext(self):
         self.driver.find_element(By.XPATH, self.button_next_xpath).click()
+
+    # enter all the details in the curate first draft gen page
+    def enterCurateFirstDraftGenDetails(self, topic, tone, reading_level, online_source="", file_path=""):
+        self.setTopic(topic)
+        self.selectTone(tone)
+        self.selectReadingLevel(reading_level)
+        if online_source != "":
+            self.setOnlineSource(online_source)
+            self.clickAddUrl()
+        if file_path != "":
+            self.addBrowseFile(file_path)
+        self.clickNext()
