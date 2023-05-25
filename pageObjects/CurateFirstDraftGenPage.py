@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class FirstDraftGenCurate:
+class CurateFirstDraftGen:
     # First Draft Curate Page
     logo_grafi_xpath = '//img[@alt="grafi logo"]'
     link_firstDraftGenTab_xpath = '//a[normalize-space()="First Draft Generator"]'
@@ -70,6 +70,10 @@ class FirstDraftGenCurate:
     def getHeaderText(self):
         return self.driver.find_element(By.XPATH, self.txt_header_xpath).text
 
+    # is topic text box enabled
+    def isTopicTextBoxEnabled(self):
+        return self.driver.find_element(By.XPATH, self.textbox_topic_xpath).is_enabled()
+
     def getTextTopic(self):
         return self.driver.find_element(By.XPATH, self.txt_topic_xpath).text
 
@@ -82,10 +86,6 @@ class FirstDraftGenCurate:
             By.XPATH, self.textbox_topic_xpath)
         topic_element.clear()
         topic_element.send_keys(topic)
-
-    # is topic enabled
-    def isTopicEnabled(self):
-        return self.driver.find_element(By.XPATH, self.textbox_topic_xpath).is_enabled()
 
     # get tone text
     def getTextTone(self):
@@ -108,7 +108,7 @@ class FirstDraftGenCurate:
         self.driver.find_element(By.XPATH, self.drp_tone_xpath).click()
 
     # is tone enabled
-    def isToneEnabled(self):
+    def isToneDropDownEnabled(self):
         return self.driver.find_element(By.XPATH, self.drp_tone_xpath).is_enabled()
 
     def selectTone(self, tone):
@@ -124,7 +124,7 @@ class FirstDraftGenCurate:
         return self.driver.find_element(By.XPATH, self.txt_readingLevel_xpath).text
 
     # is reading level enabled
-    def isReadingLevelEnabled(self):
+    def isReadingLevelDropDownEnabled(self):
         return self.driver.find_element(By.XPATH, self.drp_readingLevel_xpath).is_enabled()
 
     # get reading level dropdown placeholder text
@@ -165,6 +165,9 @@ class FirstDraftGenCurate:
     # get add url button text
     def getTextAddUrl(self):
         return self.driver.find_element(By.XPATH, self.button_addUrl_xpath).text
+    
+    def isOnlineSourcesTextBoxEnabled(self):
+        return self.driver.find_element(By.XPATH, self.textbox_onlineSource_xpath).is_enabled()
 
     def setOnlineSource(self, online_source):
         online_source_element = self.driver.find_element(
@@ -174,6 +177,9 @@ class FirstDraftGenCurate:
 
     def clickAddUrl(self):
         self.driver.find_element(By.XPATH, self.button_addUrl_xpath).click()
+    
+    def isAddUrlButtonEnabled(self):
+        return self.driver.find_element(By.XPATH, self.button_addUrl_xpath).is_enabled()
 
     # get uploadable sources text
     def getTextUploadableSources(self):
@@ -182,10 +188,16 @@ class FirstDraftGenCurate:
     # get drag and drop text
     def getTextDragAndDrop(self):
         return self.driver.find_element(By.XPATH, self.txt_dragAndDrop_xpath).text
+    
+    def isDragAndDropEnabled(self):
+        return self.driver.find_element(By.XPATH, self.txt_dragAndDrop_xpath).is_enabled()
 
     # get browse file button text
     def getTextBrowseFile(self):
         return self.driver.find_element(By.XPATH, self.button_browseFile_xpath).text
+    
+    def isBrowseFileButtonEnabled(self):
+        return self.driver.find_element(By.XPATH, self.button_browseFile_xpath).is_enabled()
 
     # add files from local machine
     def addBrowseFile(self, file_path):
@@ -205,13 +217,25 @@ class FirstDraftGenCurate:
         self.driver.find_element(By.XPATH, self.button_next_xpath).click()
 
     # enter all the details in the curate first draft gen page
-    def enterCurateFirstDraftGenDetails(self, topic, tone, reading_level, online_source="", file_path=""):
+    def enterCurateFirstDraftGenDetails(self, topic, tone, reading_level, online_source=[], file_path=[]):
+        # enter topic 
         self.setTopic(topic)
+        # click tone dropdown
+        self.clickTone()
+        # select tone
         self.selectTone(tone)
+        # click reading level dropdown
+        self.clickReadingLevel()
+        # select reading level
         self.selectReadingLevel(reading_level)
-        if online_source != "":
-            self.setOnlineSource(online_source)
-            self.clickAddUrl()
-        if file_path != "":
-            self.addBrowseFile(file_path)
+        # add online sources
+        if online_source != []:
+            for source in online_source:
+                self.setOnlineSource(source)
+                self.clickAddUrl()
+        # add files
+        if file_path != []:
+            for file in file_path:
+                self.addBrowseFile(file)
+        # click next button
         self.clickNext()
