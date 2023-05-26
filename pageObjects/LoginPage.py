@@ -1,4 +1,6 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class LoginPage:
@@ -97,3 +99,23 @@ class LoginPage:
     # get error message
     def getErrorMessage(self):
         return self.driver.find_element(By.XPATH, self.txt_error_xpath).text
+    
+    # get title of the page
+    def getTitle(self):
+        return self.driver.title
+    
+    # wait for forgot password page to appear
+    def waitForForgotPasswordPage(self):
+        WebDriverWait(self.driver, 10).until(EC.url_contains("reset-credentials"))
+
+    # wait for registration page to appear
+    def waitForRegistrationPage(self):
+        WebDriverWait(self.driver, 10).until(EC.url_contains("registration"))
+
+    # wait for home page to appear
+    def waitForHomePage(self):
+        WebDriverWait(self.driver, 10).until(EC.url_contains("home"))
+
+    # wait for login page to appear
+    def waitForLoginPage(self):
+        WebDriverWait(self.driver, 10).until(EC.url_contains("openid-connect"))

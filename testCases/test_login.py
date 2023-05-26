@@ -2,6 +2,7 @@ import pytest
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
+from helper_functions import HelperFunctions
 import time
 
 
@@ -10,15 +11,20 @@ class Test_001_Login:
     email = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
+    helper = HelperFunctions()
+
     logger.info("*************** Test_001_Login *****************")
 
     @pytest.mark.regression
     def test_LoginPage(self, setup):\
         # test login page all elements are present or not and display correct text or not 
-        self.driver = setup
-        self.driver.get(self.baseURL)
-        time.sleep(2)
-        act_title = self.driver.title
+        # self.driver = setup
+        # self.driver.get(self.baseURL)
+        self.lp = self.helper.openLoginPage(setup)
+        # wait for login page to load
+        self.lp.waitForLoginPage()
+        # get login page title
+        act_title = self.lp.getTitle()
 
         # test login page title
         self.logger.info("****Started Login Page Title test ****")
@@ -32,7 +38,6 @@ class Test_001_Login:
             assert False
 
         self.logger.info("****Login Header Test ****")
-        self.lp = LoginPage(self.driver)
 
         # test login Header 
         login_label = self.lp.getLoginHeader()
@@ -197,13 +202,16 @@ class Test_001_Login:
     def test_forgetPasswordLink(self, setup):
         ## test forgot password Link functionality
         self.logger.info("****Test Forgot Password Link Functionality ****")
-        self.driver = setup
-        self.driver.get(self.baseURL)
+        # self.driver = setup
+        # self.driver.get(self.baseURL)
 
-        self.lp = LoginPage(self.driver)
+        self.lp = self.helper.openLoginPage(setup)
 
         # click forgot password link
         self.lp.clickForgotPassword()
+
+        # wait for forgot password page to load
+        self.lp.waitForForgotPasswordPage()
 
         # check forgot password page is opened or not
         current_url = self.driver.current_url
@@ -227,13 +235,18 @@ class Test_001_Login:
     def test_registrationLink(self, setup):
         ## test registration Link functionality
         self.logger.info("****Test Registration Link Functionality ****")
-        self.driver = setup
-        self.driver.get(self.baseURL)
+        # self.driver = setup
+        # self.driver.get(self.baseURL)
         
-        self.lp = LoginPage(self.driver)
+        # self.lp = LoginPage(self.driver)
+
+        self.lp = self.helper.openLoginPage(setup)
 
         # click registration link
         self.lp.clickRegister()
+
+        # wait for registration page to load
+        self.lp.waitForRegistrationPage()
 
         # check registration page is opened or not
         current_url = self.driver.current_url
@@ -256,18 +269,24 @@ class Test_001_Login:
     def test_login(self, setup):
         ## test login functionality
         self.logger.info("****Test Login Functionality ****")
-        self.driver = setup
-        self.driver.get(self.baseURL)
+        # self.driver = setup
+        # self.driver.get(self.baseURL)
 
-        self.lp = LoginPage(self.driver)
+        # self.lp = LoginPage(self.driver)
 
-        # enter email and password
-        self.lp.setEmail(self.email)
-        self.lp.setPassword(self.password)
+        # # enter email and password
+        # self.lp.setEmail(self.email)
+        # self.lp.setPassword(self.password)
 
-        # click login button
-        self.lp.clickLogin()
-        time.sleep(5) # wait for 5 seconds to load home page after login
+        # # click login button
+        # self.lp.clickLogin()
+
+        self.lp = self.helper.openLoginPage(setup)
+        self.lp.userLogin(self.email, self.password)
+
+        # wait for home page to load
+        self.lp.waitForHomePage()
+        
         current_url = self.driver.current_url
         if current_url == self.baseURL + 'home':
             self.logger.info("****Home Page is opened****")
@@ -279,3 +298,9 @@ class Test_001_Login:
                 ".\\Screenshots\\" + "test_Login.png")
             self.logger.info("****Login test failed and Screenshot Saved ****")
             assert False
+
+
+# wait = WebDriverWait(driver, 10)  # Wait up to 10 seconds for elements to appear
+
+# Wait for the home page to load
+# wait.until(EC.title_contains('Home Page'))  # Replace 'Home Page' with the expected title of your home page
