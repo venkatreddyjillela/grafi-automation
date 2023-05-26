@@ -6,6 +6,7 @@ from pageObjects.HomePage import HomePage
 from pageObjects.CurateFirstDraftGenPage import CurateFirstDraftGen
 import time
 from TestData.testData import firstDraftGenPageData
+from helper_functions import HelperFunctions
 
 
 class Test_003_CurateFirstDraftGenPage:
@@ -13,32 +14,37 @@ class Test_003_CurateFirstDraftGenPage:
     email = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
+    helper = HelperFunctions()
+
 
     logger.info(
         "*************** Test_003_CurateFirstDraftGenPage ***************")
     
-    def openCurateFirstDraftGenPage(self, setup):
-        self.driver = setup
-        self.driver.get(self.baseURL)
-        self.lp = LoginPage(self.driver)
-        # login to the application
-        self.lp.userLogin(self.email, self.password)
-        self.logger.info(
-            "**** Entered Email, Password and Clicked Login Button ****")
-        self.hp = HomePage(self.driver)
-        # click on the First Draft Gen button
-        self.logger.info(
-            "**** Clicked First Draft Gen Button In Home Page ****")
-        self.hp.clickFirstDraftGen()
-        self.logger.info("**** First Draft Gen Page is Opened ****")
-        # CurateFirstDraftGen
-        self.fd = CurateFirstDraftGen(self.driver)
-        return self.fd
+    # def openCurateFirstDraftGenPage(self, setup):
+    #     self.driver = setup
+    #     self.driver.get(self.baseURL)
+    #     self.lp = LoginPage(self.driver)
+    #     # login to the application
+    #     self.lp.userLogin(self.email, self.password)
+    #     self.logger.info(
+    #         "**** Entered Email, Password and Clicked Login Button ****")
+    #     self.hp = HomePage(self.driver)
+    #     # click on the First Draft Gen button
+    #     self.logger.info(
+    #         "**** Clicked First Draft Gen Button In Home Page ****")
+    #     self.hp.clickFirstDraftGen()
+    #     self.logger.info("**** First Draft Gen Page is Opened ****")
+    #     # CurateFirstDraftGen
+    #     self.fd = CurateFirstDraftGen(self.driver)
+    #     return self.fd
+
+
 
     @pytest.mark.regression
     def test_CurateFirstDraftGenPage(self, setup):
         # test all the elements on the Curate First Draft Gen Page
-        self.fd = self.openCurateFirstDraftGenPage(setup)
+        # self.fd = self.openCurateFirstDraftGenPage(setup)
+        self.fd = self.helper.openCurateFirstDraftGenPage(setup)
 
         # check if logo is displayed
         logo = self.fd.isLogoDisplayed()
@@ -360,7 +366,7 @@ class Test_003_CurateFirstDraftGenPage:
     def test_CuratePageElements(self, setup):
         self.logger.info("**** Started Test_CuratePageElements Functionality ****")
 
-        self.fd = self.openCurateFirstDraftGenPage(setup)
+        self.fd = self.helper.openCurateFirstDraftGenPage(setup)
 
         # Tone dropdowm is only enabled when Topic is entered
         self.fd.setTopic("Test")
@@ -494,7 +500,7 @@ class Test_003_CurateFirstDraftGenPage:
     def test_CuratePageNextButton(self, setup):
         self.logger.info("**** Started Test_CuratePageNextButton Functionality ****")
 
-        self.fd = self.openCurateFirstDraftGenPage(setup)
+        self.fd = self.helper.openCurateFirstDraftGenPage(setup)
 
         TOPIC = firstDraftGenPageData['topic']
         TONE = firstDraftGenPageData['tone']
