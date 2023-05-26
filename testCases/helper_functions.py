@@ -24,6 +24,14 @@ class HelperFunctions():
 
     logger = LogGen.loggen()
 
+    # Open Login Page
+    def openLoginPage(self, setup):
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.logger.info("**** Application URL is Opened ****")
+        self.lp = LoginPage(self.driver)
+        return self.lp
+
     # Open Home Page
     def openHomePage(self, setup):
         self.driver = setup
