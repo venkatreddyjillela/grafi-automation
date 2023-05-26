@@ -51,3 +51,12 @@ class Rephraser:
 
     def clickSubmit(self):
         self.driver.find_element(By.XPATH, self.button_submit_xpath).click()
+
+    def enterRephraserDetails(self, uploadUrl, tone, reading_level):
+        self.setUploadUrl(uploadUrl)
+        self.clickTone()
+        self.selectTone(tone)
+        self.clickReadingLevel()
+        self.selectReadingLevel(reading_level)
+        self.clickSubmit()
+        
