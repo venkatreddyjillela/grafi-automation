@@ -14,6 +14,7 @@ class LoginPage:
     link_register_xpath = '//a[normalize-space()="Register"]'
     img_logo_xpath = '//img[@alt="Logo"]'
     txt_logo_xpath = '//div[@id="kc-logo-text"]'
+    txt_error_xpath = '//span[@id="input-error"]'
 
     def __init__(self, driver):
         self.driver = driver
@@ -93,6 +94,6 @@ class LoginPage:
     def getPasswordPlaceholder(self):
         return self.driver.find_element(By.XPATH, self.textbox_password_xpath).get_attribute("placeholder")
     
-
-
-    
+    # get error message
+    def getErrorMessage(self):
+        return self.driver.find_element(By.XPATH, self.txt_error_xpath).text
