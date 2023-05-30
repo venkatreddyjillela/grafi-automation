@@ -30,27 +30,36 @@ class HelperFunctions():
         self.driver.get(self.baseURL)
         self.logger.info("**** Application URL is Opened ****")
         self.lp = LoginPage(self.driver)
+        # wait for login page to load
+        self.lp.waitForLoginPageToLoad()
         return self.lp
 
     # Open Home Page
     def openHomePage(self, setup):
-        self.driver = setup
-        self.driver.get(self.baseURL)
-        self.lp = LoginPage(self.driver)
+        self.lp = self.openLoginPage(setup)
         # login to the application
         self.lp.userLogin(self.email, self.password)
+        time.sleep(5)
         self.logger.info(
             "**** Entered Email, Password and Clicked Login Button ****")
+        # wait for home page to load
+        self.lp.waitForHomePageToLoad()
         self.hp = HomePage(self.driver)
+
         return self.hp
     
     # Open Curate first draft generator page
     def openCurateFirstDraftGenPage(self, setup):
         self.hp = self.openHomePage(setup)
+        print("**************** wait for 5 seconds ****************")
         # click on the First Draft Gen button
         self.logger.info(
             "**** Clicked First Draft Gen Button In Home Page ****")
         self.hp.clickFirstDraftGen()
+        time.sleep(5)
+        print("**************** clicked first draft gen  ****************")
+        # wait for curate first draft gen page to load
+        self.hp.waitForCurateFirstDraftGenPageToLoad()
         self.logger.info("**** First Draft Gen Page is Opened ****")
         # CurateFirstDraftGen
         self.fd = CurateFirstDraftGen(self.driver)
@@ -63,6 +72,8 @@ class HelperFunctions():
         # Enter all the details in the Curate first draft generator page and click next button
         self.fd.enterCurateFirstDraftGenDetails(self.topic, self.tone, self.reading_level, online_source=[self.online_source1,self.online_source2], file_path=[self.file_path1,self.file_path2])
         self.logger.info("**** Entered Topic, Tone, Reading Level, Online Source and File Path and Clicked Next Button ****")
+        # wait for craft first draft gen page to load
+        self.fd.waitForCraftFirstDraftGenPageToLoad()
 
         return self.fd
 
@@ -73,6 +84,8 @@ class HelperFunctions():
         # click on the Rephraser button
         self.logger.info("**** Clicked Rephraser Button In Home Page ****")
         self.hp.clickRephraser()
+        # wait for rephraser page to load
+        self.hp.waitForRephraserPageToLoad()
         self.logger.info("**** Rephraser Page is Opened ****")
         # Rephraser
         self.rp = Rephraser(self.driver)
@@ -85,9 +98,12 @@ class HelperFunctions():
         # Enter all the details in the Rephraser page and click next button
         self.rp.enterRephraserDetails(self.online_source1, self.tone, self.reading_level)
         self.logger.info("**** Entered Online Source, Tone, Reading Level and Clicked Next Button ****")
+        # wait for result draft rephraser page to load
+        self.rp.waitForResultDraftRephraserPageToLoad()
         # Result Draft Rephraser Page
         self.rdrp = ResultDraftRephraser(self.driver)
         return self.rdrp
+    
     
     
 

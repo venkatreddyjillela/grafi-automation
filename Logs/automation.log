@@ -1,550 +1,436 @@
-05/11/2023 12:12:08 PM: INFO: ====== WebDriver manager ======
-05/11/2023 12:12:09 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 12:12:11 PM: INFO: *************** Test_001_Login *****************
-05/11/2023 12:12:11 PM: INFO: ****Started Login Page Title test ****
-05/11/2023 12:12:11 PM: INFO: ****Opening URL****
-05/11/2023 12:12:14 PM: INFO: **** Login Page Title test passed ****
-05/11/2023 12:12:14 PM: INFO: ====== WebDriver manager ======
-05/11/2023 12:12:15 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 12:12:17 PM: INFO: ****Started Login Test****
-05/11/2023 12:12:23 PM: INFO: ****Login test passed ****
-05/11/2023 12:13:52 PM: INFO: ====== WebDriver manager ======
-05/11/2023 12:13:53 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 12:13:55 PM: INFO: *************** Test_001_Login *****************
-05/11/2023 12:13:55 PM: INFO: ****Started Login Page Title test ****
-05/11/2023 12:13:55 PM: INFO: ****Opening URL****
-05/11/2023 12:13:57 PM: INFO: **** Login Page Title test passed ****
-05/11/2023 12:13:58 PM: INFO: ====== WebDriver manager ======
-05/11/2023 12:13:58 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 12:14:00 PM: INFO: ****Started Login Test****
-05/11/2023 12:14:06 PM: INFO: ****Login test passed ****
-05/11/2023 12:45:01 PM: INFO: ====== WebDriver manager ======
-05/11/2023 12:45:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 12:45:03 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
-05/11/2023 12:45:03 PM: INFO: ******* Starting Login DDT Test **********
-05/11/2023 12:45:13 PM: INFO: **** failed ****
-05/11/2023 12:45:20 PM: INFO: **** passed ****
-05/11/2023 12:45:27 PM: INFO: **** passed ****
-05/11/2023 12:45:33 PM: INFO: **** passed ****
-05/11/2023 12:45:33 PM: ERROR: ******* DDT Login test failed **********
-05/11/2023 12:48:03 PM: INFO: ====== WebDriver manager ======
-05/11/2023 12:48:04 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 12:48:05 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
-05/11/2023 12:48:05 PM: INFO: ******* Starting Login DDT Test **********
-05/11/2023 12:48:15 PM: INFO: **** failed ****
-05/11/2023 12:48:21 PM: INFO: **** passed ****
-05/11/2023 12:48:28 PM: INFO: **** passed ****
-05/11/2023 12:48:35 PM: INFO: **** passed ****
-05/11/2023 12:48:35 PM: ERROR: ******* DDT Login test failed **********
-05/11/2023 12:49:46 PM: INFO: ====== WebDriver manager ======
-05/11/2023 12:49:47 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 12:49:48 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
-05/11/2023 12:49:48 PM: INFO: ******* Starting Login DDT Test **********
-05/11/2023 12:49:58 PM: INFO: **** passed ****
-05/11/2023 12:49:58 PM: INFO: **** Drop down is clicked ****
-05/11/2023 12:50:01 PM: INFO: **** Click signout ****
-05/11/2023 12:50:08 PM: INFO: **** passed ****
-05/11/2023 12:50:15 PM: INFO: **** passed ****
-05/11/2023 12:50:22 PM: INFO: **** passed ****
-05/11/2023 12:50:22 PM: INFO: ******* DDT Login test passed **********
-05/11/2023 12:50:22 PM: INFO: ******* End of Login DDT Test **********
-05/11/2023 12:50:22 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
-05/11/2023 01:01:31 PM: INFO: ====== WebDriver manager ======
-05/11/2023 01:01:32 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 01:01:33 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
-05/11/2023 01:01:33 PM: INFO: ******* Starting Login DDT Test **********
-05/11/2023 01:01:43 PM: INFO: **** passed ****
-05/11/2023 01:01:43 PM: INFO: **** Drop down is clicked ****
-05/11/2023 01:01:46 PM: INFO: **** Click signout ****
-05/11/2023 01:01:53 PM: INFO: **** passed ****
-05/11/2023 01:01:59 PM: INFO: **** passed ****
-05/11/2023 01:02:06 PM: INFO: **** passed ****
-05/11/2023 01:02:06 PM: INFO: ******* DDT Login test passed **********
-05/11/2023 01:02:06 PM: INFO: ******* End of Login DDT Test **********
-05/11/2023 01:02:06 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
-05/11/2023 01:03:47 PM: INFO: ====== WebDriver manager ======
-05/11/2023 01:03:47 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 01:03:49 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
-05/11/2023 01:03:49 PM: INFO: ******* Starting Login DDT Test **********
-05/11/2023 01:03:59 PM: INFO: **** passed ****
-05/11/2023 01:03:59 PM: INFO: **** Drop down is clicked ****
-05/11/2023 01:04:00 PM: INFO: **** Click signout ****
-05/11/2023 01:04:06 PM: INFO: **** passed ****
-05/11/2023 01:04:12 PM: INFO: **** passed ****
-05/11/2023 01:04:19 PM: INFO: **** passed ****
-05/11/2023 01:04:19 PM: INFO: ******* DDT Login test passed **********
-05/11/2023 01:04:19 PM: INFO: ******* End of Login DDT Test **********
-05/11/2023 01:04:19 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
-05/11/2023 03:05:08 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:05:08 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:05:10 PM: INFO: *************** Test_002_HomePage *****************
-05/11/2023 03:05:10 PM: INFO: ****Started Home Page Title test ****
-05/11/2023 03:05:20 PM: INFO: ****Home Page test passed ****
-05/11/2023 03:05:20 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:05:21 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:05:22 PM: INFO: ****Started Click First Draft Gen Test****
-05/11/2023 03:05:27 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:05:28 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:05:29 PM: INFO: ****Started Click Rephraser Test****
-05/11/2023 03:49:51 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:49:52 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:49:54 PM: INFO: *************** Test_002_HomePage *****************
-05/11/2023 03:49:54 PM: INFO: ****Started Home Page Title test ****
-05/11/2023 03:50:04 PM: INFO: ****Home Page test passed ****
-05/11/2023 03:50:04 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:50:05 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:50:07 PM: INFO: ****Started Click First Draft Gen Test****
-05/11/2023 03:50:14 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:50:15 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:50:17 PM: INFO: ****Started Click Rephraser Test****
-05/11/2023 03:51:07 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:51:07 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:51:09 PM: INFO: *************** Test_002_HomePage *****************
-05/11/2023 03:51:09 PM: INFO: ****Started Home Page Title test ****
-05/11/2023 03:51:18 PM: INFO: ****Home Page test passed ****
-05/11/2023 03:51:18 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:51:19 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:51:21 PM: INFO: ****Started Click First Draft Gen Test****
-05/11/2023 03:51:27 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:51:28 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:51:30 PM: INFO: ****Started Click Rephraser Test****
-05/11/2023 03:57:17 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:57:18 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:57:19 PM: INFO: *************** Test_002_HomePage *****************
-05/11/2023 03:57:19 PM: INFO: ****Started Home Page Title test ****
-05/11/2023 03:57:29 PM: INFO: ****Home Page test passed ****
-05/11/2023 03:57:29 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:57:30 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:57:31 PM: INFO: ****Started Click First Draft Gen Test****
-05/11/2023 03:57:38 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:57:39 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:57:40 PM: INFO: ****Started Click Rephraser Test****
-05/11/2023 03:57:46 PM: ERROR: ****Click Rephraser test failed ****
-05/11/2023 03:58:24 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:58:25 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:58:26 PM: INFO: *************** Test_002_HomePage *****************
-05/11/2023 03:58:26 PM: INFO: ****Started Home Page Title test ****
-05/11/2023 03:58:36 PM: INFO: ****Home Page test passed ****
-05/11/2023 03:58:36 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:58:37 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:58:38 PM: INFO: ****Started Click First Draft Gen Test****
-05/11/2023 03:58:48 PM: INFO: ****Click First Draft Gen test passed ****
-05/11/2023 03:58:49 PM: INFO: ====== WebDriver manager ======
-05/11/2023 03:58:49 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 03:58:51 PM: INFO: ****Started Click Rephraser Test****
-05/11/2023 03:59:00 PM: ERROR: ****Click Rephraser test failed ****
-05/11/2023 04:01:05 PM: INFO: ====== WebDriver manager ======
-05/11/2023 04:01:06 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 04:01:07 PM: INFO: *************** Test_002_HomePage *****************
-05/11/2023 04:01:07 PM: INFO: ****Started Home Page Title test ****
-05/11/2023 04:01:17 PM: INFO: ****Home Page test passed ****
-05/11/2023 04:01:17 PM: INFO: ====== WebDriver manager ======
-05/11/2023 04:01:18 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 04:01:19 PM: INFO: ****Started Click First Draft Gen Test****
-05/11/2023 04:01:29 PM: INFO: ****Click First Draft Gen test passed ****
-05/11/2023 04:01:29 PM: INFO: ====== WebDriver manager ======
-05/11/2023 04:01:30 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 04:01:32 PM: INFO: ****Started Click Rephraser Test****
-05/11/2023 04:01:41 PM: ERROR: ****Click Rephraser test failed ****
-05/11/2023 05:11:44 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:11:45 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:11:46 PM: INFO: *************** Test_002_HomePage *****************
-05/11/2023 05:11:46 PM: INFO: ****Started Home Page Title test ****
-05/11/2023 05:11:56 PM: INFO: ****Home Page test passed ****
-05/11/2023 05:11:56 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:11:57 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:11:58 PM: INFO: ****Started Click First Draft Gen Test****
-05/11/2023 05:12:08 PM: INFO: ****Click First Draft Gen test passed ****
-05/11/2023 05:12:08 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:12:09 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:12:10 PM: INFO: ****Started Click Rephraser Test****
-05/11/2023 05:12:20 PM: INFO: ****Click Rephraser test passed ****
-05/11/2023 05:13:45 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:13:45 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:13:47 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:13:47 PM: INFO: ****Started First Draft Gen Curate Page header test ****
-05/11/2023 05:13:57 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:13:57 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:13:59 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:13:59 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:14:08 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:14:08 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:14:08 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:16:25 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:16:26 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:16:27 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:16:27 PM: INFO: ****Started First Draft Gen Curate Page header test ****
-05/11/2023 05:16:37 PM: INFO: ****First Draft Gen button is Clicked****
-05/11/2023 05:16:37 PM: INFO: ****First Draft Gen Curate Page header test passed ****
-05/11/2023 05:16:37 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:16:37 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:16:39 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:16:39 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:16:50 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:16:50 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:16:50 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:16:50 PM: INFO: ****Topic Entered****
-05/11/2023 05:16:51 PM: INFO: ****Tone Selected****
-05/11/2023 05:19:25 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:19:26 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:19:27 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:19:27 PM: INFO: ****Started First Draft Gen Curate Page header test ****
-05/11/2023 05:19:37 PM: INFO: ****First Draft Gen button is Clicked****
-05/11/2023 05:19:37 PM: INFO: ****First Draft Gen Curate Page header test passed ****
-05/11/2023 05:19:38 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:19:38 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:19:40 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:19:40 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:19:51 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:19:51 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:19:51 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:19:51 PM: INFO: ****Topic Entered****
-05/11/2023 05:19:52 PM: INFO: ****Tone Selected****
-05/11/2023 05:21:07 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:21:08 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:21:09 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:21:09 PM: INFO: ****Started First Draft Gen Curate Page header test ****
-05/11/2023 05:21:18 PM: INFO: ****First Draft Gen button is Clicked****
-05/11/2023 05:21:18 PM: INFO: ****First Draft Gen Curate Page header test passed ****
-05/11/2023 05:21:19 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:21:19 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:21:21 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:21:21 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:21:31 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:21:31 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:21:31 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:21:31 PM: INFO: ****Topic Entered****
-05/11/2023 05:21:32 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:21:33 PM: INFO: ****Tone Selected****
-05/11/2023 05:24:32 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:24:32 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:24:34 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:24:34 PM: INFO: ****Started First Draft Gen Curate Page header test ****
-05/11/2023 05:24:43 PM: INFO: ****First Draft Gen button is Clicked****
-05/11/2023 05:24:43 PM: INFO: ****First Draft Gen Curate Page header test passed ****
-05/11/2023 05:24:43 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:24:44 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:24:45 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:24:45 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:24:55 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:24:55 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:24:55 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:24:55 PM: INFO: ****Topic Entered****
-05/11/2023 05:24:56 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:24:57 PM: INFO: ****Tone Selected****
-05/11/2023 05:28:14 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:28:14 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:28:16 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:28:16 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:28:26 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:28:26 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:28:26 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:28:26 PM: INFO: ****Topic Entered****
-05/11/2023 05:28:27 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:28:28 PM: INFO: ****Tone Selected****
-05/11/2023 05:30:00 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:30:00 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:30:01 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:30:01 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:30:11 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:30:11 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:30:11 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:30:12 PM: INFO: ****Topic Entered****
-05/11/2023 05:30:12 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:30:13 PM: INFO: ****Tone Selected****
-05/11/2023 05:32:49 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:32:50 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:32:51 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:32:51 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:33:01 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:33:01 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:33:01 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:33:02 PM: INFO: ****Topic Entered****
-05/11/2023 05:33:02 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:33:03 PM: INFO: ****Tone Selected****
-05/11/2023 05:33:04 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:33:04 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:33:59 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:34:00 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:34:01 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:34:01 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:34:12 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:34:12 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:34:12 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:34:12 PM: INFO: ****Topic Entered****
-05/11/2023 05:34:13 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:34:14 PM: INFO: ****Tone Selected****
-05/11/2023 05:34:14 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:34:14 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:39:02 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:39:02 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:39:04 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:39:04 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:39:14 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:39:14 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:39:14 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:39:14 PM: INFO: ****Topic Entered****
-05/11/2023 05:39:14 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:39:17 PM: INFO: ****Tone Selected****
-05/11/2023 05:39:17 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:39:19 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:39:33 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:39:34 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:39:35 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:39:35 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:39:44 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:39:44 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:39:44 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:39:45 PM: INFO: ****Topic Entered****
-05/11/2023 05:39:45 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:39:45 PM: INFO: ****Tone Selected****
-05/11/2023 05:39:46 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:39:46 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:40:04 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:40:04 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:40:06 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:40:06 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:40:15 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:40:15 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:40:15 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:40:15 PM: INFO: ****Topic Entered****
-05/11/2023 05:40:16 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:40:16 PM: INFO: ****Tone Selected****
-05/11/2023 05:40:16 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:40:16 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:40:57 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:40:57 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:40:59 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:40:59 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:41:09 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:41:09 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:41:09 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:41:09 PM: INFO: ****Topic Entered****
-05/11/2023 05:41:10 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:41:10 PM: INFO: ****Tone Selected****
-05/11/2023 05:41:10 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:41:10 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:41:27 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:41:28 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:41:29 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:41:29 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:41:39 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:41:39 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:41:39 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:41:39 PM: INFO: ****Topic Entered****
-05/11/2023 05:41:40 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:41:40 PM: INFO: ****Tone Selected****
-05/11/2023 05:41:40 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:41:40 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:43:14 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:43:16 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:43:17 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:43:17 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:43:26 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:43:26 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:43:26 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:43:27 PM: INFO: ****Topic Entered****
-05/11/2023 05:43:27 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:43:27 PM: INFO: ****Tone Selected****
-05/11/2023 05:43:28 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:43:28 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:43:29 PM: INFO: ****First Online Source URL is added****
-05/11/2023 05:44:34 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:44:35 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:44:36 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:44:36 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:44:47 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:44:47 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:44:47 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:44:47 PM: INFO: ****Topic Entered****
-05/11/2023 05:44:47 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:44:48 PM: INFO: ****Tone Selected****
-05/11/2023 05:44:48 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:44:48 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:44:54 PM: INFO: ****First Online Source URL is added****
-05/11/2023 05:44:55 PM: INFO: ****Second Online Source URL is added****
-05/11/2023 05:44:55 PM: INFO: ****First File is added****
-05/11/2023 05:44:55 PM: INFO: ****Second File is added****
-05/11/2023 05:44:56 PM: INFO: ****Next Button is Clicked****
-05/11/2023 05:44:56 PM: INFO: **** Waiting for 30 Seconds after clicking Next button ****
-05/11/2023 05:45:26 PM: INFO: ****First Draft Curate Next Click Test Passed****
-05/11/2023 05:45:26 PM: INFO: ****First Draft Craft Page is Opened****
-05/11/2023 05:46:16 PM: INFO: ====== WebDriver manager ======
-05/11/2023 05:46:16 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 05:46:18 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 05:46:18 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 05:46:28 PM: INFO: ****Home Page is Opended****
-05/11/2023 05:46:28 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 05:46:28 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 05:46:28 PM: INFO: ****Topic Entered****
-05/11/2023 05:46:29 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 05:46:29 PM: INFO: ****Tone Selected****
-05/11/2023 05:46:29 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 05:46:29 PM: INFO: ****Reading Level Selected****
-05/11/2023 05:46:35 PM: INFO: ****First Online Source URL is added****
-05/11/2023 05:46:38 PM: INFO: ****Second Online Source URL is added****
-05/11/2023 05:46:40 PM: INFO: ****First File is added****
-05/11/2023 05:46:42 PM: INFO: ****Second File is added****
-05/11/2023 05:46:43 PM: INFO: ****Next Button is Clicked****
-05/11/2023 05:46:43 PM: INFO: **** Waiting for 30 Seconds after clicking Next button ****
-05/11/2023 05:47:13 PM: INFO: ****First Draft Curate Next Click Test Passed****
-05/11/2023 05:47:13 PM: INFO: ****First Draft Craft Page is Opened****
-05/11/2023 06:35:56 PM: INFO: ====== WebDriver manager ======
-05/11/2023 06:35:57 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 06:35:59 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 06:35:59 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 06:36:09 PM: INFO: ****Home Page is Opended****
-05/11/2023 06:36:09 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 06:36:09 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 06:36:10 PM: INFO: ****Topic Entered****
-05/11/2023 06:36:10 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 06:36:10 PM: INFO: ****Tone Selected****
-05/11/2023 06:36:11 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 06:36:11 PM: INFO: ****Reading Level Selected****
-05/11/2023 06:36:12 PM: INFO: ****First Online Source URL is added****
-05/11/2023 06:36:52 PM: INFO: ====== WebDriver manager ======
-05/11/2023 06:36:52 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 06:36:54 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 06:36:54 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 06:37:04 PM: INFO: ****Home Page is Opended****
-05/11/2023 06:37:04 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 06:37:04 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 06:37:05 PM: INFO: ****Topic Entered****
-05/11/2023 06:37:05 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 06:37:05 PM: INFO: ****Tone Selected****
-05/11/2023 06:37:06 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 06:37:06 PM: INFO: ****Reading Level Selected****
-05/11/2023 06:37:09 PM: INFO: ****First Online Source URL is added****
-05/11/2023 06:37:12 PM: INFO: ****Second Online Source URL is added****
-05/11/2023 06:37:16 PM: INFO: ****First File is added****
-05/11/2023 06:37:18 PM: INFO: ****Second File is added****
-05/11/2023 06:37:20 PM: INFO: ****Next Button is Clicked****
-05/11/2023 06:37:20 PM: INFO: **** Waiting for 30 Seconds after clicking Next button ****
-05/11/2023 06:37:50 PM: INFO: ****First Draft Curate Next Click Test Passed****
-05/11/2023 06:37:50 PM: INFO: ****First Draft Craft Page is Opened****
-05/11/2023 06:45:12 PM: INFO: ====== WebDriver manager ======
-05/11/2023 06:45:12 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 06:45:14 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 06:45:14 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 06:45:24 PM: INFO: ****Home Page is Opended****
-05/11/2023 06:45:24 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 06:45:24 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 06:45:25 PM: INFO: ****Topic Entered****
-05/11/2023 06:45:25 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 06:45:25 PM: INFO: ****Tone Selected****
-05/11/2023 06:45:26 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 06:45:26 PM: INFO: ****Reading Level Selected****
-05/11/2023 06:45:29 PM: INFO: ****First Online Source URL is added****
-05/11/2023 06:45:32 PM: INFO: ****Second Online Source URL is added****
-05/11/2023 06:45:36 PM: INFO: ****First File is added****
-05/11/2023 06:45:38 PM: INFO: ****Second File is added****
-05/11/2023 06:45:41 PM: INFO: ****Next Button is Clicked****
-05/11/2023 06:45:41 PM: INFO: **** Waiting for 30 Seconds after clicking Next button ****
-05/11/2023 06:46:11 PM: ERROR: ****First Draft Curate Next Click Test Failed****
-05/11/2023 06:47:00 PM: INFO: ====== WebDriver manager ======
-05/11/2023 06:47:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 06:47:02 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 06:47:02 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 06:47:11 PM: INFO: ****Home Page is Opended****
-05/11/2023 06:47:11 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 06:47:12 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 06:47:12 PM: INFO: ****Topic Entered****
-05/11/2023 06:47:12 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 06:47:13 PM: INFO: ****Tone Selected****
-05/11/2023 06:47:13 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 06:47:13 PM: INFO: ****Reading Level Selected****
-05/11/2023 06:47:16 PM: INFO: ****First Online Source URL is added****
-05/11/2023 06:47:20 PM: INFO: ****Second Online Source URL is added****
-05/11/2023 06:47:24 PM: INFO: ****First File is added****
-05/11/2023 06:47:26 PM: INFO: ****Second File is added****
-05/11/2023 06:47:28 PM: INFO: ****Next Button is Clicked****
-05/11/2023 06:47:28 PM: INFO: **** Waiting for 30 Seconds after clicking Next button ****
-05/11/2023 06:48:28 PM: ERROR: ****First Draft Curate Next Click Test Failed****
-05/11/2023 06:54:58 PM: INFO: ====== WebDriver manager ======
-05/11/2023 06:54:59 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 06:55:00 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 06:55:00 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 06:55:11 PM: INFO: ****Home Page is Opended****
-05/11/2023 06:55:11 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 06:55:11 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 06:55:11 PM: INFO: ****Topic Entered****
-05/11/2023 06:55:12 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 06:55:12 PM: INFO: ****Tone Selected****
-05/11/2023 06:55:12 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 06:55:12 PM: INFO: ****Reading Level Selected****
-05/11/2023 06:55:16 PM: INFO: ****First Online Source URL is added****
-05/11/2023 06:55:19 PM: INFO: ****Second Online Source URL is added****
-05/11/2023 06:58:06 PM: INFO: ====== WebDriver manager ======
-05/11/2023 06:58:06 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 06:58:08 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 06:58:08 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 06:58:18 PM: INFO: ****Home Page is Opended****
-05/11/2023 06:58:18 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 06:58:18 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 06:58:18 PM: INFO: ****Topic Entered****
-05/11/2023 06:58:19 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 06:58:19 PM: INFO: ****Tone Selected****
-05/11/2023 06:58:19 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 06:58:19 PM: INFO: ****Reading Level Selected****
-05/11/2023 06:58:23 PM: INFO: ****First Online Source URL is added****
-05/11/2023 06:58:26 PM: INFO: ****Second Online Source URL is added****
-05/11/2023 06:59:33 PM: INFO: ====== WebDriver manager ======
-05/11/2023 06:59:33 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
-05/11/2023 06:59:34 PM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/11/2023 06:59:34 PM: INFO: ****Started First Draft Curate Next Click Test****
-05/11/2023 06:59:44 PM: INFO: ****Home Page is Opended****
-05/11/2023 06:59:44 PM: INFO: ****Click first Draft Gen Button****
-05/11/2023 06:59:44 PM: INFO: ****First Draft Gen Page is Opened****
-05/11/2023 06:59:45 PM: INFO: ****Topic Entered****
-05/11/2023 06:59:45 PM: INFO: ****Tone dropdown Clicked****
-05/11/2023 06:59:45 PM: INFO: ****Tone Selected****
-05/11/2023 06:59:46 PM: INFO: ****Reading Level dropdown Clicked****
-05/11/2023 06:59:46 PM: INFO: ****Reading Level Selected****
-05/11/2023 06:59:49 PM: INFO: ****First Online Source URL is added****
-05/11/2023 06:59:52 PM: INFO: ****Second Online Source URL is added****
-05/11/2023 06:59:56 PM: INFO: ****First File is added****
-05/11/2023 06:59:58 PM: INFO: ****Second File is added****
-05/11/2023 07:00:00 PM: INFO: ****Next Button is Clicked****
-05/11/2023 07:00:00 PM: INFO: **** Waiting for 30 Seconds after clicking Next button ****
-05/11/2023 07:01:00 PM: INFO: ****First Draft Curate Next Click Test Passed****
-05/11/2023 07:01:00 PM: INFO: ****First Draft Craft Page is Opened****
-05/12/2023 10:36:36 AM: INFO: ====== WebDriver manager ======
-05/12/2023 10:36:37 AM: INFO: There is no [win32] chromedriver "latest" for browser google-chrome "113.0.5672" in cache
-05/12/2023 10:36:37 AM: INFO: Get LATEST chromedriver version for google-chrome
-05/12/2023 10:36:37 AM: INFO: About to download new driver from https://chromedriver.storage.googleapis.com/113.0.5672.63/chromedriver_win32.zip
-05/12/2023 10:36:40 AM: INFO: Driver has been saved in cache [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63]
-05/12/2023 10:36:42 AM: INFO: *************** Test_001_Login *****************
-05/12/2023 10:36:42 AM: INFO: ****Started Login Page Title test ****
-05/12/2023 10:36:42 AM: INFO: ****Opening URL****
-05/12/2023 10:36:46 AM: INFO: **** Login Page Title test passed ****
-05/12/2023 10:36:46 AM: INFO: ====== WebDriver manager ======
-05/12/2023 10:36:46 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
-05/12/2023 10:36:48 AM: INFO: ****Started Login Test****
-05/12/2023 10:36:58 AM: INFO: ****Home Page is opened****
-05/12/2023 10:36:58 AM: INFO: ****Login test passed ****
-05/12/2023 10:37:15 AM: INFO: ====== WebDriver manager ======
-05/12/2023 10:37:16 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
-05/12/2023 10:37:17 AM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/12/2023 10:37:17 AM: INFO: ****Started First Draft Gen Curate Page header test ****
-05/12/2023 10:37:28 AM: INFO: ****First Draft Gen button is Clicked****
-05/12/2023 10:37:28 AM: INFO: ****First Draft Gen Curate Page header test passed ****
-05/12/2023 10:37:29 AM: INFO: ====== WebDriver manager ======
-05/12/2023 10:37:29 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
-05/12/2023 10:37:31 AM: INFO: *************** Test_003_FirstDraftGenCurate *****************
-05/12/2023 10:37:31 AM: INFO: ****Started First Draft Curate Next Click Test****
-05/12/2023 10:37:41 AM: INFO: ****Home Page is Opended****
-05/12/2023 10:37:41 AM: INFO: ****Click first Draft Gen Button****
-05/12/2023 10:37:41 AM: INFO: ****First Draft Gen Page is Opened****
-05/12/2023 10:37:42 AM: INFO: ****Topic Entered****
-05/12/2023 10:37:42 AM: INFO: ****Tone dropdown Clicked****
-05/12/2023 10:37:42 AM: INFO: ****Tone Selected****
-05/12/2023 10:37:43 AM: INFO: ****Reading Level dropdown Clicked****
-05/12/2023 10:37:43 AM: INFO: ****Reading Level Selected****
-05/12/2023 10:37:47 AM: INFO: ****First Online Source URL is added****
-05/12/2023 10:37:50 AM: INFO: ****Second Online Source URL is added****
-05/12/2023 10:37:54 AM: INFO: ****First File is added****
-05/12/2023 10:37:56 AM: INFO: ****Second File is added****
-05/12/2023 10:37:58 AM: INFO: ****Next Button is Clicked****
-05/12/2023 10:37:58 AM: INFO: **** Waiting for 30 Seconds after clicking Next button ****
-05/12/2023 10:38:58 AM: INFO: ****First Draft Curate Next Click Test Passed****
-05/12/2023 10:38:58 AM: INFO: ****First Draft Craft Page is Opened****
+05/30/2023 09:31:40 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:31:40 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:31:40 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:31:40 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:31:41 AM: INFO: Get LATEST chromedriver version for google-chrome
+05/30/2023 09:31:41 AM: INFO: Get LATEST chromedriver version for google-chrome
+05/30/2023 09:31:42 AM: INFO: About to download new driver from https://chromedriver.storage.googleapis.com/113.0.5672.63/chromedriver_win32.zip
+05/30/2023 09:31:42 AM: INFO: About to download new driver from https://chromedriver.storage.googleapis.com/113.0.5672.63/chromedriver_win32.zip
+05/30/2023 09:31:48 AM: INFO: Driver has been saved in cache [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63]
+05/30/2023 09:31:48 AM: INFO: Driver has been saved in cache [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63]
+05/30/2023 09:31:58 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:31:58 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:32:08 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:32:08 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:32:08 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:32:08 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:32:13 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:32:13 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:32:13 AM: INFO: **** Logo is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Logo is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 09:32:13 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 09:32:13 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 09:32:13 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 09:32:13 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 09:32:13 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 09:32:13 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 09:32:13 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 09:32:13 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 09:32:13 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 09:32:13 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 09:32:13 AM: ERROR: **** Drag and Drop is not Disabled ****
+05/30/2023 09:32:13 AM: ERROR: **** Drag and Drop is not Disabled ****
+05/30/2023 09:32:51 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:32:51 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:32:51 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:32:51 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:32:51 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:32:51 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:32:58 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:32:58 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:33:07 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:33:07 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:33:07 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:33:07 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:33:12 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:33:12 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:33:12 AM: INFO: **** Logo is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Logo is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 09:33:12 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 09:33:12 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 09:33:12 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 09:33:12 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 09:33:12 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 09:33:12 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 09:33:12 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 09:33:13 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 09:33:13 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 09:33:13 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 09:33:13 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 09:33:13 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 09:33:13 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 09:33:13 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 09:33:13 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 09:33:13 AM: ERROR: **** Browse File Button is not Disabled ****
+05/30/2023 09:33:13 AM: ERROR: **** Browse File Button is not Disabled ****
+05/30/2023 09:38:07 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:38:07 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:38:07 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:38:07 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:38:08 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:38:08 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:38:16 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:38:16 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:38:26 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:38:26 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:38:26 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:38:26 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:38:31 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:38:31 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:38:31 AM: INFO: **** Logo is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Logo is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 09:38:31 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 09:38:31 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 09:38:31 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 09:38:31 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 09:38:31 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 09:38:31 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 09:38:31 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 09:38:31 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 09:38:32 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 09:38:32 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Browse File Button is Disabled ****
+05/30/2023 09:38:32 AM: INFO: **** Browse File Button is Disabled ****
+05/30/2023 09:38:32 AM: ERROR: move_to requires a WebElement
+05/30/2023 09:38:32 AM: ERROR: move_to requires a WebElement
+05/30/2023 09:48:39 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:48:39 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:48:39 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:48:39 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:48:58 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:48:58 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:49:18 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:49:18 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:49:42 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:49:42 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:49:42 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:49:42 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:49:43 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:49:43 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:49:44 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:49:44 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:49:45 AM: INFO: **** Started Test_CuratePageElements Functionality ****
+05/30/2023 09:49:45 AM: INFO: **** Started Test_CuratePageElements Functionality ****
+05/30/2023 09:50:00 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:50:00 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:50:10 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:50:10 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:50:10 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:50:10 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:50:41 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:50:41 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 09:50:41 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:50:41 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:50:42 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:50:42 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:50:50 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:50:50 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:50:59 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:50:59 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:50:59 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:50:59 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:51:05 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:51:05 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:51:05 AM: INFO: **** Logo is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Logo is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 09:51:05 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 09:51:05 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 09:51:05 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 09:51:05 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 09:51:05 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 09:51:05 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 09:51:05 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 09:51:06 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 09:51:06 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 09:51:06 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 09:51:06 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 09:51:06 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 09:51:06 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 09:51:06 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 09:51:06 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 09:51:06 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Browse File Button is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Browse File Button is Disabled ****
+05/30/2023 09:51:06 AM: INFO: **** Drag and Drop is not enabled ****
+05/30/2023 09:51:06 AM: INFO: **** Drag and Drop is not enabled ****
+05/30/2023 09:51:06 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:51:06 AM: INFO: ====== WebDriver manager ======
+05/30/2023 09:51:06 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:51:06 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 09:51:08 AM: INFO: **** Started Test_CuratePageElements Functionality ****
+05/30/2023 09:51:08 AM: INFO: **** Started Test_CuratePageElements Functionality ****
+05/30/2023 09:51:12 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:51:12 AM: INFO: **** Application URL is Opened ****
+05/30/2023 09:51:23 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:51:23 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 09:51:23 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:51:23 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 09:51:28 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:51:28 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 09:51:28 AM: INFO: **** Entered Topic ****
+05/30/2023 09:51:28 AM: INFO: **** Entered Topic ****
+05/30/2023 09:51:28 AM: ERROR: **** Tone Drop Down is not Enabled ****
+05/30/2023 09:51:28 AM: ERROR: **** Tone Drop Down is not Enabled ****
+05/30/2023 10:00:04 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 10:00:04 AM: INFO: *************** Test_003_CurateFirstDraftGenPage ***************
+05/30/2023 10:00:04 AM: INFO: ====== WebDriver manager ======
+05/30/2023 10:00:04 AM: INFO: ====== WebDriver manager ======
+05/30/2023 10:00:06 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 10:00:06 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 10:01:12 AM: INFO: **** Application URL is Opened ****
+05/30/2023 10:01:12 AM: INFO: **** Application URL is Opened ****
+05/30/2023 10:01:25 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 10:01:25 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 10:01:25 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 10:01:25 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 10:01:30 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 10:01:30 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 10:01:30 AM: INFO: **** Logo is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Logo is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Home Tab Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 10:01:30 AM: INFO: **** Home Tab is not Selected ****
+05/30/2023 10:01:30 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** First Draft Generator Tab Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 10:01:30 AM: INFO: **** First Draft Generator Tab is Selected ****
+05/30/2023 10:01:30 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Rephraser Tab Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 10:01:30 AM: INFO: **** Rephraser Tab is not Selected ****
+05/30/2023 10:01:30 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Header Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Topic Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Topic Text Box Placeholder is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Tone Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Reading Level Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Online Sources Text is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 10:01:30 AM: INFO: **** Online Sources Text Box Placeholder is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Add URL Button Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Uploadable Sources Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Drag & Drop Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Browse File Button Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Next Button Text is Displayed ****
+05/30/2023 10:01:31 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Next Button is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 10:01:31 AM: INFO: **** Topic Text Box is Enabled ****
+05/30/2023 10:01:31 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Tone Drop Down is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Reading Level Drop Down is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Online Sources Text Box is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Browse File Button is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Browse File Button is Disabled ****
+05/30/2023 10:01:31 AM: INFO: **** Drag and Drop is not enabled ****
+05/30/2023 10:01:31 AM: INFO: **** Drag and Drop is not enabled ****
+05/30/2023 10:01:31 AM: INFO: **** Next Button is not Enabled ****
+05/30/2023 10:01:31 AM: INFO: **** Next Button is not Enabled ****
+05/30/2023 10:01:31 AM: INFO: ====== WebDriver manager ======
+05/30/2023 10:01:31 AM: INFO: ====== WebDriver manager ======
+05/30/2023 10:01:32 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 10:01:32 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\113.0.5672.63\chromedriver.exe] found in cache
+05/30/2023 10:01:35 AM: INFO: **** Started Test_CuratePageElements Functionality ****
+05/30/2023 10:01:35 AM: INFO: **** Started Test_CuratePageElements Functionality ****
+05/30/2023 10:01:40 AM: INFO: **** Application URL is Opened ****
+05/30/2023 10:01:40 AM: INFO: **** Application URL is Opened ****
+05/30/2023 10:01:49 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 10:01:49 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+05/30/2023 10:01:49 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 10:01:49 AM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+05/30/2023 10:01:55 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 10:01:55 AM: INFO: **** First Draft Gen Page is Opened ****
+05/30/2023 10:01:55 AM: INFO: **** Entered Topic ****
+05/30/2023 10:01:55 AM: INFO: **** Entered Topic ****
+05/30/2023 10:01:55 AM: INFO: **** Tone Drop Down is Enabled ****
+05/30/2023 10:01:55 AM: INFO: **** Tone Drop Down is Enabled ****
+05/30/2023 10:01:55 AM: INFO: **** Clicked Tone Drop Down ****
+05/30/2023 10:01:55 AM: INFO: **** Clicked Tone Drop Down ****
+05/30/2023 10:01:55 AM: INFO: **** Tone Drop Down Options are ****
+05/30/2023 10:01:55 AM: INFO: **** Tone Drop Down Options are ****
+05/30/2023 10:01:55 AM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+05/30/2023 10:01:55 AM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+05/30/2023 10:01:55 AM: INFO: **** Tone Drop Down Options are correct ****
+05/30/2023 10:01:55 AM: INFO: **** Tone Drop Down Options are correct ****
+05/30/2023 10:01:55 AM: INFO: **** Selected Tone ****
+05/30/2023 10:01:55 AM: INFO: **** Selected Tone ****
+05/30/2023 10:01:55 AM: INFO: **** Reading Level Drop Down is Enabled ****
+05/30/2023 10:01:55 AM: INFO: **** Reading Level Drop Down is Enabled ****
+05/30/2023 10:01:56 AM: INFO: **** Clicked Reading Level Drop Down ****
+05/30/2023 10:01:56 AM: INFO: **** Clicked Reading Level Drop Down ****
+05/30/2023 10:01:56 AM: INFO: **** Reading Level Drop Down Options are ****
+05/30/2023 10:01:56 AM: INFO: **** Reading Level Drop Down Options are ****
+05/30/2023 10:01:56 AM: INFO: ['middleschool', 'highschool', 'postgraduate']
+05/30/2023 10:01:56 AM: INFO: ['middleschool', 'highschool', 'postgraduate']
+05/30/2023 10:01:56 AM: INFO: **** Reading Level Drop Down Options are correct ****
+05/30/2023 10:01:56 AM: INFO: **** Reading Level Drop Down Options are correct ****
+05/30/2023 10:01:56 AM: INFO: **** Online Sources Text Box is Enabled ****
+05/30/2023 10:01:56 AM: INFO: **** Online Sources Text Box is Enabled ****
+05/30/2023 10:01:56 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 10:01:56 AM: INFO: **** Add URL Button is Disabled ****
+05/30/2023 10:02:00 AM: INFO: **** Entered URL ****
+05/30/2023 10:02:00 AM: INFO: **** Entered URL ****
+05/30/2023 10:02:00 AM: INFO: **** Add URL Button is Enabled ****
+05/30/2023 10:02:00 AM: INFO: **** Add URL Button is Enabled ****
+05/30/2023 10:02:00 AM: INFO: **** Drag and Drop is Enabled ****
+05/30/2023 10:02:00 AM: INFO: **** Drag and Drop is Enabled ****
+05/30/2023 10:02:00 AM: INFO: **** Browse File Button is Enabled ****
+05/30/2023 10:02:00 AM: INFO: **** Browse File Button is Enabled ****
+05/30/2023 10:02:00 AM: INFO: **** Next Button is Enabled ****
+05/30/2023 10:02:00 AM: INFO: **** Next Button is Enabled ****

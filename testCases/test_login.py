@@ -22,7 +22,7 @@ class Test_001_Login:
         # self.driver.get(self.baseURL)
         self.lp = self.helper.openLoginPage(setup)
         # wait for login page to load
-        self.lp.waitForLoginPage()
+        self.lp.waitForLoginPageToLoad()
         # get login page title
         act_title = self.lp.getTitle()
 
@@ -211,7 +211,7 @@ class Test_001_Login:
         self.lp.clickForgotPassword()
 
         # wait for forgot password page to load
-        self.lp.waitForForgotPasswordPage()
+        self.lp.waitForForgotPasswordPageToLoad()
 
         # check forgot password page is opened or not
         current_url = self.driver.current_url
@@ -246,7 +246,7 @@ class Test_001_Login:
         self.lp.clickRegister()
 
         # wait for registration page to load
-        self.lp.waitForRegistrationPage()
+        self.lp.waitForRegistrationPageToLoad()
 
         # check registration page is opened or not
         current_url = self.driver.current_url
@@ -285,7 +285,7 @@ class Test_001_Login:
         self.lp.userLogin(self.email, self.password)
 
         # wait for home page to load
-        self.lp.waitForHomePage()
+        self.lp.waitForHomePageToLoad()
         
         current_url = self.driver.current_url
         if current_url == self.baseURL + 'home':

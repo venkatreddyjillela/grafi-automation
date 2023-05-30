@@ -1,4 +1,6 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class FinalDraftFirstDraftGen:
@@ -74,3 +76,7 @@ class FinalDraftFirstDraftGen:
 
     def closeHelp(self):
         self.driver.find_element(By.XPATH, self.button_Xmark_xpath).click()
+
+    #wait for final draft first draft gen page to load
+    def waitForFinalDraftFirstDraftGenPageToLoad(self):
+        WebDriverWait(self.driver, 600).until(EC.url_contains("inputContent/draft"))

@@ -1,4 +1,7 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver import ActionChains
 
 
 class CurateFirstDraftGen:
@@ -27,13 +30,17 @@ class CurateFirstDraftGen:
     button_addUrl_xpath = '//button[normalize-space()="Add URL"]'
 
     txt_UploadableSources_xpath = '//p[contains(normalize-space(),"Uploadable Sources")]'
+    input_dragAndDrop_xpath = '//div[@class="fileDropBox MuiBox-root css-6g8s6k"]'
     txt_dragAndDrop_xpath = '//p[contains(text(),"Drag & Drop files here")]'
-    button_browseFile_xpath = '//input[@accept=".pdf"]'
+    button_browseFile_xpath = '//label[normalize-space()="Browse File"]'
 
     button_next_xpath = '//button[normalize-space()="Next"]'
 
     def __init__(self, driver):
         self.driver = driver
+        self.wait = WebDriverWait(self.driver, 30)
+        # Initialize an ActionChains object
+        self.actions = ActionChains(self.driver)
 
     def isLogoDisplayed(self):
         return self.driver.find_element(By.XPATH, self.logo_grafi_xpath).is_displayed()
@@ -109,11 +116,14 @@ class CurateFirstDraftGen:
 
     # is tone enabled
     def isToneDropDownEnabled(self):
-        return self.driver.find_element(By.XPATH, self.drp_tone_xpath).is_enabled()
+        return self.driver.find_element(By.XPATH, self.drp_tone_xpath).get_attribute("aria-disabled")
 
     def selectTone(self, tone):
-        tone_elements = self.driver.find_elements(
-            By.XPATH, self.select_tone_xpath)
+        # tone_elements = self.driver.find_elements(
+        #     By.XPATH, self.select_tone_xpath)
+        # use explicit wait
+        tone_elements = self.wait.until(EC.presence_of_all_elements_located(
+            (By.XPATH, self.select_tone_xpath)))
         for tone_element in tone_elements:
             if tone_element.get_attribute("data-value") == tone:
                 tone_element.click()
@@ -125,7 +135,7 @@ class CurateFirstDraftGen:
 
     # is reading level enabled
     def isReadingLevelDropDownEnabled(self):
-        return self.driver.find_element(By.XPATH, self.drp_readingLevel_xpath).is_enabled()
+        return self.driver.find_element(By.XPATH, self.drp_readingLevel_xpath).get_attribute("aria-disabled")
 
     # get reading level dropdown placeholder text
     def getReadingLevelPlaceholder(self):
@@ -133,8 +143,12 @@ class CurateFirstDraftGen:
 
     # check all the reading level options available
     def getReadingLevelOptions(self):
-        reading_level_elements = self.driver.find_elements(
-            By.XPATH, self.select_readingLevel_xpath)
+        # reading_level_elements = self.driver.find_elements(
+        #     By.XPATH, self.select_readingLevel_xpath)
+        # use explicit wait
+        reading_level_elements = self.wait.until(EC.presence_of_all_elements_located(
+            (By.XPATH, self.select_readingLevel_xpath)))
+        
         reading_level_options = []
         for reading_level_element in reading_level_elements:
             reading_level_options.append(
@@ -183,7 +197,7 @@ class CurateFirstDraftGen:
 
     # get uploadable sources text
     def getTextUploadableSources(self):
-        return self.driver.find_element(By.XPATH, self.txt_uploadableSource_xpath).text
+        return self.driver.find_element(By.XPATH, self.txt_UploadableSources_xpath).text
 
     # get drag and drop text
     def getTextDragAndDrop(self):
@@ -197,7 +211,7 @@ class CurateFirstDraftGen:
         return self.driver.find_element(By.XPATH, self.button_browseFile_xpath).text
     
     def isBrowseFileButtonEnabled(self):
-        return self.driver.find_element(By.XPATH, self.button_browseFile_xpath).is_enabled()
+        return self.driver.find_element(By.XPATH, self.button_browseFile_xpath).get_attribute("aria-disabled")
 
     # add files from local machine
     def addBrowseFile(self, file_path):
@@ -216,8 +230,23 @@ class CurateFirstDraftGen:
     def clickNext(self):
         self.driver.find_element(By.XPATH, self.button_next_xpath).click()
 
+    # perform drag and drop operation to upload files from local machine
+    def performdragAndDropFiles(self, file_path):
+        # Perform the drag and drop action
+        self.actions.click_and_hold().move_to_element(self.input_dragAndDrop_xpath).release().perform()
+
+        # Simulate the file drop by executing JavaScript
+        js_script = """
+        var dropEvent = document.createEvent('CustomEvent');
+        dropEvent.initCustomEvent('drop', true, true, null);
+        dropEvent.dataTransfer = new DataTransfer();
+        dropEvent.dataTransfer.files = [new File([''], '{}')];
+        arguments[0].dispatchEvent(dropEvent);
+        """.format(file_path)
+        self.driver.execute_script(js_script)
+
     # enter all the details in the curate first draft gen page
-    def enterCurateFirstDraftGenDetails(self, topic, tone, reading_level, online_source=[], file_path=[]):
+    def enterCurateFirstDraftGenDetails(self, topic, tone, reading_level, online_sources=[], file_paths=[], drag_file_paths=[]):
         # enter topic 
         self.setTopic(topic)
         # click tone dropdown
@@ -229,13 +258,23 @@ class CurateFirstDraftGen:
         # select reading level
         self.selectReadingLevel(reading_level)
         # add online sources
-        if online_source != []:
-            for source in online_source:
+        if online_sources != []:
+            for source in online_sources:
                 self.setOnlineSource(source)
                 self.clickAddUrl()
-        # add files
-        if file_path != []:
-            for file in file_path:
+
+        # add files using drag and drop 
+        if drag_file_paths != []:
+            for file_path in drag_file_paths:
+                self.input_dragAndDrop_xpath(file_path)
+
+        # add files using browse file 
+        if file_paths != []:
+            for file in file_paths:
                 self.addBrowseFile(file)
         # click next button
         self.clickNext()
+
+    # wait for craft first draft page to load
+    def waitForCraftFirstDraftGenPageToLoad(self):
+        self.wait.until(EC.url_contains("constructYourOutline"))

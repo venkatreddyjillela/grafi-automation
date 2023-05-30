@@ -20,6 +20,7 @@ class LoginPage:
 
     def __init__(self, driver):
         self.driver = driver
+        self.wait = WebDriverWait(self.driver, 10)
 
     def getLoginHeader(self):
         return self.driver.find_element(By.XPATH, self.txt_loginHeader_xpath).text
@@ -105,17 +106,17 @@ class LoginPage:
         return self.driver.title
     
     # wait for forgot password page to appear
-    def waitForForgotPasswordPage(self):
-        WebDriverWait(self.driver, 10).until(EC.url_contains("reset-credentials"))
+    def waitForForgotPasswordPageToLoad(self):
+        self.wait.until(EC.url_contains("reset-credentials"))
 
     # wait for registration page to appear
-    def waitForRegistrationPage(self):
-        WebDriverWait(self.driver, 10).until(EC.url_contains("registration"))
+    def waitForRegistrationPageToLoad(self):
+        self.wait.until(EC.url_contains("registration"))
 
     # wait for home page to appear
-    def waitForHomePage(self):
-        WebDriverWait(self.driver, 10).until(EC.url_contains("home"))
+    def waitForHomePageToLoad(self):
+        self.wait.until(EC.url_contains("home"))
 
     # wait for login page to appear
-    def waitForLoginPage(self):
-        WebDriverWait(self.driver, 10).until(EC.url_contains("openid-connect"))
+    def waitForLoginPageToLoad(self):
+        self.wait.until(EC.url_contains("openid-connect"))
