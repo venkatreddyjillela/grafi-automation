@@ -6,7 +6,7 @@ from pageObjects.HomePage import HomePage
 from pageObjects.CurateFirstDraftGenPage import CurateFirstDraftGen
 import time
 from TestData.testData import firstDraftGenPageData
-from utilities.helper_functions import HelperFunctions
+from utilities.helperFunctions import HelperFunctions
 
 
 class Test_003_CurateFirstDraftGenPage:
