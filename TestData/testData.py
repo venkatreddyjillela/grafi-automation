@@ -23,3 +23,11 @@ firstDraftGenPageData = {
     "drag_file_path": drag_file
     
 }
+
+rephraserPageData = {
+
+    "upload_url" : "https://my.clevelandclinic.org/health/diseases/7104-diabetes",
+    "tone": "professional",
+    "reading_level": "postgraduate"
+    
+}

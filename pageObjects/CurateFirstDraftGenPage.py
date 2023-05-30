@@ -29,6 +29,8 @@ class CurateFirstDraftGen:
     txt_addUrl_xpath = '//p[normalize-space()="Add URL"]'
     button_addUrl_xpath = '//button[normalize-space()="Add URL"]'
 
+    txt_addOnlineSource_xpath = '(//div[@class="addedContentBox MuiBox-root css-0"])[1]//p'
+
     txt_UploadableSources_xpath = '//p[contains(normalize-space(),"Uploadable Sources")]'
     input_dragAndDrop_xpath = '//div[@class="fileDropBox MuiBox-root css-6g8s6k"]'
     txt_dragAndDrop_xpath = '//p[contains(text(),"Drag & Drop files here")]'
@@ -148,7 +150,7 @@ class CurateFirstDraftGen:
         # use explicit wait
         reading_level_elements = self.wait.until(EC.presence_of_all_elements_located(
             (By.XPATH, self.select_readingLevel_xpath)))
-        
+
         reading_level_options = []
         for reading_level_element in reading_level_elements:
             reading_level_options.append(
@@ -179,21 +181,35 @@ class CurateFirstDraftGen:
     # get add url button text
     def getTextAddUrl(self):
         return self.driver.find_element(By.XPATH, self.button_addUrl_xpath).text
-    
+
     def isOnlineSourcesTextBoxEnabled(self):
         return self.driver.find_element(By.XPATH, self.textbox_onlineSource_xpath).is_enabled()
 
     def setOnlineSource(self, online_source):
         online_source_element = self.driver.find_element(
             By.XPATH, self.textbox_onlineSource_xpath)
+        # Wait for the online_source_element text box to be able to accept data
+        # online_source_element = self.wait.until(
+        #     EC.element_to_be_clickable((By.XPATH, self.textbox_onlineSource_xpath)))
         online_source_element.clear()
         online_source_element.send_keys(online_source)
 
     def clickAddUrl(self):
-        self.driver.find_element(By.XPATH, self.button_addUrl_xpath).click()
-    
+        # self.driver.find_element(By.XPATH, self.button_addUrl_xpath).click()
+        # wait for the button to be clickable
+        self.wait.until(EC.element_to_be_clickable((By.XPATH, self.button_addUrl_xpath))).click()
+
     def isAddUrlButtonEnabled(self):
         return self.driver.find_element(By.XPATH, self.button_addUrl_xpath).is_enabled()
+    
+    # get online source added url for verification
+    def getOnlineSourceAddedUrl(self):
+        online_source_urls = self.driver.find_elements(By.XPath, self.txt_addOnlineSource_xpath)
+        urls = []
+        for source_url in online_source_urls:
+            urls.append(source_url.text)
+        return urls
+        
 
     # get uploadable sources text
     def getTextUploadableSources(self):
@@ -202,14 +218,14 @@ class CurateFirstDraftGen:
     # get drag and drop text
     def getTextDragAndDrop(self):
         return self.driver.find_element(By.XPATH, self.txt_dragAndDrop_xpath).text
-    
+
     def isDragAndDropEnabled(self):
         return self.driver.find_element(By.XPATH, self.txt_dragAndDrop_xpath).is_enabled()
 
     # get browse file button text
     def getTextBrowseFile(self):
         return self.driver.find_element(By.XPATH, self.button_browseFile_xpath).text
-    
+
     def isBrowseFileButtonEnabled(self):
         return self.driver.find_element(By.XPATH, self.button_browseFile_xpath).get_attribute("aria-disabled")
 
@@ -233,7 +249,8 @@ class CurateFirstDraftGen:
     # perform drag and drop operation to upload files from local machine
     def performdragAndDropFiles(self, file_path):
         # Perform the drag and drop action
-        self.actions.click_and_hold().move_to_element(self.input_dragAndDrop_xpath).release().perform()
+        self.actions.click_and_hold().move_to_element(
+            self.input_dragAndDrop_xpath).release().perform()
 
         # Simulate the file drop by executing JavaScript
         js_script = """
@@ -244,6 +261,11 @@ class CurateFirstDraftGen:
         arguments[0].dispatchEvent(dropEvent);
         """.format(file_path)
         self.driver.execute_script(js_script)
+
+    # wait for online source textbox to be available for enetering data
+    # def waitForOnlineSourceTextbox(self):
+    #     self.wait.until(EC.visibility_of_element_located(self.textbox_onlineSource_xpath))
+    #     self.wait.until(EC.element_to_be_clickable(self.textbox_onlineSource_xpath))
 
     # enter all the details in the curate first draft gen page
     def enterCurateFirstDraftGenDetails(self, topic, tone, reading_level, online_sources=[], file_paths=[], drag_file_paths=[]):
@@ -259,21 +281,22 @@ class CurateFirstDraftGen:
         self.selectReadingLevel(reading_level)
         # add online sources
         if online_sources != []:
+            print("online_sources: ", online_sources)
             for source in online_sources:
+                # wait for online sources text box to be available to enter
+                # self.waitForOnlineSourceTextbox
                 self.setOnlineSource(source)
                 self.clickAddUrl()
 
-        # add files using drag and drop 
+        # add files using drag and drop
         if drag_file_paths != []:
             for file_path in drag_file_paths:
                 self.input_dragAndDrop_xpath(file_path)
 
-        # add files using browse file 
+        # add files using browse file
         if file_paths != []:
             for file in file_paths:
                 self.addBrowseFile(file)
-        # click next button
-        self.clickNext()
 
     # wait for craft first draft page to load
     def waitForCraftFirstDraftGenPageToLoad(self):

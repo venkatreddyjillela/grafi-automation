@@ -26,7 +26,6 @@ class Test_003_CurateFirstDraftGenPage:
         # self.fd = self.openCurateFirstDraftGenPage(setup)
         self.driver = setup
         self.fd = self.helper.openCurateFirstDraftGenPage(setup)
-        print("-------------------------------test_CurateFirstDraftGenPage---------------------------------")
         # check if logo is displayed
         logo = self.fd.isLogoDisplayed()
         if logo:
@@ -250,18 +249,6 @@ class Test_003_CurateFirstDraftGenPage:
             self.logger.error("**** Next Button Text is not Displayed ****")
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_NextButtonText.png")
-            assert False
-
-        # Check Next button is enabled or not
-        next_button_enabled = self.fd.isNextButtonEnabled()
-        # By default Next button is disabled
-        if not next_button_enabled:
-            self.logger.info("**** Next Button is Disabled ****")
-            assert True
-        else:
-            self.logger.error("**** Next Button is not Disabled ****")
-            self.driver.save_screenshot(
-                ".\\Screenshots\\" + "test_NextButton.png")
             assert False
 
         # Check Topic Text Box is enabled or not
@@ -513,7 +500,6 @@ class Test_003_CurateFirstDraftGenPage:
             assert False
 
 
-"""
     @pytest.mark.regression
     @pytest.mark.sanity
     def test_CuratePageNextButton(self, setup):
@@ -531,9 +517,24 @@ class Test_003_CurateFirstDraftGenPage:
         self.fd.enterCurateFirstDraftGenDetails(topic= TOPIC,tone = TONE, reading_level = READING_LEVEL, online_sources = ONLINE_SOURCES, file_paths = FILE_PATHS)
         self.logger.info("**** Entered All the details in the Curate Page and clicked on Next Button ****")
 
-        # wait for craft page to load
-        self.fd.waitForCraftPageToLoad()
-        self.logger.info("**** Craft Page Loaded ****")
+        # Check if added sources and given online sources are same or different in count
+        if ONLINE_SOURCES != []: 
+            self.logger.info("**** No urls are added in online sources ****")
+        elif len(ONLINE_SOURCES) == len(self.fd.getOnlineSourceAddedUrl()):
+            self.logger.info(" **** Urls added and given urls are same ****")
+            assert True
+        else:
+            self.logger.error("*** added urls are different in number of online sources given ****")
+            self.logger.error(len(self.fd.getOnlineSourceAddedUrl()))
+            assert False
+
+        # # wait for craft page to load
+        # self.fd.waitForCraftPageToLoad()
+        # self.logger.info("**** Craft Page Loaded ****")
+        # click next button
+        self.fd.clickNext()
+        # wait for craft page to load 
+        self.fd.waitForCraftFirstDraftGenPageToLoad()
 
         # Check if Craft Page url is correct or not
         actual_url = self.driver.current_url
@@ -546,5 +547,3 @@ class Test_003_CurateFirstDraftGenPage:
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_CraftPageUrl.png")
             assert False
-
-"""

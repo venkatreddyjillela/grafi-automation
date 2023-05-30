@@ -5,4 +5,4 @@ pytest-xdist
 openpyxl
 allure-pytest
 webdriver_manager
-
+ipdb
