@@ -2,7 +2,7 @@ import pytest
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
-from helper_functions import HelperFunctions
+from utilities.helperFunctions import HelperFunctions
 import time
 
 

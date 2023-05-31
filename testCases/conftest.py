@@ -3,7 +3,9 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
+from utilities.customLogger import LogGen
 
+logger = LogGen.loggen()
 
 import os
 
@@ -28,7 +30,9 @@ def setup(browser):
 
         # Create a Firefox webdriver instance with the Service object
         driver = webdriver.Firefox(service=service, options=firefox_options)
+        logger.info("Launching firefox browser.........")
         print("Launching firefox browser.........")
+        
 
     elif browser=='Edge':
         from selenium.webdriver.edge.service import Service
@@ -45,6 +49,7 @@ def setup(browser):
 
         # Create an Edge webdriver instance with the Service object
         driver = webdriver.Edge(service=service, options=edge_options)
+        logger.info("Launching Edge browser.........")
         print("Launching Edge browser.........")
 
     else:
@@ -64,13 +69,13 @@ def setup(browser):
 
         # Create a Chrome webdriver instance with the Service object
         driver = webdriver.Chrome(service=service, options=chrome_options)
+        logger.info("Launching default chrome browser.........")
         print("Launching default chrome browser.........")
 
     # implicit wait for 10 seconds
     driver.implicitly_wait(10)
     # maximize window
     driver.maximize_window()
-    print("Maximizing window.............")
 
     return driver
 
