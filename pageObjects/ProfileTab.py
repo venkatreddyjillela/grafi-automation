@@ -15,6 +15,10 @@ class ProfileTab:
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
 
+    def clickProfileDropdown(self):
+        self.driver.find_element(
+            By.XPATH, self.button_profileDropdown_xpath).click()
+
     # get my account link text
     def getMyAccountLinkText(self):
         return self.driver.find_element(By.XPATH, self.button_myAccount_xpath).text
@@ -26,10 +30,6 @@ class ProfileTab:
     # get sign out button text
     def getSignOutButtonText(self):
         return self.driver.find_element(By.XPATH, self.button_signout_xpath).text
-
-    def clickProfileDropdown(self):
-        self.driver.find_element(
-            By.XPATH, self.button_profileDropdown_xpath).click()
 
     def clickMyAccount(self):
         self.driver.find_element(By.XPATH, self.button_myAccount_xpath).click()
@@ -48,7 +48,6 @@ class ProfileTab:
     # is sign out button displayed
     def isSignOutButtonDisplayed(self):
         return self.driver.find_element(By.XPATH, self.button_signout_xpath).is_displayed()
-
 
     # check profile title is displayed
     def isProfileTitleDisplayed(self):

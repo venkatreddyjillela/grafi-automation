@@ -1,24 +1,17 @@
 import pytest
-from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
-from pageObjects.HomePage import HomePage
-from pageObjects.CurateFirstDraftGenPage import CurateFirstDraftGen
-import time
 from TestData.testData import firstDraftGenPageData
 from utilities.helperFunctions import HelperFunctions
 
 
-class Test_003_CurateFirstDraftGenPage:
+class Test_CurateFirstDraftGenPage:
     baseURL = ReadConfig.getApplicationURL()
-    email = ReadConfig.getUseremail()
-    password = ReadConfig.getPassword()
     logger = LogGen.loggen()
     helper = HelperFunctions()
 
-
     logger.info(
-        "*************** Test_003_CurateFirstDraftGenPage ***************")
+        "*************** Test_CurateFirstDraftGenPage ***************")
 
     @pytest.mark.regression
     def test_CurateFirstDraftGenPage(self, setup):
