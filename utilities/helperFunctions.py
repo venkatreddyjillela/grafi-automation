@@ -51,13 +51,13 @@ class HelperFunctions():
     # Open Curate first draft generator page
     def openCurateFirstDraftGenPage(self, setup):
         self.hp = self.openHomePage(setup)
-        print("**************** wait for 5 seconds ****************")
+        self.logger.info("**************** wait for 5 seconds ****************")
         # click on the First Draft Gen button
         self.logger.info(
             "**** Clicked First Draft Gen Button In Home Page ****")
         self.hp.clickFirstDraftGen()
         time.sleep(5)
-        print("**************** clicked first draft gen  ****************")
+        self.logger.info("**************** clicked first draft gen  ****************")
         # wait for curate first draft gen page to load
         self.hp.waitForCurateFirstDraftGenPageToLoad()
         self.logger.info("**** First Draft Gen Page is Opened ****")

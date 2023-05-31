@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
+import time
+        
 
 
 class CurateFirstDraftGen:
@@ -204,7 +206,7 @@ class CurateFirstDraftGen:
     
     # get online source added url for verification
     def getOnlineSourceAddedUrl(self):
-        online_source_urls = self.driver.find_elements(By.XPath, self.txt_addOnlineSource_xpath)
+        online_source_urls = self.driver.find_elements(By.XPATH, self.txt_addOnlineSource_xpath)
         urls = []
         for source_url in online_source_urls:
             urls.append(source_url.text)
@@ -281,12 +283,13 @@ class CurateFirstDraftGen:
         self.selectReadingLevel(reading_level)
         # add online sources
         if online_sources != []:
-            print("online_sources: ", online_sources)
+            # print("online_sources: ", online_sources)
             for source in online_sources:
                 # wait for online sources text box to be available to enter
                 # self.waitForOnlineSourceTextbox
                 self.setOnlineSource(source)
                 self.clickAddUrl()
+                time.sleep(5)
 
         # add files using drag and drop
         if drag_file_paths != []:

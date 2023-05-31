@@ -21,7 +21,7 @@ class Test_002_DDT_Login():
         self.lp = LoginPage(self.driver)
 
         self.rows = XLUtils.getRowCount(self.path, 'Sheet1')
-        print('Number of rows...', self.rows)
+        self.logger.info('Number of rows...', self.rows)
         lst_status = []
 
         for r in range(2, self.rows+1):
@@ -57,7 +57,7 @@ class Test_002_DDT_Login():
                 elif self.exp == 'Fail':
                     self.logger.info("**** passed ****")
                     lst_status.append("Pass")
-            print(lst_status)
+            self.logger.info(lst_status)
         if "Fail" not in lst_status:
             self.logger.info("******* DDT Login test passed **********")
             self.driver.close()

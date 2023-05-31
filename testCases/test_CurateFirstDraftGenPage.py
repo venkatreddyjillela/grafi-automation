@@ -512,16 +512,16 @@ class Test_003_CurateFirstDraftGenPage:
         READING_LEVEL = firstDraftGenPageData['reading_level']
         ONLINE_SOURCES = [firstDraftGenPageData['online_source1'],firstDraftGenPageData['online_source2']]
         FILE_PATHS = [firstDraftGenPageData['file_path1'],firstDraftGenPageData['file_path2']]
-
         # Enter All the details in the Curate Page and click on Next Button
         self.fd.enterCurateFirstDraftGenDetails(topic= TOPIC,tone = TONE, reading_level = READING_LEVEL, online_sources = ONLINE_SOURCES, file_paths = FILE_PATHS)
         self.logger.info("**** Entered All the details in the Curate Page and clicked on Next Button ****")
 
         # Check if added sources and given online sources are same or different in count
-        if ONLINE_SOURCES != []: 
+        if ONLINE_SOURCES == []: 
             self.logger.info("**** No urls are added in online sources ****")
         elif len(ONLINE_SOURCES) == len(self.fd.getOnlineSourceAddedUrl()):
             self.logger.info(" **** Urls added and given urls are same ****")
+            self.logger.info(len(self.fd.getOnlineSourceAddedUrl()))
             assert True
         else:
             self.logger.error("*** added urls are different in number of online sources given ****")
