@@ -547,3 +547,66 @@ class Test_003_CurateFirstDraftGenPage:
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_CraftPageUrl.png")
             assert False
+
+    @pytest.mark.regression
+    def test_CurateHomeTab(self, setup):
+        self.logger.info("**** Started Test_CurateHomeTab Functionality ****")
+        self.driver = setup
+        self.fd = self.helper.openCurateFirstDraftGenPage(setup)
+        # click on Home Tab in Curate Page
+        self.fd.clickHomeTab()
+        # wait for home page to load
+        self.fd.waitForHomePageToLoad()
+        # Check if Home Page url is correct or not
+        actual_url = self.driver.current_url
+        expected_url = self.baseURL + "home"
+        if actual_url == expected_url:
+            self.logger.info("**** Home Page url is correct and home page loaded ****")
+            assert True
+        else:
+            self.logger.error("**** Home Page url is incorrect ****")
+            self.driver.save_screenshot(
+                ".\\Screenshots\\" + "test_HomePageUrl.png")
+            assert False
+
+    @pytest.mark.regression
+    def test_CurateRephraserTab(self, setup):
+        self.logger.info("**** Started CurateRephraserTab Testing ****")
+        self.driver = setup
+        self.fd = self.helper.openCurateFirstDraftGenPage(setup)
+        # click on Rephraser tab
+        self.fd.clickRephraserTab()
+        # wait for Rephraser page to load
+        self.fd.waitForRephraserPageToLoad()
+        # Check if Rephraser Page url is correct or not
+        actual_url = self.driver.current_url
+        expected_url = self.baseURL + "repurpose"
+        if actual_url == expected_url:
+            self.logger.info("**** Rephraser Page url is correct and Rephraser page loaded ****")
+            assert True
+        else:
+            self.logger.error("**** Rephraser Page url is incorrect ****")
+            self.driver.save_screenshot(
+                ".\\Screenshots\\" + "test_RephraserPageUrl.png")
+            assert False
+
+    @pytest.mark.regression
+    def test_CurateFirstDraftGenPage(self, setup):
+        self.logger.info("**** Started test_CurateFirstDraftGenPage Testing ****")
+        self.driver = setup
+        self.fd = self.helper.openCurateFirstDraftGenPage(setup)
+        # click on Curate tab
+        self.fd.clickFirstDraftGenTab()
+        # wait for Curate page to load
+        self.fd.waitForRephraserPageToLoad()
+        # Check if Curate Page url is correct or not
+        actual_url = self.driver.current_url
+        expected_url = self.baseURL + "inputContent"
+        if actual_url == expected_url:
+            self.logger.info("**** Curate Page url is correct and Curate page loaded ****")
+            assert True
+        else:
+            self.logger.error("**** Curate Page url is incorrect ****")
+            self.driver.save_screenshot(
+                ".\\Screenshots\\" + "test_CuratePageUrl.png")
+            assert False

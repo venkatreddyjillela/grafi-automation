@@ -66,17 +66,19 @@ class CurateFirstDraftGen:
 
     def isHomeTabSelected(self):
         return self.driver.find_element(By.XPATH, self.link_homeTab_xpath).get_attribute("aria-selected")
+    
+    # click Home tab
+    def clickHomeTab(self):
+        self.driver.find_element(By.XPATH, self.link_homeTab_xpath).click()
 
+    # click Rephraser tab
+    def clickRephraserTab(self):
+        self.driver.find_element(By.XPATH, self.link_rephraserTab_xpath).click()
+
+    # click First Draft Generator tab
     def clickFirstDraftGenTab(self):
         self.driver.find_element(
             By.XPATH, self.link_firstDraftGenTab_xpath).click()
-
-    def clickRephraserTab(self):
-        self.driver.find_element(
-            By.XPATH, self.link_rephraserTab_xpath).click()
-
-    def clickHomeTab(self):
-        self.driver.find_element(By.XPATH, self.link_homeTab_xpath).click()
 
     def getHeaderText(self):
         return self.driver.find_element(By.XPATH, self.txt_header_xpath).text
@@ -304,3 +306,15 @@ class CurateFirstDraftGen:
     # wait for craft first draft page to load
     def waitForCraftFirstDraftGenPageToLoad(self):
         self.wait.until(EC.url_contains("constructYourOutline"))
+
+    # wait for home page to load
+    def waitForHomePageToLoad(self):
+        self.wait.until(EC.url_contains("home"))
+
+    # wait for Rephraser page to load
+    def waitForRephraserPageToLoad(self):
+        self.wait.until(EC.url_contains("repurpose"))
+
+    # wait for Curate page to load
+    def waitForCuratePageToLoad(self):
+        self.wait.until(EC.url_contains("inputContent"))
