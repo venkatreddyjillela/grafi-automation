@@ -7,7 +7,7 @@ from utilities import XLUtils
 import time
 
 
-class Test_002_DDT_Login():
+class Test_DDT_Login():
     baseURL = ReadConfig.getApplicationURL()
     path = ".//TestData/LoginData.xlsx"
     logger = LogGen.loggen() 
@@ -24,7 +24,7 @@ class Test_002_DDT_Login():
         self.logger.info('Number of credentials login is verfied : ' +  str(self.rows-1))
         lst_status = []
 
-        for r in range(2, self.rows):
+        for r in range(2, self.rows+1):
             self.email = XLUtils.readData(self.path, 'Sheet1', r, 1)
             self.password = XLUtils.readData(self.path, 'Sheet1', r, 2)
             self.exp = XLUtils.readData(self.path, 'Sheet1', r, 3)
@@ -95,7 +95,3 @@ class Test_002_DDT_Login():
         self.logger.info("******* End of Login DDT Test **********")
         self.logger.info(
             "**************** Completed  TC_LoginDDT_002 ************* ")
-        
-        self.logger.info("** Closing browser **")
-        # close browser 
-        self.driver.close()

@@ -16,9 +16,9 @@ class Test_001_Login:
     logger.info("*************** Test_001_Login *****************")
 
     @pytest.mark.regression
-    def test_LoginPage(self, setup):\
+    def test_LoginPage(self, setup):
         # test login page all elements are present or not and display correct text or not 
-        # self.driver = setup
+        self.driver = setup
         # self.driver.get(self.baseURL)
         self.lp = self.helper.openLoginPage(setup)
         # wait for login page to load
@@ -202,7 +202,7 @@ class Test_001_Login:
     def test_forgetPasswordLink(self, setup):
         ## test forgot password Link functionality
         self.logger.info("****Test Forgot Password Link Functionality ****")
-        # self.driver = setup
+        self.driver = setup
         # self.driver.get(self.baseURL)
 
         self.lp = self.helper.openLoginPage(setup)
@@ -235,7 +235,7 @@ class Test_001_Login:
     def test_registrationLink(self, setup):
         ## test registration Link functionality
         self.logger.info("****Test Registration Link Functionality ****")
-        # self.driver = setup
+        self.driver = setup
         # self.driver.get(self.baseURL)
         
         # self.lp = LoginPage(self.driver)
@@ -269,7 +269,7 @@ class Test_001_Login:
     def test_login(self, setup):
         ## test login functionality
         self.logger.info("****Test Login Functionality ****")
-        # self.driver = setup
+        self.driver = setup
         # self.driver.get(self.baseURL)
 
         # self.lp = LoginPage(self.driver)
@@ -298,9 +298,3 @@ class Test_001_Login:
                 ".\\Screenshots\\" + "test_Login.png")
             self.logger.info("****Login test failed and Screenshot Saved ****")
             assert False
-
-
-# wait = WebDriverWait(driver, 10)  # Wait up to 10 seconds for elements to appear
-
-# Wait for the home page to load
-# wait.until(EC.title_contains('Home Page'))  # Replace 'Home Page' with the expected title of your home page

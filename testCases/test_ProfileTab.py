@@ -2,6 +2,7 @@ import pytest
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from utilities.helperFunctions import HelperFunctions
+from pageObjects.ProfileTab import ProfileTab
 
 class Test_ProfileTab:
     baseURL = ReadConfig.getApplicationURL()
@@ -16,38 +17,40 @@ class Test_ProfileTab:
         self.driver = setup
         # Open Home Page
         self.hp = self.helper.openHomePage(setup)
+        # Initialize Profile Tab Class
+        self.pt = ProfileTab(setup)
         # Click on Profile dropdown
-        self.hp.clickProfileDropdown()
+        self.pt.clickProfileDropdown()
         self.logger.info("*************** Click Profile dropdown ***************")
 
         # Verify My Account link text
         self.logger.info("*************** Verify My Account link text ***************")
-        assert self.hp.getMyAccountLinkText() == "My Account"
+        assert self.pt.getMyAccountLinkText() == "My Account"
         self.logger.info("*************** My Account link text is correct ***************")
 
         # Verify Subscription link text
         self.logger.info("*************** Verify Subscription link text ***************")
-        assert self.hp.getSubscriptionLinkText() == "Subscription"
+        assert self.pt.getSubscriptionLinkText() == "Subscription"
         self.logger.info("*************** Subscription link text is correct ***************")
 
         # Verify Sign Out button text
         self.logger.info("*************** Verify Sign Out button text ***************")
-        assert self.hp.getSignOutButtonText() == "Sign Out"
+        assert self.pt.getSignOutButtonText() == "Sign Out"
         self.logger.info("*************** Sign Out button text is correct ***************")
 
         # Verify Sign Out button is enabled
         self.logger.info("*************** Verify Sign Out button is enabled ***************")
-        assert self.hp.isSignOutButtonEnabled() == True
+        assert self.pt.isSignOutButtonEnabled() == True
         self.logger.info("*************** Sign Out button is enabled ***************")
 
         # Verify Sign Out button is displayed
         self.logger.info("*************** Verify Sign Out button is displayed ***************")
-        assert self.hp.isSignOutButtonDisplayed() == True
+        assert self.pt.isSignOutButtonDisplayed() == True
         self.logger.info("*************** Sign Out button is displayed ***************")
 
         # Verify Profile title is displayed
         self.logger.info("*************** Verify Profile title is displayed ***************")
-        assert self.hp.isProfileTitleDisplayed() == True
+        assert self.pt.isProfileTitleDisplayed() == True
         self.logger.info("*************** Profile title is displayed ***************")
 
         # close browser
@@ -60,14 +63,16 @@ class Test_ProfileTab:
         self.driver = setup
         # Open Home Page
         self.hp = self.helper.openHomePage(setup)
+        # Initialize Profile Tab Class
+        self.pt = ProfileTab(setup)
         # Click on Profile dropdown
-        self.hp.clickProfileDropdown()
+        self.pt.clickProfileDropdown()
         self.logger.info("*************** Click Profile dropdown ***************")
         # Click on My Account
-        self.hp.clickMyAccount()
+        self.pt.clickMyAccount()
         self.logger.info("*************** Click My Account ***************")
         # Wait for My Account page to load
-        self.hp.waitForMyAccountPageToLoad()
+        self.pt.waitForMyAccountPageToLoad()
         self.logger.info("*************** My Account page loaded ***************")
         # Verify My Account page URL
         self.logger.info("*************** Verify My Account page URL ***************")
@@ -92,14 +97,16 @@ class Test_ProfileTab:
         self.driver = setup
         # Open Home Page
         self.hp = self.helper.openHomePage(setup)
+        # Initialize Profile Tab Class
+        self.pt = ProfileTab(setup)
         # Click on Profile dropdown
-        self.hp.clickProfileDropdown()
+        self.pt.clickProfileDropdown()
         self.logger.info("*************** Click Profile dropdown ***************")
         # Click on Subscription
-        self.hp.clickSubscription()
+        self.pt.clickSubscription()
         self.logger.info("*************** Click Subscription ***************")
         # Wait for Subscription page to load
-        self.hp.waitForSubscriptionPageToLoad()
+        self.pt.waitForSubscriptionPageToLoad()
         self.logger.info("*************** Subscription page loaded ***************")
         # Verify Subscription page URL
         self.logger.info("*************** Verify Subscription page URL ***************")
@@ -124,14 +131,16 @@ class Test_ProfileTab:
         self.driver = setup
         # Open Home Page
         self.hp = self.helper.openHomePage(setup)
+        # Initialize Profile Tab Class
+        self.pt = ProfileTab(setup)
         # Click on Profile dropdown
-        self.hp.clickProfileDropdown()
+        self.pt.clickProfileDropdown()
         self.logger.info("*************** Click Profile dropdown ***************")
         # Click on Sign Out button
-        self.hp.clickSignOutButton()
+        self.pt.clickSignOutButton()
         self.logger.info("*************** Click Sign Out button ***************")
         # Wait for Login In page to load
-        self.hp.waitForLoginPageToLoad()
+        self.pt.waitForLoginPageToLoad()
         self.logger.info("*************** Login In page loaded ***************")
         # Verify Login In page URL
         self.logger.info("*************** Verify Login In page URL ***************")

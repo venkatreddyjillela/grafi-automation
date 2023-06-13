@@ -38,7 +38,7 @@ class ProfileTab:
         self.driver.find_element(
             By.XPATH, self.button_subscription_xpath).click()
 
-    def clickSignout(self):
+    def clickSignOutButton(self):
         self.driver.find_element(By.XPATH, self.button_signout_xpath).click()
 
     # is sign out button enabled
