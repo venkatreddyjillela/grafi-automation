@@ -2,6 +2,8 @@ from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from pageObjects.HomePage import HomePage
+from pageObjects.ProfileTab import ProfileTab
+from pageObjects.MyAccountPage import MyAccount
 from pageObjects.CurateFirstDraftGenPage import CurateFirstDraftGen
 from pageObjects.RephraserPage import Rephraser
 from pageObjects.ResultDraftRephraserPage import ResultDraftRephraser
@@ -104,7 +106,23 @@ class HelperFunctions():
         self.rdrp = ResultDraftRephraser(self.driver)
         return self.rdrp
     
+    # Open Profile Tab
+    def openProfileTab(self, setup):
+        self.hp = self.openHomePage(setup)
+        # click Profile dropdown button 
+        self.pt = self.ProfileTab(self.driver)
+        self.pt.clickProfileDropdown()
+        self.logger.info("**** Profile Tab is Opened ****")
+        return self.pt
     
-    
-
-
+    # Open My Account Page
+    def openMyAccountPage(self, setup):
+        self.pt = self.openProfileTab(setup)
+        # click My Account button
+        self.pt.clickMyAccount()
+        # wait for my account page to load
+        self.pt.waitForMyAccountPageToLoad()
+        self.logger.info("**** My Account Page is Opened ****")
+        # My Account Page
+        self.ma = MyAccount(self.driver)
+        return self.ma
