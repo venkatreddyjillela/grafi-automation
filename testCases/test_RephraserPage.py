@@ -15,6 +15,9 @@ class Test_004_RephraserPage:
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
     helper = HelperFunctions()
+    upload_url = rephraserPageData["upload_url"]
+    tone = rephraserPageData["tone"]
+    reading_level = rephraserPageData['reading_level']
 
     logger.info("**************** Test_004_RephraserPage *********************")
 
@@ -231,8 +234,7 @@ class Test_004_RephraserPage:
         self.rp = self.helper.openRephraserPage(setup)
 
         # Tone dropdowm is only enabled when URL is entered
-        self.rp.setUploadUrl(
-            "https://www.mayoclinic.org/diseases-conditions/diabetes/symptoms-causes/syc-20371444")
+        self.rp.setUploadUrl(self.upload_url)
         self.logger.info("**** Entered URL ****")
         # Check Tone Drop Down is enabled or not
         tone_drop_down_enabled = self.rp.isToneDropDownEnabled()
@@ -261,7 +263,7 @@ class Test_004_RephraserPage:
             assert True
 
         # Reading Level dropdowm is only enabled when Topic entered and Tone is selected
-        self.rp.selectTone("professional")
+        self.rp.selectTone(self.tone)
         self.logger.info("**** Selected Tone ****")
         # Check Reading Level Drop Down is enabled or not
         reading_level_drop_down_enabled = self.rp.isReadingLevelDropDownEnabled()
@@ -300,7 +302,7 @@ class Test_004_RephraserPage:
             assert False
 
         # Select Reading Level
-        self.rp.selectReadingLevel("postgraduate")
+        self.rp.selectReadingLevel(self.reading_level)
 
         # Check submit Button is enabled or not
         Submit_button_enabled = self.rp.isSubmitButtonEnabled()
@@ -321,13 +323,10 @@ class Test_004_RephraserPage:
             "**** Started Test Submit Buttoni in Rephraser Page ****")
         self.driver = setup
         self.rp = self.helper.openRephraserPage(setup)
-
-        # rephraserPageData
-
-        UPLOAD_URL = rephraserPageData["upload_url"]
-        TONE = rephraserPageData["tone"]
-        READING_LEVEL = rephraserPageData['reading_level']
-
+        
+        UPLOAD_URL = self.upload_url
+        TONE = self.tone
+        READING_LEVEL = self.reading_level
         # Enter All the details in the Rephraser Page and click on Submit Button
         self.rp.enterRephraserDetails(
             uploadUrl=UPLOAD_URL, tone=TONE, reading_level=READING_LEVEL)
