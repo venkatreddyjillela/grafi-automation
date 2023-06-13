@@ -9,6 +9,13 @@ class Test_CurateFirstDraftGenPage:
     baseURL = ReadConfig.getApplicationURL()
     logger = LogGen.loggen()
     helper = HelperFunctions()
+    topic = firstDraftGenPageData['topic']
+    tone = firstDraftGenPageData['tone']
+    reading_level = firstDraftGenPageData['reading_level']
+    online_source1 = firstDraftGenPageData['online_source1']
+    online_source2 = firstDraftGenPageData['online_source2']
+    file_path1 = firstDraftGenPageData['file_path1']
+    file_path2 = firstDraftGenPageData['file_path2']
 
     logger.info(
         "*************** Test_CurateFirstDraftGenPage ***************")
@@ -210,7 +217,6 @@ class Test_CurateFirstDraftGenPage:
         # check drag and drop text
         drag_and_drop_text = self.fd.getTextDragAndDrop()
         if drag_and_drop_text == 'Drag & Drop files here':
-            
             self.logger.info("**** Drag & Drop Text is Displayed ****")
             assert True
         else:
@@ -321,7 +327,8 @@ class Test_CurateFirstDraftGenPage:
 
         # check drag and drop is enabled or not
         try:
-            self.fd.performdragAndDropFiles(firstDraftGenPageData['drag_file_path'])
+            self.fd.performdragAndDropFiles(
+                firstDraftGenPageData['drag_file_path'])
             self.logger.error("**** Drag and Drop is enabled ****")
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_DragAndDropEnabled.png")
@@ -342,15 +349,15 @@ class Test_CurateFirstDraftGenPage:
                 ".\\Screenshots\\" + "test_NextButton.png")
             assert False
 
-
     @pytest.mark.regression
     def test_CuratePageElements(self, setup):
-        self.logger.info("**** Started Test_CuratePageElements Functionality ****")
+        self.logger.info(
+            "**** Started Test_CuratePageElements Functionality ****")
         self.driver = setup
         self.fd = self.helper.openCurateFirstDraftGenPage(setup)
 
         # Tone dropdowm is only enabled when Topic is entered
-        self.fd.setTopic("Test")
+        self.fd.setTopic(self.topic)
         self.logger.info("**** Entered Topic ****")
         # Check Tone Drop Down is enabled or not
         tone_drop_down_enabled = self.fd.isToneDropDownEnabled()
@@ -379,7 +386,7 @@ class Test_CurateFirstDraftGenPage:
             assert True
 
         # Reading Level dropdowm is only enabled when Topic entered and Tone is selected
-        self.fd.selectTone("professional")
+        self.fd.selectTone(self.tone)
         self.logger.info("**** Selected Tone ****")
         # Check Reading Level Drop Down is enabled or not
         reading_level_drop_down_enabled = self.fd.isReadingLevelDropDownEnabled()
@@ -399,23 +406,26 @@ class Test_CurateFirstDraftGenPage:
         self.logger.info("**** Clicked Reading Level Drop Down ****")
         # Get the options from the Reading Level Drop Down
         reading_level_options = self.fd.getReadingLevelOptions()
-        reading_level_options = [value for value in reading_level_options if value != '']
+        reading_level_options = [
+            value for value in reading_level_options if value != '']
         self.logger.info("**** Reading Level Drop Down Options are ****")
         self.logger.info(reading_level_options)
         expected_reading_level_options = ['middleschool',
-                                            'highschool', 'postgraduate']
-        
+                                          'highschool', 'postgraduate']
+
         if reading_level_options == expected_reading_level_options:
-            self.logger.info("**** Reading Level Drop Down Options are correct ****")
+            self.logger.info(
+                "**** Reading Level Drop Down Options are correct ****")
             assert True
         else:
-            self.logger.error("**** Reading Level Drop Down Options are not correct ****")
+            self.logger.error(
+                "**** Reading Level Drop Down Options are not correct ****")
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_ReadingLevelDropDownOptions.png")
             assert False
 
-        # Select Reading Level 
-        self.fd.selectReadingLevel("postgraduate")
+        # Select Reading Level
+        self.fd.selectReadingLevel(self.reading_level)
 
         # Check Online Sources Text Box is enabled or not
         online_sources_text_box_enabled = self.fd.isOnlineSourcesTextBoxEnabled()
@@ -443,7 +453,7 @@ class Test_CurateFirstDraftGenPage:
             assert False
 
         # Check Add URL Button is enabled or not after entering URL
-        self.fd.setOnlineSource("https://www.mayoclinic.org/diseases-conditions/diabetes/symptoms-causes/syc-20371444")
+        self.fd.setOnlineSource(self.online_source1)
         self.logger.info("**** Entered URL ****")
         # Add URL Button should be enabled when URL is entered
         add_url_button_enabled = self.fd.isAddUrlButtonEnabled()
@@ -467,7 +477,7 @@ class Test_CurateFirstDraftGenPage:
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_DragAndDrop.png")
             assert False
-        
+
         # Check Browse File Button is enabled or not
         browse_file_button_enabled = self.fd.isBrowseFileButtonEnabled()
         # Browse File Button should be enabled when Topic entered and Tone is selected and Reading Level is selected
@@ -492,32 +502,36 @@ class Test_CurateFirstDraftGenPage:
                 ".\\Screenshots\\" + "test_NextButton.png")
             assert False
 
-
     @pytest.mark.regression
     @pytest.mark.sanity
     def test_CuratePageNextButton(self, setup):
-        self.logger.info("**** Started Test_CuratePageNextButton Functionality ****")
+        self.logger.info(
+            "**** Started Test_CuratePageNextButton Functionality ****")
         self.driver = setup
         self.fd = self.helper.openCurateFirstDraftGenPage(setup)
 
-        TOPIC = firstDraftGenPageData['topic']
-        TONE = firstDraftGenPageData['tone']
-        READING_LEVEL = firstDraftGenPageData['reading_level']
-        ONLINE_SOURCES = [firstDraftGenPageData['online_source1'],firstDraftGenPageData['online_source2']]
-        FILE_PATHS = [firstDraftGenPageData['file_path1'],firstDraftGenPageData['file_path2']]
+        TOPIC = self.topic
+        TONE = self.tone
+        READING_LEVEL = self.reading_level
+        ONLINE_SOURCES = [self.online_source1, self.online_source2]
+        FILE_PATHS = [self.file_path1, self.file_path2]
+
         # Enter All the details in the Curate Page and click on Next Button
-        self.fd.enterCurateFirstDraftGenDetails(topic= TOPIC,tone = TONE, reading_level = READING_LEVEL, online_sources = ONLINE_SOURCES, file_paths = FILE_PATHS)
-        self.logger.info("**** Entered All the details in the Curate Page and clicked on Next Button ****")
+        self.fd.enterCurateFirstDraftGenDetails(
+            topic=TOPIC, tone=TONE, reading_level=READING_LEVEL, online_sources=ONLINE_SOURCES, file_paths=FILE_PATHS)
+        self.logger.info(
+            "**** Entered All the details in the Curate Page and clicked on Next Button ****")
 
         # Check if added sources and given online sources are same or different in count
-        if ONLINE_SOURCES == []: 
+        if ONLINE_SOURCES == []:
             self.logger.info("**** No urls are added in online sources ****")
         elif len(ONLINE_SOURCES) == len(self.fd.getOnlineSourceAddedUrl()):
             self.logger.info(" **** Urls added and given urls are same ****")
             self.logger.info(len(self.fd.getOnlineSourceAddedUrl()))
             assert True
         else:
-            self.logger.error("*** added urls are different in number of online sources given ****")
+            self.logger.error(
+                "*** added urls are different in number of online sources given ****")
             self.logger.error(len(self.fd.getOnlineSourceAddedUrl()))
             assert False
 
@@ -526,14 +540,15 @@ class Test_CurateFirstDraftGenPage:
         # self.logger.info("**** Craft Page Loaded ****")
         # click next button
         self.fd.clickNext()
-        # wait for craft page to load 
+        # wait for craft page to load
         self.fd.waitForCraftFirstDraftGenPageToLoad()
 
         # Check if Craft Page url is correct or not
         actual_url = self.driver.current_url
         expected_url = self.baseURL + "inputContent/constructYourOutline"
         if actual_url == expected_url:
-            self.logger.info("**** Craft Page url is correct and craft page loaded ****")
+            self.logger.info(
+                "**** Craft Page url is correct and craft page loaded ****")
             assert True
         else:
             self.logger.error("**** Craft Page url is incorrect ****")
@@ -554,7 +569,8 @@ class Test_CurateFirstDraftGenPage:
         actual_url = self.driver.current_url
         expected_url = self.baseURL + "home"
         if actual_url == expected_url:
-            self.logger.info("**** Home Page url is correct and home page loaded ****")
+            self.logger.info(
+                "**** Home Page url is correct and home page loaded ****")
             assert True
         else:
             self.logger.error("**** Home Page url is incorrect ****")
@@ -575,7 +591,8 @@ class Test_CurateFirstDraftGenPage:
         actual_url = self.driver.current_url
         expected_url = self.baseURL + "repurpose"
         if actual_url == expected_url:
-            self.logger.info("**** Rephraser Page url is correct and Rephraser page loaded ****")
+            self.logger.info(
+                "**** Rephraser Page url is correct and Rephraser page loaded ****")
             assert True
         else:
             self.logger.error("**** Rephraser Page url is incorrect ****")
@@ -585,18 +602,20 @@ class Test_CurateFirstDraftGenPage:
 
     @pytest.mark.regression
     def test_CurateFirstDraftGenPage(self, setup):
-        self.logger.info("**** Started test_CurateFirstDraftGenPage Testing ****")
+        self.logger.info(
+            "**** Started test_CurateFirstDraftGenPage Testing ****")
         self.driver = setup
         self.fd = self.helper.openCurateFirstDraftGenPage(setup)
         # click on Curate tab
         self.fd.clickFirstDraftGenTab()
         # wait for Curate page to load
-        self.fd.waitForRephraserPageToLoad()
+        self.fd.waitForCuratePageToLoad()
         # Check if Curate Page url is correct or not
         actual_url = self.driver.current_url
         expected_url = self.baseURL + "inputContent"
         if actual_url == expected_url:
-            self.logger.info("**** Curate Page url is correct and Curate page loaded ****")
+            self.logger.info(
+                "**** Curate Page url is correct and Curate page loaded ****")
             assert True
         else:
             self.logger.error("**** Curate Page url is incorrect ****")
