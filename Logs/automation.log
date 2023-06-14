@@ -1,0 +1,1723 @@
+06/13/2023 12:32:36 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:32:37 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:32:38 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:32:38 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:32:38 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:32:39 PM: INFO: Number of rows = 8
+06/13/2023 12:32:41 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:32:45 PM: INFO: **** passed ****
+06/13/2023 12:32:45 PM: INFO: **** Home Page is Opened ****
+06/13/2023 12:32:55 PM: INFO: **** Error message is not displayed ****
+06/13/2023 12:32:55 PM: INFO: ['Pass']
+06/13/2023 12:35:21 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:35:22 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:35:24 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:35:24 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:35:24 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:35:24 PM: INFO: Number of rows = 8
+06/13/2023 12:35:24 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:35:26 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:35:30 PM: INFO: **** passed ****
+06/13/2023 12:35:30 PM: INFO: **** Home Page is Opened ****
+06/13/2023 12:35:40 PM: INFO: **** Error message is not displayed ****
+06/13/2023 12:35:40 PM: INFO: ['Pass']
+06/13/2023 12:36:19 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:36:20 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:36:21 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:36:22 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:36:22 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:36:22 PM: INFO: Number of rows = 8
+06/13/2023 12:36:22 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:36:24 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:36:28 PM: INFO: **** passed ****
+06/13/2023 12:36:28 PM: INFO: **** Home Page is Opened ****
+06/13/2023 12:36:38 PM: INFO: **** Error message is not displayed ****
+06/13/2023 12:36:38 PM: INFO: ['Pass']
+06/13/2023 12:38:29 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:38:30 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:38:31 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:38:32 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:38:32 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:38:32 PM: INFO: Number of rows = 8
+06/13/2023 12:38:32 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:38:34 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:38:38 PM: INFO: **** passed ****
+06/13/2023 12:38:38 PM: INFO: **** Home Page is Opened ****
+06/13/2023 12:38:48 PM: INFO: **** Error message is not displayed ****
+06/13/2023 12:38:48 PM: INFO: ['Pass']
+06/13/2023 12:38:50 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:40:40 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:40:41 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:40:43 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:40:43 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:40:43 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:40:43 PM: INFO: Number of rows = 8
+06/13/2023 12:40:43 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:40:45 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:40:49 PM: INFO: **** passed ****
+06/13/2023 12:40:49 PM: INFO: **** Home Page is Opened ****
+06/13/2023 12:40:59 PM: INFO: **** Error message is not displayed ****
+06/13/2023 12:40:59 PM: INFO: ['Pass']
+06/13/2023 12:41:00 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:42:32 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:42:33 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:42:34 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:42:35 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:42:35 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:42:35 PM: INFO: Number of rows = 8
+06/13/2023 12:42:35 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:42:38 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:44:09 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:44:10 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:44:11 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:44:12 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:44:12 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:44:12 PM: INFO: Number of rows = 8
+06/13/2023 12:44:12 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:44:15 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:44:28 PM: INFO: **** passed ****
+06/13/2023 12:44:28 PM: INFO: ['Pass']
+06/13/2023 12:44:29 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:44:42 PM: INFO: **** passed ****
+06/13/2023 12:44:42 PM: INFO: ['Pass', 'Pass']
+06/13/2023 12:44:43 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:44:55 PM: INFO: **** passed ****
+06/13/2023 12:44:55 PM: INFO: ['Pass', 'Pass', 'Pass']
+06/13/2023 12:44:57 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:46:32 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:46:33 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:46:35 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:46:35 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:46:35 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:46:35 PM: INFO: Number of rows = 8
+06/13/2023 12:46:35 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:46:38 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:46:52 PM: INFO: **** passed ****
+06/13/2023 12:46:52 PM: ERROR: **** Error message is not displayed for login failure ****
+06/13/2023 12:48:47 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:48:48 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:48:50 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:48:50 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:48:50 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:48:50 PM: INFO: Number of rows = 8
+06/13/2023 12:48:50 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:48:53 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:49:07 PM: INFO: **** passed ****
+06/13/2023 12:50:00 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:50:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:50:03 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:50:03 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:50:03 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:50:04 PM: INFO: Number of rows = 8
+06/13/2023 12:50:04 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:50:06 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:50:10 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/cfd7c0e30abf99fe57dbdf4a208a4fc6/url
+06/13/2023 12:50:14 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025DA704A510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfd7c0e30abf99fe57dbdf4a208a4fc6/url
+06/13/2023 12:50:18 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025DA7049710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfd7c0e30abf99fe57dbdf4a208a4fc6/url
+06/13/2023 12:50:30 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:50:31 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:50:33 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:50:33 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:50:33 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:50:33 PM: INFO: Number of rows = 8
+06/13/2023 12:50:33 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:50:35 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:50:48 PM: INFO: **** passed ****
+06/13/2023 12:50:49 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:50:49 PM: INFO: ['Pass']
+06/13/2023 12:50:49 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:51:03 PM: INFO: **** passed ****
+06/13/2023 12:51:03 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:51:03 PM: INFO: ['Pass', 'Pass']
+06/13/2023 12:51:05 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:51:17 PM: INFO: **** passed ****
+06/13/2023 12:51:17 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:51:17 PM: INFO: ['Pass', 'Pass', 'Pass']
+06/13/2023 12:51:19 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:52:45 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:52:46 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:52:48 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:52:48 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:52:48 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:52:48 PM: INFO: Number of rows = 8
+06/13/2023 12:52:48 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:52:50 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:53:03 PM: INFO: **** passed ****
+06/13/2023 12:53:03 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:53:03 PM: INFO: ['Pass']
+06/13/2023 12:53:04 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:53:16 PM: INFO: **** passed ****
+06/13/2023 12:53:16 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:53:16 PM: INFO: ['Pass', 'Pass']
+06/13/2023 12:53:18 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:53:30 PM: INFO: **** passed ****
+06/13/2023 12:53:30 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:53:30 PM: INFO: ['Pass', 'Pass', 'Pass']
+06/13/2023 12:53:31 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:54:51 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:54:52 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:54:53 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:54:53 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:54:53 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:54:53 PM: INFO: Number of rows = 8
+06/13/2023 12:54:53 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:54:55 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:55:08 PM: INFO: **** passed ****
+06/13/2023 12:55:08 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:55:08 PM: INFO: ['Pass']
+06/13/2023 12:55:09 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:55:21 PM: INFO: **** passed ****
+06/13/2023 12:55:21 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:55:21 PM: INFO: ['Pass', 'Pass']
+06/13/2023 12:55:23 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:55:34 PM: INFO: **** passed ****
+06/13/2023 12:55:34 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:55:34 PM: INFO: ['Pass', 'Pass', 'Pass']
+06/13/2023 12:55:36 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:58:33 PM: INFO: ====== WebDriver manager ======
+06/13/2023 12:58:34 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 12:58:35 PM: INFO: Launching default chrome browser.........
+06/13/2023 12:58:35 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 12:58:35 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 12:58:35 PM: INFO: Number of rows = 8
+06/13/2023 12:58:35 PM: INFO: Number of credentials login is verfied : 8
+06/13/2023 12:58:39 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:58:52 PM: INFO: **** passed ****
+06/13/2023 12:58:52 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:58:52 PM: INFO: ['Pass']
+06/13/2023 12:58:53 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:59:06 PM: INFO: **** passed ****
+06/13/2023 12:59:06 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:59:06 PM: INFO: ['Pass', 'Pass']
+06/13/2023 12:59:08 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:59:20 PM: INFO: **** passed ****
+06/13/2023 12:59:20 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:59:20 PM: INFO: ['Pass', 'Pass', 'Pass']
+06/13/2023 12:59:21 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:59:33 PM: INFO: **** passed ****
+06/13/2023 12:59:33 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:59:33 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 12:59:35 PM: INFO: **** Application URL is Opened ****
+06/13/2023 12:59:46 PM: INFO: **** passed ****
+06/13/2023 12:59:46 PM: INFO: **** Error message is displayed ****
+06/13/2023 12:59:46 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 12:59:47 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:00:00 PM: INFO: **** passed ****
+06/13/2023 01:00:00 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:00:00 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:00:01 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:00:03 PM: INFO: **** passed ****
+06/13/2023 01:00:03 PM: INFO: **** Home Page is Opened ****
+06/13/2023 01:00:13 PM: INFO: **** Error message is not displayed ****
+06/13/2023 01:00:13 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:00:13 PM: INFO: ******* DDT Login test passed **********
+06/13/2023 01:00:13 PM: INFO: ******* End of Login DDT Test **********
+06/13/2023 01:00:13 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
+06/13/2023 01:00:13 PM: INFO: ** Closing browser **
+06/13/2023 01:01:57 PM: INFO: ====== WebDriver manager ======
+06/13/2023 01:01:57 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 01:01:59 PM: INFO: Launching default chrome browser.........
+06/13/2023 01:01:59 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 01:01:59 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 01:01:59 PM: INFO: Number of rows = 8
+06/13/2023 01:01:59 PM: INFO: Number of credentials login is verfied : 7
+06/13/2023 01:02:00 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:02:14 PM: INFO: **** passed ****
+06/13/2023 01:02:14 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:02:14 PM: INFO: ['Pass']
+06/13/2023 01:02:14 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:02:27 PM: INFO: **** passed ****
+06/13/2023 01:02:27 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:02:27 PM: INFO: ['Pass', 'Pass']
+06/13/2023 01:02:28 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:02:40 PM: INFO: **** passed ****
+06/13/2023 01:02:40 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:02:40 PM: INFO: ['Pass', 'Pass', 'Pass']
+06/13/2023 01:02:41 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:02:53 PM: INFO: **** passed ****
+06/13/2023 01:02:53 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:02:53 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:02:54 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:03:06 PM: INFO: **** passed ****
+06/13/2023 01:03:06 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:03:06 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:03:06 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:03:19 PM: INFO: **** passed ****
+06/13/2023 01:03:19 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:03:19 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:03:19 PM: INFO: ******* DDT Login test passed **********
+06/13/2023 01:03:19 PM: INFO: ******* End of Login DDT Test **********
+06/13/2023 01:03:19 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
+06/13/2023 01:03:19 PM: INFO: ** Closing browser **
+06/13/2023 01:06:52 PM: INFO: ====== WebDriver manager ======
+06/13/2023 01:06:53 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 01:06:54 PM: INFO: Launching default chrome browser.........
+06/13/2023 01:06:54 PM: INFO: *************** Started Testing Home Page ***********
+06/13/2023 01:06:56 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:07:04 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 01:07:04 PM: INFO: ****Home Page test passed ****
+06/13/2023 01:07:04 PM: INFO: ****Home Page Open ****
+06/13/2023 01:07:04 PM: INFO: ====== WebDriver manager ======
+06/13/2023 01:07:05 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 01:07:06 PM: INFO: Launching default chrome browser.........
+06/13/2023 01:07:06 PM: INFO: ****Started Click First Draft Gen Test****
+06/13/2023 01:07:08 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:07:16 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 01:07:16 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 01:07:16 PM: INFO: ****Click First Draft Gen test passed ****
+06/13/2023 01:07:16 PM: INFO: **** First Draft Gen Page Open ****
+06/13/2023 01:07:16 PM: INFO: ====== WebDriver manager ======
+06/13/2023 01:07:16 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 01:07:18 PM: INFO: Launching default chrome browser.........
+06/13/2023 01:07:18 PM: INFO: ****Started Click Rephraser Test****
+06/13/2023 01:07:21 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:07:29 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 01:07:29 PM: INFO: **** Clicked Rephraser Button In Home Page ****
+06/13/2023 01:07:29 PM: INFO: ****Click Rephraser test passed ****
+06/13/2023 01:07:29 PM: INFO: **** Rephraser Page Open ****
+06/13/2023 01:09:05 PM: INFO: ====== WebDriver manager ======
+06/13/2023 01:09:05 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 01:09:07 PM: INFO: Launching default chrome browser.........
+06/13/2023 01:09:07 PM: INFO: *************** Started Testing Home Page ***********
+06/13/2023 01:09:08 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:09:16 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 01:09:16 PM: INFO: ****Home Page test passed ****
+06/13/2023 01:09:16 PM: INFO: ****Home Page Open ****
+06/13/2023 01:09:16 PM: INFO: ====== WebDriver manager ======
+06/13/2023 01:09:17 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 01:09:18 PM: INFO: Launching default chrome browser.........
+06/13/2023 01:09:18 PM: INFO: ****Started Click First Draft Gen Test****
+06/13/2023 01:09:29 PM: INFO: ====== WebDriver manager ======
+06/13/2023 01:09:30 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 01:09:31 PM: INFO: Launching default chrome browser.........
+06/13/2023 01:09:31 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 01:09:31 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 01:09:31 PM: INFO: Number of rows = 8
+06/13/2023 01:09:31 PM: INFO: Number of credentials login is verfied : 7
+06/13/2023 01:09:33 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:09:47 PM: INFO: **** passed ****
+06/13/2023 01:09:47 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:09:47 PM: INFO: ['Pass']
+06/13/2023 01:09:47 PM: INFO: ******* DDT Login test passed **********
+06/13/2023 01:09:47 PM: INFO: ******* End of Login DDT Test **********
+06/13/2023 01:09:47 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
+06/13/2023 01:11:00 PM: INFO: ====== WebDriver manager ======
+06/13/2023 01:11:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 01:11:02 PM: INFO: Launching default chrome browser.........
+06/13/2023 01:11:02 PM: INFO: ******* Starting Test_002_DDT_Login Test **********
+06/13/2023 01:11:02 PM: INFO: ******* Starting Login DDT Test **********
+06/13/2023 01:11:02 PM: INFO: Number of rows = 8
+06/13/2023 01:11:02 PM: INFO: Number of credentials login is verfied : 7
+06/13/2023 01:11:04 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:11:18 PM: INFO: **** passed ****
+06/13/2023 01:11:18 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:11:18 PM: INFO: ['Pass']
+06/13/2023 01:11:18 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:11:31 PM: INFO: **** passed ****
+06/13/2023 01:11:31 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:11:31 PM: INFO: ['Pass', 'Pass']
+06/13/2023 01:11:33 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:11:44 PM: INFO: **** passed ****
+06/13/2023 01:11:44 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:11:44 PM: INFO: ['Pass', 'Pass', 'Pass']
+06/13/2023 01:11:46 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:11:58 PM: INFO: **** passed ****
+06/13/2023 01:11:58 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:11:58 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:11:59 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:12:11 PM: INFO: **** passed ****
+06/13/2023 01:12:11 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:12:11 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:12:11 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:12:24 PM: INFO: **** passed ****
+06/13/2023 01:12:24 PM: INFO: **** Error message is displayed ****
+06/13/2023 01:12:24 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:12:26 PM: INFO: **** Application URL is Opened ****
+06/13/2023 01:12:27 PM: INFO: **** passed ****
+06/13/2023 01:12:27 PM: INFO: **** Home Page is Opened ****
+06/13/2023 01:12:37 PM: INFO: **** Error message is not displayed ****
+06/13/2023 01:12:37 PM: INFO: ['Pass', 'Pass', 'Pass', 'Pass', 'Pass', 'Pass', 'Pass']
+06/13/2023 01:12:37 PM: INFO: ******* DDT Login test passed **********
+06/13/2023 01:12:37 PM: INFO: ******* End of Login DDT Test **********
+06/13/2023 01:12:37 PM: INFO: **************** Completed  TC_LoginDDT_002 ************* 
+06/13/2023 02:09:59 PM: INFO: *************** Test_001_Login *****************
+06/13/2023 02:09:59 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:10:00 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:10:02 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:10:03 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:10:05 PM: INFO: ****Started Login Page Title test ****
+06/13/2023 02:10:05 PM: INFO: **** Login Page Title test passed ****
+06/13/2023 02:10:05 PM: INFO: ****Login Header Test ****
+06/13/2023 02:10:05 PM: INFO: ****Login Header Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Email Label Test ****
+06/13/2023 02:10:05 PM: INFO: ****Email Label Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Password Label Test ****
+06/13/2023 02:10:05 PM: INFO: ****Password Label Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Forgot Password Link Text Test ****
+06/13/2023 02:10:05 PM: INFO: ****Forgot Password Link Text Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Login Button Text Test ****
+06/13/2023 02:10:05 PM: INFO: ****Login Button Text Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****New User Text Test ****
+06/13/2023 02:10:05 PM: INFO: ****New User Text Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Register Link Text Test ****
+06/13/2023 02:10:05 PM: INFO: ****Register Link Text Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Grafi Logo Display Test ****
+06/13/2023 02:10:05 PM: INFO: ****Grafi Logo Display Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Grafi Logo Text Test ****
+06/13/2023 02:10:05 PM: INFO: ****Grafi Logo Text Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Email Text Box Placeholder Test ****
+06/13/2023 02:10:05 PM: INFO: ****Email Text Box Placeholder Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Password Text Box Placeholder Test ****
+06/13/2023 02:10:05 PM: INFO: ****Password Text Box Placeholder Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Login Button Enabled Test ****
+06/13/2023 02:10:05 PM: INFO: ****Login Button Enabled Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ****Login Button Displayed Test ****
+06/13/2023 02:10:05 PM: INFO: ****Login Button Displayed Test Passed ****
+06/13/2023 02:10:05 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:10:06 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:10:08 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:10:08 PM: INFO: ****Test Forgot Password Link Functionality ****
+06/13/2023 02:10:09 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:10:13 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:10:13 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:10:15 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:10:15 PM: INFO: ****Test Registration Link Functionality ****
+06/13/2023 02:10:17 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:10:21 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:10:22 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:10:23 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:10:23 PM: INFO: ****Test Login Functionality ****
+06/13/2023 02:10:26 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:10:53 PM: INFO: *************** Test_001_Login *****************
+06/13/2023 02:10:53 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:10:54 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:10:55 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:10:58 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:11:00 PM: INFO: ****Started Login Page Title test ****
+06/13/2023 02:11:00 PM: INFO: **** Login Page Title test passed ****
+06/13/2023 02:11:00 PM: INFO: ****Login Header Test ****
+06/13/2023 02:11:00 PM: INFO: ****Login Header Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Email Label Test ****
+06/13/2023 02:11:00 PM: INFO: ****Email Label Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Password Label Test ****
+06/13/2023 02:11:00 PM: INFO: ****Password Label Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Forgot Password Link Text Test ****
+06/13/2023 02:11:00 PM: INFO: ****Forgot Password Link Text Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Login Button Text Test ****
+06/13/2023 02:11:00 PM: INFO: ****Login Button Text Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****New User Text Test ****
+06/13/2023 02:11:00 PM: INFO: ****New User Text Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Register Link Text Test ****
+06/13/2023 02:11:00 PM: INFO: ****Register Link Text Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Grafi Logo Display Test ****
+06/13/2023 02:11:00 PM: INFO: ****Grafi Logo Display Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Grafi Logo Text Test ****
+06/13/2023 02:11:00 PM: INFO: ****Grafi Logo Text Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Email Text Box Placeholder Test ****
+06/13/2023 02:11:00 PM: INFO: ****Email Text Box Placeholder Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Password Text Box Placeholder Test ****
+06/13/2023 02:11:00 PM: INFO: ****Password Text Box Placeholder Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Login Button Enabled Test ****
+06/13/2023 02:11:00 PM: INFO: ****Login Button Enabled Test Passed ****
+06/13/2023 02:11:00 PM: INFO: ****Login Button Displayed Test ****
+06/13/2023 02:11:00 PM: INFO: ****Login Button Displayed Test Passed ****
+06/13/2023 02:11:01 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:11:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:11:02 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:11:02 PM: INFO: ****Test Forgot Password Link Functionality ****
+06/13/2023 02:11:05 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:11:07 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:11:08 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:11:09 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:11:09 PM: INFO: ****Test Registration Link Functionality ****
+06/13/2023 02:11:12 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:11:16 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:11:17 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:11:18 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:11:19 PM: INFO: ****Test Login Functionality ****
+06/13/2023 02:11:21 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:12:00 PM: INFO: *************** Test_001_Login *****************
+06/13/2023 02:12:00 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:12:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:12:02 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:12:05 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:12:07 PM: INFO: ****Started Login Page Title test ****
+06/13/2023 02:12:07 PM: INFO: **** Login Page Title test passed ****
+06/13/2023 02:12:07 PM: INFO: ****Login Header Test ****
+06/13/2023 02:12:07 PM: INFO: ****Login Header Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Email Label Test ****
+06/13/2023 02:12:07 PM: INFO: ****Email Label Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Password Label Test ****
+06/13/2023 02:12:07 PM: INFO: ****Password Label Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Forgot Password Link Text Test ****
+06/13/2023 02:12:07 PM: INFO: ****Forgot Password Link Text Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Login Button Text Test ****
+06/13/2023 02:12:07 PM: INFO: ****Login Button Text Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****New User Text Test ****
+06/13/2023 02:12:07 PM: INFO: ****New User Text Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Register Link Text Test ****
+06/13/2023 02:12:07 PM: INFO: ****Register Link Text Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Grafi Logo Display Test ****
+06/13/2023 02:12:07 PM: INFO: ****Grafi Logo Display Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Grafi Logo Text Test ****
+06/13/2023 02:12:07 PM: INFO: ****Grafi Logo Text Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Email Text Box Placeholder Test ****
+06/13/2023 02:12:07 PM: INFO: ****Email Text Box Placeholder Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Password Text Box Placeholder Test ****
+06/13/2023 02:12:07 PM: INFO: ****Password Text Box Placeholder Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Login Button Enabled Test ****
+06/13/2023 02:12:07 PM: INFO: ****Login Button Enabled Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ****Login Button Displayed Test ****
+06/13/2023 02:12:07 PM: INFO: ****Login Button Displayed Test Passed ****
+06/13/2023 02:12:07 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:12:07 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:12:09 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:12:09 PM: INFO: ****Test Forgot Password Link Functionality ****
+06/13/2023 02:12:10 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:12:14 PM: INFO: ****Forgot Password Page is opened****
+06/13/2023 02:12:14 PM: INFO: ****Forgot Password Link Functionality Passed ****
+06/13/2023 02:12:14 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:12:14 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:12:15 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:12:16 PM: INFO: ****Test Registration Link Functionality ****
+06/13/2023 02:12:18 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:12:22 PM: INFO: ****Registration Page is opened****
+06/13/2023 02:12:22 PM: INFO: ****Registration Link Functionality Passed ****
+06/13/2023 02:12:22 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:12:22 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:12:23 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:12:23 PM: INFO: ****Test Login Functionality ****
+06/13/2023 02:12:26 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:12:29 PM: INFO: ****Home Page is opened****
+06/13/2023 02:12:29 PM: INFO: ****Login test passed ****
+06/13/2023 02:13:16 PM: INFO: *************** Test_ProfileTab ***************
+06/13/2023 02:13:16 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:13:16 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:13:18 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:13:18 PM: INFO: *************** test_profileTabElements ***************
+06/13/2023 02:13:20 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:13:28 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:13:28 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:13:29 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:13:30 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:13:30 PM: INFO: *************** test_myAccountLink ***************
+06/13/2023 02:13:32 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:13:40 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:13:40 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:13:41 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:13:42 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:13:42 PM: INFO: *************** test_subscriptionLink ***************
+06/13/2023 02:13:45 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:13:53 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:13:53 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:13:54 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:13:55 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:13:55 PM: INFO: *************** test_signOutButton ***************
+06/13/2023 02:13:57 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:14:05 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:18:53 PM: INFO: *************** Test_ProfileTab ***************
+06/13/2023 02:18:53 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:18:53 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:18:55 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:18:55 PM: INFO: *************** test_profileTabElements ***************
+06/13/2023 02:18:58 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:19:05 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:19:05 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:19:05 PM: INFO: *************** Verify My Account link text ***************
+06/13/2023 02:19:05 PM: INFO: *************** My Account link text is correct ***************
+06/13/2023 02:19:05 PM: INFO: *************** Verify Subscription link text ***************
+06/13/2023 02:19:06 PM: INFO: *************** Subscription link text is correct ***************
+06/13/2023 02:19:06 PM: INFO: *************** Verify Sign Out button text ***************
+06/13/2023 02:19:06 PM: INFO: *************** Sign Out button text is correct ***************
+06/13/2023 02:19:06 PM: INFO: *************** Verify Sign Out button is enabled ***************
+06/13/2023 02:19:06 PM: INFO: *************** Sign Out button is enabled ***************
+06/13/2023 02:19:06 PM: INFO: *************** Verify Sign Out button is displayed ***************
+06/13/2023 02:19:06 PM: INFO: *************** Sign Out button is displayed ***************
+06/13/2023 02:19:06 PM: INFO: *************** Verify Profile title is displayed ***************
+06/13/2023 02:19:06 PM: INFO: *************** Profile title is displayed ***************
+06/13/2023 02:19:06 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:19:06 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:19:08 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:19:08 PM: INFO: *************** test_myAccountLink ***************
+06/13/2023 02:19:09 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:19:17 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:19:17 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:19:17 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:19:19 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:19:19 PM: INFO: *************** test_subscriptionLink ***************
+06/13/2023 02:19:21 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:19:29 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:19:29 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:19:30 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:19:31 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:19:31 PM: INFO: *************** test_signOutButton ***************
+06/13/2023 02:19:33 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:19:41 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:20:19 PM: INFO: *************** Test_ProfileTab ***************
+06/13/2023 02:20:19 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:20:20 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:20:21 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:20:21 PM: INFO: *************** test_profileTabElements ***************
+06/13/2023 02:20:23 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:20:30 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:20:30 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:20:30 PM: INFO: *************** Verify My Account link text ***************
+06/13/2023 02:20:30 PM: INFO: *************** My Account link text is correct ***************
+06/13/2023 02:20:30 PM: INFO: *************** Verify Subscription link text ***************
+06/13/2023 02:20:30 PM: INFO: *************** Subscription link text is correct ***************
+06/13/2023 02:20:30 PM: INFO: *************** Verify Sign Out button text ***************
+06/13/2023 02:20:30 PM: INFO: *************** Sign Out button text is correct ***************
+06/13/2023 02:20:30 PM: INFO: *************** Verify Sign Out button is enabled ***************
+06/13/2023 02:20:30 PM: INFO: *************** Sign Out button is enabled ***************
+06/13/2023 02:20:30 PM: INFO: *************** Verify Sign Out button is displayed ***************
+06/13/2023 02:20:30 PM: INFO: *************** Sign Out button is displayed ***************
+06/13/2023 02:20:30 PM: INFO: *************** Verify Profile title is displayed ***************
+06/13/2023 02:20:30 PM: INFO: *************** Profile title is displayed ***************
+06/13/2023 02:20:30 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:20:31 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:20:32 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:20:32 PM: INFO: *************** test_myAccountLink ***************
+06/13/2023 02:20:35 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:20:42 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:20:42 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:20:42 PM: INFO: *************** Click My Account ***************
+06/13/2023 02:20:42 PM: INFO: *************** My Account page loaded ***************
+06/13/2023 02:20:42 PM: INFO: *************** Verify My Account page URL ***************
+06/13/2023 02:20:42 PM: INFO: **** myAccount Page url is correct and myAccount page loaded ****
+06/13/2023 02:20:43 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:20:43 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:20:44 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:20:45 PM: INFO: *************** test_subscriptionLink ***************
+06/13/2023 02:20:47 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:20:54 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:20:54 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:20:55 PM: INFO: *************** Click Subscription ***************
+06/13/2023 02:20:55 PM: INFO: *************** Subscription page loaded ***************
+06/13/2023 02:20:55 PM: INFO: *************** Verify Subscription page URL ***************
+06/13/2023 02:20:55 PM: INFO: **** Subscription Page url is correct and Subscription page loaded ****
+06/13/2023 02:20:55 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:20:55 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:20:57 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:20:57 PM: INFO: *************** test_signOutButton ***************
+06/13/2023 02:20:59 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:21:07 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:21:07 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:21:42 PM: INFO: *************** Test_ProfileTab ***************
+06/13/2023 02:21:42 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:21:43 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:21:44 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:21:44 PM: INFO: *************** test_profileTabElements ***************
+06/13/2023 02:21:46 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:21:54 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:21:55 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:21:55 PM: INFO: *************** Verify My Account link text ***************
+06/13/2023 02:21:55 PM: INFO: *************** My Account link text is correct ***************
+06/13/2023 02:21:55 PM: INFO: *************** Verify Subscription link text ***************
+06/13/2023 02:21:55 PM: INFO: *************** Subscription link text is correct ***************
+06/13/2023 02:21:55 PM: INFO: *************** Verify Sign Out button text ***************
+06/13/2023 02:21:55 PM: INFO: *************** Sign Out button text is correct ***************
+06/13/2023 02:21:55 PM: INFO: *************** Verify Sign Out button is enabled ***************
+06/13/2023 02:21:55 PM: INFO: *************** Sign Out button is enabled ***************
+06/13/2023 02:21:55 PM: INFO: *************** Verify Sign Out button is displayed ***************
+06/13/2023 02:21:55 PM: INFO: *************** Sign Out button is displayed ***************
+06/13/2023 02:21:55 PM: INFO: *************** Verify Profile title is displayed ***************
+06/13/2023 02:21:55 PM: INFO: *************** Profile title is displayed ***************
+06/13/2023 02:21:55 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:21:55 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:21:57 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:21:57 PM: INFO: *************** test_myAccountLink ***************
+06/13/2023 02:21:59 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:22:07 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:22:07 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:22:07 PM: INFO: *************** Click My Account ***************
+06/13/2023 02:22:07 PM: INFO: *************** My Account page loaded ***************
+06/13/2023 02:22:07 PM: INFO: *************** Verify My Account page URL ***************
+06/13/2023 02:22:07 PM: INFO: **** myAccount Page url is correct and myAccount page loaded ****
+06/13/2023 02:22:07 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:22:08 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:22:09 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:22:09 PM: INFO: *************** test_subscriptionLink ***************
+06/13/2023 02:22:11 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:22:18 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:22:19 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:22:19 PM: INFO: *************** Click Subscription ***************
+06/13/2023 02:22:19 PM: INFO: *************** Subscription page loaded ***************
+06/13/2023 02:22:19 PM: INFO: *************** Verify Subscription page URL ***************
+06/13/2023 02:22:19 PM: INFO: **** Subscription Page url is correct and Subscription page loaded ****
+06/13/2023 02:22:19 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:22:20 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:22:21 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:22:21 PM: INFO: *************** test_signOutButton ***************
+06/13/2023 02:22:23 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:22:31 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:22:31 PM: INFO: *************** Click Profile dropdown ***************
+06/13/2023 02:22:33 PM: INFO: *************** Click Sign Out button ***************
+06/13/2023 02:22:33 PM: INFO: *************** Login In page loaded ***************
+06/13/2023 02:22:33 PM: INFO: *************** Verify Login In page URL ***************
+06/13/2023 02:22:33 PM: INFO: **** Login In Page url is correct and Login In page loaded ****
+06/13/2023 02:23:18 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:23:19 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:23:20 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:23:20 PM: INFO: *************** Started Testing Home Page ***********
+06/13/2023 02:23:22 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:23:29 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:23:29 PM: INFO: ****Home Page test passed ****
+06/13/2023 02:23:29 PM: INFO: ****Home Page Open ****
+06/13/2023 02:23:30 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:23:30 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:23:31 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:23:32 PM: INFO: ****Started Click First Draft Gen Test****
+06/13/2023 02:23:33 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:23:41 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:23:41 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:23:41 PM: INFO: ****Click First Draft Gen test passed ****
+06/13/2023 02:23:41 PM: INFO: **** First Draft Gen Page Open ****
+06/13/2023 02:23:41 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:23:42 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:23:43 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:23:43 PM: INFO: ****Started Click Rephraser Test****
+06/13/2023 02:23:45 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:23:53 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:23:53 PM: INFO: **** Clicked Rephraser Button In Home Page ****
+06/13/2023 02:23:53 PM: INFO: ****Click Rephraser test passed ****
+06/13/2023 02:23:53 PM: INFO: **** Rephraser Page Open ****
+06/13/2023 02:29:21 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:29:21 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:29:21 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:29:23 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:29:23 PM: INFO: **** Started test_CurateFirstDraftGenPage Testing ****
+06/13/2023 02:29:25 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:29:33 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:29:33 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:29:33 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:29:38 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:29:38 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:30:08 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:30:09 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:30:10 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:30:10 PM: INFO: **** Started Test_CuratePageElements Functionality ****
+06/13/2023 02:30:12 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:30:20 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:30:20 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:30:20 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:30:25 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:30:25 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:30:25 PM: INFO: **** Entered Topic ****
+06/13/2023 02:30:25 PM: INFO: **** Tone Drop Down is Enabled ****
+06/13/2023 02:30:25 PM: INFO: **** Clicked Tone Drop Down ****
+06/13/2023 02:30:25 PM: INFO: **** Tone Drop Down Options are ****
+06/13/2023 02:30:25 PM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+06/13/2023 02:30:25 PM: INFO: **** Tone Drop Down Options are correct ****
+06/13/2023 02:30:25 PM: INFO: **** Selected Tone ****
+06/13/2023 02:30:25 PM: INFO: **** Reading Level Drop Down is Enabled ****
+06/13/2023 02:30:26 PM: INFO: **** Clicked Reading Level Drop Down ****
+06/13/2023 02:30:26 PM: INFO: **** Reading Level Drop Down Options are ****
+06/13/2023 02:30:26 PM: INFO: ['middleschool', 'highschool', 'postgraduate']
+06/13/2023 02:30:26 PM: INFO: **** Reading Level Drop Down Options are correct ****
+06/13/2023 02:30:26 PM: INFO: **** Online Sources Text Box is Enabled ****
+06/13/2023 02:30:26 PM: INFO: **** Add URL Button is Disabled ****
+06/13/2023 02:30:28 PM: INFO: **** Entered URL ****
+06/13/2023 02:30:28 PM: INFO: **** Add URL Button is Enabled ****
+06/13/2023 02:30:28 PM: INFO: **** Drag and Drop is Enabled ****
+06/13/2023 02:30:28 PM: INFO: **** Browse File Button is Enabled ****
+06/13/2023 02:30:28 PM: INFO: **** Next Button is Enabled ****
+06/13/2023 02:30:28 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:30:28 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:30:30 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:30:30 PM: INFO: **** Started Test_CuratePageNextButton Functionality ****
+06/13/2023 02:30:33 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:30:40 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:30:40 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:30:40 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:30:46 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:30:46 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:31:00 PM: INFO: **** Entered All the details in the Curate Page and clicked on Next Button ****
+06/13/2023 02:31:00 PM: INFO:  **** Urls added and given urls are same ****
+06/13/2023 02:31:00 PM: INFO: 2
+06/13/2023 02:31:18 PM: INFO: **** Craft Page url is correct and craft page loaded ****
+06/13/2023 02:31:18 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:31:19 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:31:20 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:31:20 PM: INFO: **** Started Test_CurateHomeTab Functionality ****
+06/13/2023 02:31:23 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:31:30 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:31:30 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:31:30 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:31:35 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:31:35 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:31:36 PM: INFO: **** Home Page url is correct and home page loaded ****
+06/13/2023 02:31:36 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:31:36 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:31:38 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:31:38 PM: INFO: **** Started CurateRephraserTab Testing ****
+06/13/2023 02:31:40 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:31:48 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:31:48 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:31:48 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:31:53 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:31:53 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:31:53 PM: INFO: **** Rephraser Page url is correct and Rephraser page loaded ****
+06/13/2023 02:33:14 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:33:14 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:33:14 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:33:16 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:33:16 PM: INFO: **** Started test_CurateFirstDraftGenPage Testing ****
+06/13/2023 02:33:18 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:33:25 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:33:25 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:33:25 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:33:30 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:33:30 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:34:01 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:34:02 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:34:03 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:34:03 PM: INFO: **** Started Test_CuratePageElements Functionality ****
+06/13/2023 02:34:04 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:34:12 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:34:12 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:34:12 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:34:17 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:34:17 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:34:18 PM: INFO: **** Entered Topic ****
+06/13/2023 02:34:18 PM: INFO: **** Tone Drop Down is Enabled ****
+06/13/2023 02:34:18 PM: INFO: **** Clicked Tone Drop Down ****
+06/13/2023 02:34:18 PM: INFO: **** Tone Drop Down Options are ****
+06/13/2023 02:34:18 PM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+06/13/2023 02:34:18 PM: INFO: **** Tone Drop Down Options are correct ****
+06/13/2023 02:34:18 PM: INFO: **** Selected Tone ****
+06/13/2023 02:34:18 PM: INFO: **** Reading Level Drop Down is Enabled ****
+06/13/2023 02:34:18 PM: INFO: **** Clicked Reading Level Drop Down ****
+06/13/2023 02:34:18 PM: INFO: **** Reading Level Drop Down Options are ****
+06/13/2023 02:34:18 PM: INFO: ['middleschool', 'highschool', 'postgraduate']
+06/13/2023 02:34:18 PM: INFO: **** Reading Level Drop Down Options are correct ****
+06/13/2023 02:34:18 PM: INFO: **** Online Sources Text Box is Enabled ****
+06/13/2023 02:34:18 PM: INFO: **** Add URL Button is Disabled ****
+06/13/2023 02:35:11 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:35:37 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:36:28 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:36:46 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:36:54 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:37:55 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:37:55 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:37:56 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:37:57 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:37:57 PM: INFO: **** Started test_CurateFirstDraftGenPage Testing ****
+06/13/2023 02:37:59 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:38:06 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:38:06 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:38:06 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:38:12 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:38:12 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:38:42 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:38:43 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:38:44 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:38:44 PM: INFO: **** Started Test_CuratePageElements Functionality ****
+06/13/2023 02:38:45 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:38:53 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:38:53 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:38:53 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:38:58 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:38:58 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:38:59 PM: INFO: **** Entered Topic ****
+06/13/2023 02:38:59 PM: INFO: **** Tone Drop Down is Enabled ****
+06/13/2023 02:38:59 PM: INFO: **** Clicked Tone Drop Down ****
+06/13/2023 02:38:59 PM: INFO: **** Tone Drop Down Options are ****
+06/13/2023 02:38:59 PM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+06/13/2023 02:38:59 PM: INFO: **** Tone Drop Down Options are correct ****
+06/13/2023 02:38:59 PM: INFO: **** Selected Tone ****
+06/13/2023 02:38:59 PM: INFO: **** Reading Level Drop Down is Enabled ****
+06/13/2023 02:38:59 PM: INFO: **** Clicked Reading Level Drop Down ****
+06/13/2023 02:38:59 PM: INFO: **** Reading Level Drop Down Options are ****
+06/13/2023 02:38:59 PM: INFO: ['middleschool', 'highschool', 'postgraduate']
+06/13/2023 02:38:59 PM: INFO: **** Reading Level Drop Down Options are correct ****
+06/13/2023 02:38:59 PM: INFO: **** Online Sources Text Box is Enabled ****
+06/13/2023 02:38:59 PM: INFO: **** Add URL Button is Disabled ****
+06/13/2023 02:39:01 PM: INFO: **** Entered URL ****
+06/13/2023 02:39:01 PM: INFO: **** Add URL Button is Enabled ****
+06/13/2023 02:39:01 PM: INFO: **** Drag and Drop is Enabled ****
+06/13/2023 02:39:01 PM: INFO: **** Browse File Button is Enabled ****
+06/13/2023 02:39:01 PM: INFO: **** Next Button is Enabled ****
+06/13/2023 02:39:01 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:39:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:39:03 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:39:03 PM: INFO: **** Started Test_CuratePageNextButton Functionality ****
+06/13/2023 02:39:04 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:41:08 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:41:08 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:41:08 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:41:09 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:41:09 PM: INFO: **** Started test_CurateFirstDraftGenPage Testing ****
+06/13/2023 02:41:12 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:41:19 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:41:19 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:41:19 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:41:25 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:41:25 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:41:55 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:41:56 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:41:57 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:41:57 PM: INFO: **** Started Test_CuratePageElements Functionality ****
+06/13/2023 02:41:59 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:42:07 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:42:07 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:42:07 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:43:10 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:43:10 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:43:11 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:43:12 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:43:12 PM: INFO: **** Started test_CurateFirstDraftGenPage Testing ****
+06/13/2023 02:43:14 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:43:22 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:43:22 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:43:22 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:43:27 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:43:27 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:43:57 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:43:58 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:43:59 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:43:59 PM: INFO: **** Started Test_CuratePageElements Functionality ****
+06/13/2023 02:44:01 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:44:09 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:44:09 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:44:09 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:44:14 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:44:14 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:44:14 PM: INFO: **** Entered Topic ****
+06/13/2023 02:44:14 PM: INFO: **** Tone Drop Down is Enabled ****
+06/13/2023 02:44:14 PM: INFO: **** Clicked Tone Drop Down ****
+06/13/2023 02:44:14 PM: INFO: **** Tone Drop Down Options are ****
+06/13/2023 02:44:14 PM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+06/13/2023 02:44:14 PM: INFO: **** Tone Drop Down Options are correct ****
+06/13/2023 02:44:14 PM: INFO: **** Selected Tone ****
+06/13/2023 02:44:14 PM: INFO: **** Reading Level Drop Down is Enabled ****
+06/13/2023 02:44:15 PM: INFO: **** Clicked Reading Level Drop Down ****
+06/13/2023 02:44:15 PM: INFO: **** Reading Level Drop Down Options are ****
+06/13/2023 02:44:15 PM: INFO: ['middleschool', 'highschool', 'postgraduate']
+06/13/2023 02:44:15 PM: INFO: **** Reading Level Drop Down Options are correct ****
+06/13/2023 02:44:15 PM: INFO: **** Online Sources Text Box is Enabled ****
+06/13/2023 02:44:15 PM: INFO: **** Add URL Button is Disabled ****
+06/13/2023 02:44:17 PM: INFO: **** Entered URL ****
+06/13/2023 02:44:17 PM: INFO: **** Add URL Button is Enabled ****
+06/13/2023 02:44:17 PM: INFO: **** Drag and Drop is Enabled ****
+06/13/2023 02:44:17 PM: INFO: **** Browse File Button is Enabled ****
+06/13/2023 02:44:17 PM: INFO: **** Next Button is Enabled ****
+06/13/2023 02:44:17 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:44:17 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:44:19 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:44:19 PM: INFO: **** Started Test_CuratePageNextButton Functionality ****
+06/13/2023 02:47:17 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:47:17 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:47:17 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:47:18 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:47:19 PM: INFO: **** Started test_CurateFirstDraftGenPage Testing ****
+06/13/2023 02:47:21 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:47:29 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:47:29 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:47:29 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:47:34 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:47:34 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:47:34 PM: INFO: **** Curate Page url is correct and Curate page loaded ****
+06/13/2023 02:47:34 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:47:35 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:47:36 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:47:36 PM: INFO: **** Started Test_CuratePageElements Functionality ****
+06/13/2023 02:47:38 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:47:46 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:47:46 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:47:46 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:47:51 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:47:51 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:47:51 PM: INFO: **** Entered Topic ****
+06/13/2023 02:47:51 PM: INFO: **** Tone Drop Down is Enabled ****
+06/13/2023 02:47:51 PM: INFO: **** Clicked Tone Drop Down ****
+06/13/2023 02:47:51 PM: INFO: **** Tone Drop Down Options are ****
+06/13/2023 02:47:51 PM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+06/13/2023 02:47:51 PM: INFO: **** Tone Drop Down Options are correct ****
+06/13/2023 02:47:52 PM: INFO: **** Selected Tone ****
+06/13/2023 02:47:52 PM: INFO: **** Reading Level Drop Down is Enabled ****
+06/13/2023 02:47:52 PM: INFO: **** Clicked Reading Level Drop Down ****
+06/13/2023 02:47:52 PM: INFO: **** Reading Level Drop Down Options are ****
+06/13/2023 02:47:52 PM: INFO: ['middleschool', 'highschool', 'postgraduate']
+06/13/2023 02:47:52 PM: INFO: **** Reading Level Drop Down Options are correct ****
+06/13/2023 02:47:52 PM: INFO: **** Online Sources Text Box is Enabled ****
+06/13/2023 02:47:52 PM: INFO: **** Add URL Button is Disabled ****
+06/13/2023 02:47:54 PM: INFO: **** Entered URL ****
+06/13/2023 02:47:54 PM: INFO: **** Add URL Button is Enabled ****
+06/13/2023 02:47:54 PM: INFO: **** Drag and Drop is Enabled ****
+06/13/2023 02:47:54 PM: INFO: **** Browse File Button is Enabled ****
+06/13/2023 02:47:54 PM: INFO: **** Next Button is Enabled ****
+06/13/2023 02:47:54 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:47:54 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:47:56 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:47:56 PM: INFO: **** Started Test_CuratePageNextButton Functionality ****
+06/13/2023 02:47:57 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:48:06 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:48:06 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:48:06 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:48:11 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:48:11 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:48:25 PM: INFO: **** Entered All the details in the Curate Page and clicked on Next Button ****
+06/13/2023 02:48:25 PM: INFO:  **** Urls added and given urls are same ****
+06/13/2023 02:48:25 PM: INFO: 2
+06/13/2023 02:48:40 PM: INFO: **** Craft Page url is correct and craft page loaded ****
+06/13/2023 02:48:40 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:48:41 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:48:42 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:48:42 PM: INFO: **** Started Test_CurateHomeTab Functionality ****
+06/13/2023 02:48:44 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:48:52 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:48:52 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:48:52 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:48:57 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:48:57 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:48:57 PM: INFO: **** Home Page url is correct and home page loaded ****
+06/13/2023 02:48:57 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:48:58 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:48:59 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:48:59 PM: INFO: **** Started CurateRephraserTab Testing ****
+06/13/2023 02:49:01 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:49:09 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:49:09 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:49:09 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:49:14 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:49:14 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:49:14 PM: INFO: **** Rephraser Page url is correct and Rephraser page loaded ****
+06/13/2023 02:58:17 PM: INFO: *************** Test_CurateFirstDraftGenPage ***************
+06/13/2023 02:58:17 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:58:17 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:58:19 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:58:19 PM: INFO: **** Started test_CurateFirstDraftGenPage Testing ****
+06/13/2023 02:58:20 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:58:28 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:58:28 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:58:28 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:58:34 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:58:34 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:58:34 PM: INFO: **** Curate Page url is correct and Curate page loaded ****
+06/13/2023 02:58:34 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:58:34 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:58:35 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:58:36 PM: INFO: **** Started Test_CuratePageElements Functionality ****
+06/13/2023 02:58:37 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:58:45 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:58:45 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:58:45 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:58:50 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:58:50 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:58:51 PM: INFO: **** Entered Topic ****
+06/13/2023 02:58:51 PM: INFO: **** Tone Drop Down is Enabled ****
+06/13/2023 02:58:51 PM: INFO: **** Clicked Tone Drop Down ****
+06/13/2023 02:58:51 PM: INFO: **** Tone Drop Down Options are ****
+06/13/2023 02:58:51 PM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+06/13/2023 02:58:51 PM: INFO: **** Tone Drop Down Options are correct ****
+06/13/2023 02:58:51 PM: INFO: **** Selected Tone ****
+06/13/2023 02:58:51 PM: INFO: **** Reading Level Drop Down is Enabled ****
+06/13/2023 02:58:51 PM: INFO: **** Clicked Reading Level Drop Down ****
+06/13/2023 02:58:51 PM: INFO: **** Reading Level Drop Down Options are ****
+06/13/2023 02:58:51 PM: INFO: ['middleschool', 'highschool', 'postgraduate']
+06/13/2023 02:58:51 PM: INFO: **** Reading Level Drop Down Options are correct ****
+06/13/2023 02:58:51 PM: INFO: **** Online Sources Text Box is Enabled ****
+06/13/2023 02:58:51 PM: INFO: **** Add URL Button is Disabled ****
+06/13/2023 02:58:53 PM: INFO: **** Entered URL ****
+06/13/2023 02:58:53 PM: INFO: **** Add URL Button is Enabled ****
+06/13/2023 02:58:53 PM: INFO: **** Drag and Drop is Enabled ****
+06/13/2023 02:58:53 PM: INFO: **** Browse File Button is Enabled ****
+06/13/2023 02:58:53 PM: INFO: **** Next Button is Enabled ****
+06/13/2023 02:58:53 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:58:54 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:58:55 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:58:55 PM: INFO: **** Started Test_CuratePageNextButton Functionality ****
+06/13/2023 02:58:58 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:59:06 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:59:06 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:59:06 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 02:59:11 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 02:59:11 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 02:59:25 PM: INFO: **** Entered All the details in the Curate Page and clicked on Next Button ****
+06/13/2023 02:59:25 PM: INFO:  **** Urls added and given urls are same ****
+06/13/2023 02:59:25 PM: INFO: 2
+06/13/2023 02:59:44 PM: INFO: **** Craft Page url is correct and craft page loaded ****
+06/13/2023 02:59:44 PM: INFO: ====== WebDriver manager ======
+06/13/2023 02:59:44 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 02:59:46 PM: INFO: Launching default chrome browser.........
+06/13/2023 02:59:46 PM: INFO: **** Started Test_CurateHomeTab Functionality ****
+06/13/2023 02:59:48 PM: INFO: **** Application URL is Opened ****
+06/13/2023 02:59:56 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 02:59:56 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 02:59:56 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 03:00:01 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 03:00:01 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 03:00:01 PM: INFO: **** Home Page url is correct and home page loaded ****
+06/13/2023 03:00:01 PM: INFO: ====== WebDriver manager ======
+06/13/2023 03:00:02 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 03:00:03 PM: INFO: Launching default chrome browser.........
+06/13/2023 03:00:04 PM: INFO: **** Started CurateRephraserTab Testing ****
+06/13/2023 03:00:06 PM: INFO: **** Application URL is Opened ****
+06/13/2023 03:00:14 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 03:00:14 PM: INFO: **************** wait for 5 seconds ****************
+06/13/2023 03:00:14 PM: INFO: **** Clicked First Draft Gen Button In Home Page ****
+06/13/2023 03:00:20 PM: INFO: **************** clicked first draft gen  ****************
+06/13/2023 03:00:20 PM: INFO: **** First Draft Gen Page is Opened ****
+06/13/2023 03:00:20 PM: INFO: **** Rephraser Page url is correct and Rephraser page loaded ****
+06/13/2023 03:07:47 PM: INFO: **************** Test_004_RephraserPage *********************
+06/13/2023 03:07:47 PM: INFO: ====== WebDriver manager ======
+06/13/2023 03:07:48 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 03:07:49 PM: INFO: Launching default chrome browser.........
+06/13/2023 03:07:52 PM: INFO: **** Application URL is Opened ****
+06/13/2023 03:07:59 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 03:07:59 PM: INFO: **** Clicked Rephraser Button In Home Page ****
+06/13/2023 03:08:00 PM: INFO: **** Rephraser Page is Opened ****
+06/13/2023 03:08:00 PM: INFO: **** Logo is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** Home Tab Text is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** Home Tab is not Selected ****
+06/13/2023 03:08:00 PM: INFO: **** First Draft Generator Tab Text is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** First Draft Generator Tab is Selected ****
+06/13/2023 03:08:00 PM: INFO: **** Rephraser Tab Text is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** Rephraser Tab is Selected ****
+06/13/2023 03:08:00 PM: INFO: **** Header Text is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** URL Text is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** URL Text Box Placeholder is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** Tone Text is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** Reading Level Text is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** Submit Button Text is Displayed ****
+06/13/2023 03:08:00 PM: INFO: **** URL Text Box is Enabled ****
+06/13/2023 03:08:00 PM: INFO: **** Tone Drop Down is Disabled ****
+06/13/2023 03:08:00 PM: INFO: **** Reading Level Drop Down is Disabled ****
+06/13/2023 03:08:00 PM: INFO: **** Submit Button is Disabled ****
+06/13/2023 03:08:00 PM: INFO: ====== WebDriver manager ======
+06/13/2023 03:08:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 03:08:02 PM: INFO: Launching default chrome browser.........
+06/13/2023 03:08:02 PM: INFO: **** Test Rephraser Page Elements ****
+06/13/2023 03:08:05 PM: INFO: **** Application URL is Opened ****
+06/13/2023 03:08:13 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 03:08:13 PM: INFO: **** Clicked Rephraser Button In Home Page ****
+06/13/2023 03:08:13 PM: INFO: **** Rephraser Page is Opened ****
+06/13/2023 03:08:14 PM: INFO: **** Entered URL ****
+06/13/2023 03:08:14 PM: INFO: **** Tone Drop Down is Enabled ****
+06/13/2023 03:08:14 PM: INFO: **** Clicked Tone Drop Down ****
+06/13/2023 03:08:14 PM: INFO: **** Tone Drop Down Options are ****
+06/13/2023 03:08:14 PM: INFO: ['friendly', 'professional', 'conversational', 'neutral']
+06/13/2023 03:08:14 PM: INFO: **** Tone Drop Down Options are correct ****
+06/13/2023 03:08:14 PM: INFO: **** Selected Tone ****
+06/13/2023 03:08:14 PM: INFO: **** Reading Level Drop Down is Enabled ****
+06/13/2023 03:08:14 PM: INFO: **** Clicked Reading Level Drop Down ****
+06/13/2023 03:08:14 PM: INFO: **** Reading Level Drop Down Options are ****
+06/13/2023 03:08:14 PM: INFO: ['middleschool', 'highschool', 'postgraduate']
+06/13/2023 03:08:14 PM: INFO: **** Reading Level Drop Down Options are correct ****
+06/13/2023 03:08:14 PM: INFO: **** Submit Button is Enabled ****
+06/13/2023 03:08:14 PM: INFO: ====== WebDriver manager ======
+06/13/2023 03:08:15 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/13/2023 03:08:17 PM: INFO: Launching default chrome browser.........
+06/13/2023 03:08:17 PM: INFO: **** Started Test Submit Buttoni in Rephraser Page ****
+06/13/2023 03:08:19 PM: INFO: **** Application URL is Opened ****
+06/13/2023 03:08:27 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/13/2023 03:08:27 PM: INFO: **** Clicked Rephraser Button In Home Page ****
+06/13/2023 03:08:27 PM: INFO: **** Rephraser Page is Opened ****
+06/13/2023 03:08:28 PM: INFO: **** Entered All the details in the Rephraser Page and clicked on Submit Button ****
+06/13/2023 03:08:48 PM: INFO: **** Rephraser Result draft Page url is correct and page loaded ****
+06/14/2023 11:39:08 AM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 11:39:08 AM: INFO: ====== WebDriver manager ======
+06/14/2023 11:39:09 AM: INFO: Get LATEST chromedriver version for google-chrome
+06/14/2023 11:39:09 AM: INFO: About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+06/14/2023 11:39:10 AM: INFO: Driver has been saved in cache [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90]
+06/14/2023 11:39:12 AM: INFO: Launching default chrome browser.........
+06/14/2023 11:39:12 AM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 11:39:14 AM: INFO: **** Application URL is Opened ****
+06/14/2023 11:39:22 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 11:39:23 AM: INFO: ====== WebDriver manager ======
+06/14/2023 11:39:24 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 11:39:26 AM: INFO: Launching default chrome browser.........
+06/14/2023 11:39:26 AM: INFO: *************** Verifying Account Home Tab ***************
+06/14/2023 11:39:29 AM: INFO: **** Application URL is Opened ****
+06/14/2023 11:39:37 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 11:39:37 AM: INFO: ====== WebDriver manager ======
+06/14/2023 11:39:38 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 11:39:40 AM: INFO: Launching default chrome browser.........
+06/14/2023 11:39:40 AM: INFO: *************** Verifying Account First Draft Gen Tab ***************
+06/14/2023 11:39:43 AM: INFO: **** Application URL is Opened ****
+06/14/2023 11:39:51 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 11:39:51 AM: INFO: ====== WebDriver manager ======
+06/14/2023 11:39:52 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 11:39:54 AM: INFO: Launching default chrome browser.........
+06/14/2023 11:39:54 AM: INFO: *************** Verifying Account Rephraser Tab ***************
+06/14/2023 11:39:57 AM: INFO: **** Application URL is Opened ****
+06/14/2023 11:40:19 AM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 11:40:39 AM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 11:40:39 AM: INFO: ====== WebDriver manager ======
+06/14/2023 11:40:40 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 11:40:42 AM: INFO: Launching default chrome browser.........
+06/14/2023 11:40:42 AM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 11:40:44 AM: INFO: **** Application URL is Opened ****
+06/14/2023 11:40:52 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 11:45:32 AM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 11:45:32 AM: INFO: ====== WebDriver manager ======
+06/14/2023 11:45:33 AM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 11:45:35 AM: INFO: Launching default chrome browser.........
+06/14/2023 11:45:35 AM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 11:45:38 AM: INFO: **** Application URL is Opened ****
+06/14/2023 11:45:39 AM: INFO: **** Login Page is Opened ****
+06/14/2023 11:45:46 AM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 11:45:46 AM: INFO: **** Home Page is Opened ****
+06/14/2023 01:07:44 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:07:44 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:07:45 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:07:47 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:07:47 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:07:50 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:07:52 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:07:58 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:07:58 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:07:58 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:07:58 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:07:58 PM: INFO: ** checking logo **
+06/14/2023 01:07:58 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:07:58 PM: INFO: ** Checking User Name label **
+06/14/2023 01:07:58 PM: INFO: ** Checking First Name label **
+06/14/2023 01:07:58 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:07:58 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:07:58 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:11:07 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:11:07 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:11:07 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:11:08 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:11:09 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:11:10 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:11:13 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:11:19 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:11:19 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:11:19 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:11:19 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:11:19 PM: INFO: ** checking logo **
+06/14/2023 01:11:19 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:11:19 PM: INFO: ** Checking User Name label **
+06/14/2023 01:11:19 PM: INFO: ** Checking First Name label **
+06/14/2023 01:11:19 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:11:19 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:11:19 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:11:19 PM: INFO: ** Checking First Name textbox Value is displayed**
+06/14/2023 01:11:19 PM: INFO: ** Checking Last Name textbox Value is displayed**
+06/14/2023 01:11:19 PM: INFO: ** Checking Email Address textbox Value is displayed**
+06/14/2023 01:11:19 PM: INFO: ** Checking User Name textbox is disabled **
+06/14/2023 01:11:19 PM: INFO: ** Checking First Name textBox is disabled **
+06/14/2023 01:11:19 PM: INFO: ** Checking Last Name textbox is disabled **
+06/14/2023 01:11:19 PM: INFO: ** Checking Email Address textbox is disabled **
+06/14/2023 01:11:56 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:11:56 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:11:56 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:11:57 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:11:57 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:11:59 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:12:01 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:12:07 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:12:07 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:12:07 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:12:07 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:12:07 PM: INFO: ** checking logo **
+06/14/2023 01:12:07 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:12:07 PM: INFO: ** Checking User Name label **
+06/14/2023 01:12:07 PM: INFO: ** Checking First Name label **
+06/14/2023 01:12:07 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:12:07 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:12:07 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:12:07 PM: INFO: ** Checking First Name textbox Value is displayed**
+06/14/2023 01:12:07 PM: INFO: ** Checking Last Name textbox Value is displayed**
+06/14/2023 01:12:07 PM: INFO: ** Checking Email Address textbox Value is displayed**
+06/14/2023 01:12:07 PM: INFO: ** Checking User Name textbox is disabled **
+06/14/2023 01:12:07 PM: INFO: ** Checking First Name textBox is disabled **
+06/14/2023 01:12:07 PM: INFO: ** Checking Last Name textbox is disabled **
+06/14/2023 01:12:07 PM: INFO: ** Checking Email Address textbox is disabled **
+06/14/2023 01:12:07 PM: INFO: ** Checking My Account button text **
+06/14/2023 01:12:07 PM: INFO: ** Checking Subscription button text **
+06/14/2023 01:12:07 PM: INFO: ** Checking Personal Details dropdown is expanded **
+06/14/2023 01:20:02 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:20:02 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:20:03 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:20:04 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:20:04 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:20:06 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:20:08 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:20:14 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:20:14 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:20:14 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:20:14 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:20:14 PM: INFO: ** checking logo **
+06/14/2023 01:20:14 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:20:14 PM: INFO: ** Checking User Name label **
+06/14/2023 01:20:14 PM: INFO: ** Checking First Name label **
+06/14/2023 01:20:14 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:20:14 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:20:14 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:20:14 PM: INFO: ** Checking First Name textbox Value is displayed**
+06/14/2023 01:20:14 PM: INFO: ** Checking Last Name textbox Value is displayed**
+06/14/2023 01:20:14 PM: INFO: ** Checking Email Address textbox Value is displayed**
+06/14/2023 01:20:14 PM: INFO: ** Checking User Name textbox is disabled **
+06/14/2023 01:20:14 PM: INFO: ** Checking First Name textBox is disabled **
+06/14/2023 01:20:14 PM: INFO: ** Checking Last Name textbox is disabled **
+06/14/2023 01:20:14 PM: INFO: ** Checking Email Address textbox is disabled **
+06/14/2023 01:20:14 PM: INFO: ** Checking My Account button text **
+06/14/2023 01:20:14 PM: INFO: ** Checking Subscription button text **
+06/14/2023 01:20:14 PM: INFO: ** Checking Personal Details dropdown is expanded **
+06/14/2023 01:20:14 PM: INFO: ** Clicking Personal Details dropdown **
+06/14/2023 01:20:14 PM: INFO: ** Checking Personal Details dropdown is collapsed **
+06/14/2023 01:20:30 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:20:30 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:20:31 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:20:32 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:20:32 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:20:34 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:20:36 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:20:42 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:20:42 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:20:42 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:20:43 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:20:43 PM: INFO: ** checking logo **
+06/14/2023 01:20:43 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:20:43 PM: INFO: ** Checking User Name label **
+06/14/2023 01:20:43 PM: INFO: ** Checking First Name label **
+06/14/2023 01:20:43 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:20:43 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:20:43 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:20:43 PM: INFO: ** Checking First Name textbox Value is displayed**
+06/14/2023 01:20:43 PM: INFO: ** Checking Last Name textbox Value is displayed**
+06/14/2023 01:20:43 PM: INFO: ** Checking Email Address textbox Value is displayed**
+06/14/2023 01:20:43 PM: INFO: ** Checking User Name textbox is disabled **
+06/14/2023 01:20:43 PM: INFO: ** Checking First Name textBox is disabled **
+06/14/2023 01:20:43 PM: INFO: ** Checking Last Name textbox is disabled **
+06/14/2023 01:20:43 PM: INFO: ** Checking Email Address textbox is disabled **
+06/14/2023 01:20:43 PM: INFO: ** Checking My Account button text **
+06/14/2023 01:20:43 PM: INFO: ** Checking Subscription button text **
+06/14/2023 01:20:43 PM: INFO: ** Checking Personal Details dropdown is expanded **
+06/14/2023 01:20:43 PM: INFO: ** Clicking Personal Details dropdown **
+06/14/2023 01:20:43 PM: INFO: ** Checking Personal Details dropdown is collapsed **
+06/14/2023 01:20:43 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:20:44 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:20:45 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:20:45 PM: INFO: *************** Verifying Account Home Tab ***************
+06/14/2023 01:20:47 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:20:49 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:20:55 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:20:55 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:20:55 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:20:55 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:20:55 PM: INFO: ** Clicking on Home Tab **
+06/14/2023 01:20:55 PM: INFO: ** Checking if Home Tab is opened **
+06/14/2023 01:20:55 PM: INFO: **** Home Page url is correct and home page loaded ****
+06/14/2023 01:20:55 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:20:56 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:20:57 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:20:58 PM: INFO: *************** Verifying Account First Draft Gen Tab ***************
+06/14/2023 01:21:00 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:21:01 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:21:08 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:21:08 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:21:08 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:21:08 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:21:08 PM: INFO: ** Clicking on First Draft Gen Tab **
+06/14/2023 01:21:18 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:21:19 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:21:20 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:21:20 PM: INFO: *************** Verifying Account Rephraser Tab ***************
+06/14/2023 01:21:22 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:21:24 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:21:30 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:21:30 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:21:30 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:21:30 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:21:30 PM: INFO: ** Clicking on Rephraser Tab **
+06/14/2023 01:21:31 PM: INFO: ** Checking if Rephraser Tab is opened **
+06/14/2023 01:21:31 PM: INFO: **** Rephraser Page url is correct and Rephraser page loaded ****
+06/14/2023 01:21:31 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:21:31 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:21:33 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:21:33 PM: INFO: *************** Verifying My Account Button ***************
+06/14/2023 01:21:35 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:21:37 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:21:43 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:21:43 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:21:43 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:21:43 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:21:43 PM: INFO: ** Clicking on My Account Button **
+06/14/2023 01:21:43 PM: INFO: ** Checking if My Account Page is opened **
+06/14/2023 01:21:43 PM: INFO: **** My Account Page url is correct and My Account page loaded ****
+06/14/2023 01:21:43 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:21:44 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:21:45 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:21:45 PM: INFO: *************** Verifying Subscription Button ***************
+06/14/2023 01:21:48 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:21:49 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:21:55 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:21:55 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:21:55 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:21:56 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:21:56 PM: INFO: ** Clicking on Subscription Button **
+06/14/2023 01:21:56 PM: INFO: ** Checking if Subscription Page is opened **
+06/14/2023 01:21:56 PM: INFO: **** Subscription Page url is correct and Subscription page loaded ****
+06/14/2023 01:22:47 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:22:47 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:22:47 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:22:49 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:22:49 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:22:52 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:22:54 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:23:00 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:23:00 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:23:00 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:23:00 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:23:00 PM: INFO: ** checking logo **
+06/14/2023 01:23:00 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:23:00 PM: INFO: ** Checking User Name label **
+06/14/2023 01:23:00 PM: INFO: ** Checking First Name label **
+06/14/2023 01:23:00 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:23:00 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:23:00 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:23:00 PM: INFO: ** Checking First Name textbox Value is displayed**
+06/14/2023 01:23:00 PM: INFO: ** Checking Last Name textbox Value is displayed**
+06/14/2023 01:23:00 PM: INFO: ** Checking Email Address textbox Value is displayed**
+06/14/2023 01:23:00 PM: INFO: ** Checking User Name textbox is disabled **
+06/14/2023 01:23:00 PM: INFO: ** Checking First Name textBox is disabled **
+06/14/2023 01:23:00 PM: INFO: ** Checking Last Name textbox is disabled **
+06/14/2023 01:23:00 PM: INFO: ** Checking Email Address textbox is disabled **
+06/14/2023 01:23:00 PM: INFO: ** Checking My Account button text **
+06/14/2023 01:23:00 PM: INFO: ** Checking Subscription button text **
+06/14/2023 01:23:00 PM: INFO: ** Checking Personal Details dropdown is expanded **
+06/14/2023 01:23:00 PM: INFO: ** Clicking Personal Details dropdown **
+06/14/2023 01:23:00 PM: INFO: ** Checking Personal Details dropdown is collapsed **
+06/14/2023 01:23:00 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:23:01 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:23:02 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:23:03 PM: INFO: *************** Verifying Account Home Tab ***************
+06/14/2023 01:23:04 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:23:06 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:23:12 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:23:12 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:23:12 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:23:12 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:23:12 PM: INFO: ** Clicking on Home Tab **
+06/14/2023 01:23:12 PM: INFO: ** Checking if Home Tab is opened **
+06/14/2023 01:23:12 PM: INFO: **** Home Page url is correct and home page loaded ****
+06/14/2023 01:23:12 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:23:13 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:23:14 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:23:14 PM: INFO: *************** Verifying Account First Draft Gen Tab ***************
+06/14/2023 01:23:17 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:23:19 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:23:25 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:23:25 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:23:25 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:23:25 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:23:25 PM: INFO: ** Clicking on First Draft Gen Tab **
+06/14/2023 01:23:25 PM: INFO: ** Checking if First Draft Gen Tab is opened **
+06/14/2023 01:23:25 PM: INFO: **** First Draft Gen Page url is correct and First Draft Gen page loaded ****
+06/14/2023 01:23:25 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:23:26 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:23:28 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:23:29 PM: INFO: *************** Verifying Account Rephraser Tab ***************
+06/14/2023 01:23:32 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:23:34 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:23:40 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:23:40 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:23:40 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:23:40 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:23:40 PM: INFO: ** Clicking on Rephraser Tab **
+06/14/2023 01:23:40 PM: INFO: ** Checking if Rephraser Tab is opened **
+06/14/2023 01:23:40 PM: INFO: **** Rephraser Page url is correct and Rephraser page loaded ****
+06/14/2023 01:23:40 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:23:41 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:23:43 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:23:43 PM: INFO: *************** Verifying My Account Button ***************
+06/14/2023 01:23:44 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:23:46 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:23:52 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:23:52 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:23:52 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:23:53 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:23:53 PM: INFO: ** Clicking on My Account Button **
+06/14/2023 01:23:53 PM: INFO: ** Checking if My Account Page is opened **
+06/14/2023 01:23:53 PM: INFO: **** My Account Page url is correct and My Account page loaded ****
+06/14/2023 01:23:53 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:23:54 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:23:55 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:23:55 PM: INFO: *************** Verifying Subscription Button ***************
+06/14/2023 01:23:58 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:24:00 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:24:06 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:24:06 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:24:06 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:24:06 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:24:06 PM: INFO: ** Clicking on Subscription Button **
+06/14/2023 01:24:06 PM: INFO: ** Checking if Subscription Page is opened **
+06/14/2023 01:24:06 PM: INFO: **** Subscription Page url is correct and Subscription page loaded ****
+06/14/2023 01:27:09 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:27:09 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:27:10 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:27:11 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:27:11 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:27:12 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:27:14 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:27:20 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:27:20 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:27:20 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:27:21 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:27:21 PM: INFO: ** checking logo **
+06/14/2023 01:27:21 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:27:21 PM: INFO: ** Checking User Name label **
+06/14/2023 01:27:21 PM: INFO: ** Checking First Name label **
+06/14/2023 01:27:21 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:27:21 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:27:21 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:27:21 PM: INFO: ** Checking First Name textbox Value is displayed**
+06/14/2023 01:27:21 PM: INFO: ** Checking Last Name textbox Value is displayed**
+06/14/2023 01:27:21 PM: INFO: ** Checking Email Address textbox Value is displayed**
+06/14/2023 01:27:21 PM: INFO: ** Checking User Name textbox is disabled **
+06/14/2023 01:27:21 PM: INFO: ** Checking First Name textBox is disabled **
+06/14/2023 01:27:21 PM: INFO: ** Checking Last Name textbox is disabled **
+06/14/2023 01:27:21 PM: INFO: ** Checking Email Address textbox is disabled **
+06/14/2023 01:27:21 PM: INFO: ** Checking My Account button text **
+06/14/2023 01:27:21 PM: INFO: ** Checking Subscription button text **
+06/14/2023 01:27:21 PM: INFO: ** Checking Personal Details dropdown is expanded **
+06/14/2023 01:27:21 PM: INFO: ** Clicking Personal Details dropdown **
+06/14/2023 01:27:21 PM: INFO: ** Checking Personal Details dropdown is collapsed **
+06/14/2023 01:27:21 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:27:21 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:27:23 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:27:23 PM: INFO: *************** Verifying Account Home Tab ***************
+06/14/2023 01:27:25 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:27:26 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:27:33 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:27:33 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:27:33 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:27:33 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:27:33 PM: INFO: ** Clicking on Home Tab **
+06/14/2023 01:27:33 PM: INFO: ** Checking if Home Tab is opened **
+06/14/2023 01:27:33 PM: INFO: **** Home Page url is correct and home page loaded ****
+06/14/2023 01:27:33 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:27:34 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:27:35 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:27:35 PM: INFO: *************** Verifying Account First Draft Gen Tab ***************
+06/14/2023 01:27:37 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:27:39 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:27:45 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:27:45 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:27:45 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:27:45 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:27:45 PM: INFO: ** Clicking on First Draft Gen Tab **
+06/14/2023 01:27:45 PM: INFO: ** Checking if First Draft Gen Tab is opened **
+06/14/2023 01:27:45 PM: INFO: **** First Draft Gen Page url is correct and First Draft Gen page loaded ****
+06/14/2023 01:27:45 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:27:46 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:27:48 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:27:48 PM: INFO: *************** Verifying Account Rephraser Tab ***************
+06/14/2023 01:27:50 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:27:52 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:27:58 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:27:58 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:27:58 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:27:59 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:27:59 PM: INFO: ** Clicking on Rephraser Tab **
+06/14/2023 01:27:59 PM: INFO: ** Checking if Rephraser Tab is opened **
+06/14/2023 01:27:59 PM: INFO: **** Rephraser Page url is correct and Rephraser page loaded ****
+06/14/2023 01:27:59 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:28:09 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:28:09 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:28:10 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:28:11 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:28:11 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:28:13 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:28:15 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:28:21 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:28:21 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:28:21 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:28:21 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:28:21 PM: INFO: ** checking logo **
+06/14/2023 01:28:21 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:28:21 PM: INFO: ** Checking User Name label **
+06/14/2023 01:28:21 PM: INFO: ** Checking First Name label **
+06/14/2023 01:28:21 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:28:21 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:28:21 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:28:21 PM: INFO: ** Checking First Name textbox Value is displayed**
+06/14/2023 01:28:21 PM: INFO: ** Checking Last Name textbox Value is displayed**
+06/14/2023 01:28:21 PM: INFO: ** Checking Email Address textbox Value is displayed**
+06/14/2023 01:28:21 PM: INFO: ** Checking User Name textbox is disabled **
+06/14/2023 01:28:21 PM: INFO: ** Checking First Name textBox is disabled **
+06/14/2023 01:28:21 PM: INFO: ** Checking Last Name textbox is disabled **
+06/14/2023 01:28:21 PM: INFO: ** Checking Email Address textbox is disabled **
+06/14/2023 01:28:21 PM: INFO: ** Checking My Account button text **
+06/14/2023 01:28:21 PM: INFO: ** Checking Subscription button text **
+06/14/2023 01:28:21 PM: INFO: ** Checking Personal Details dropdown is expanded **
+06/14/2023 01:28:21 PM: INFO: ** Clicking Personal Details dropdown **
+06/14/2023 01:28:21 PM: INFO: ** Checking Personal Details dropdown is collapsed **
+06/14/2023 01:28:22 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:28:22 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:28:24 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:28:24 PM: INFO: *************** Verifying Account Home Tab ***************
+06/14/2023 01:28:26 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:28:28 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:28:34 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:28:34 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:28:35 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:28:35 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:28:35 PM: INFO: ** Clicking on Home Tab **
+06/14/2023 01:28:35 PM: INFO: ** Checking if Home Tab is opened **
+06/14/2023 01:28:35 PM: INFO: **** Home Page url is correct and home page loaded ****
+06/14/2023 01:28:35 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:28:37 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:28:38 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:28:38 PM: INFO: *************** Verifying Account First Draft Gen Tab ***************
+06/14/2023 01:28:40 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:28:42 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:28:48 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:28:48 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:28:48 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:28:48 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:28:48 PM: INFO: ** Clicking on First Draft Gen Tab **
+06/14/2023 01:28:48 PM: INFO: ** Checking if First Draft Gen Tab is opened **
+06/14/2023 01:28:48 PM: INFO: **** First Draft Gen Page url is correct and First Draft Gen page loaded ****
+06/14/2023 01:28:48 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:28:49 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:28:51 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:28:51 PM: INFO: *************** Verifying Account Rephraser Tab ***************
+06/14/2023 01:28:54 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:28:56 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:29:02 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:29:02 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:29:02 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:29:02 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:29:02 PM: INFO: ** Clicking on Rephraser Tab **
+06/14/2023 01:29:02 PM: INFO: ** Checking if Rephraser Tab is opened **
+06/14/2023 01:29:02 PM: INFO: **** Rephraser Page url is correct and Rephraser page loaded ****
+06/14/2023 01:29:02 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:29:03 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:29:05 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:29:05 PM: INFO: *************** Verifying My Account Button ***************
+06/14/2023 01:29:07 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:29:09 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:29:15 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:29:15 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:29:15 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:29:15 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:29:15 PM: INFO: ** Clicking on My Account Button **
+06/14/2023 01:29:15 PM: INFO: ** Checking if My Account Page is opened **
+06/14/2023 01:29:15 PM: INFO: **** My Account Page url is correct and My Account page loaded ****
+06/14/2023 01:29:15 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:29:16 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:29:18 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:29:18 PM: INFO: *************** Verifying Subscription Button ***************
+06/14/2023 01:29:20 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:29:22 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:29:28 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:29:28 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:29:28 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:29:28 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:29:28 PM: INFO: ** Clicking on Subscription Button **
+06/14/2023 01:29:29 PM: INFO: ** Checking if Subscription Page is opened **
+06/14/2023 01:29:29 PM: INFO: **** Subscription Page url is correct and Subscription page loaded ****
+06/14/2023 01:29:52 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:29:52 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:29:53 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:29:54 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:29:54 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:29:56 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:29:58 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:30:13 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:30:13 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:30:14 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:30:15 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:30:15 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:30:17 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:30:19 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:31:14 PM: INFO: *************** Test_MyAccountPage ***************
+06/14/2023 01:31:14 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:31:15 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:31:16 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:31:16 PM: INFO: *************** Verifying My Account Page Elements ***************
+06/14/2023 01:31:17 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:31:19 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:31:25 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:31:25 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:31:26 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:31:26 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:31:26 PM: INFO: ** checking logo **
+06/14/2023 01:31:26 PM: INFO: ** Checking Personal Info label **
+06/14/2023 01:31:26 PM: INFO: ** Checking User Name label **
+06/14/2023 01:31:26 PM: INFO: ** Checking First Name label **
+06/14/2023 01:31:26 PM: INFO: ** Checking Last Name label **
+06/14/2023 01:31:26 PM: INFO: ** Checking Email Address label **
+06/14/2023 01:31:26 PM: INFO: ** Checking User Name textbox Value is displayed**
+06/14/2023 01:31:26 PM: INFO: ** Checking First Name textbox Value is displayed**
+06/14/2023 01:31:26 PM: INFO: ** Checking Last Name textbox Value is displayed**
+06/14/2023 01:31:26 PM: INFO: ** Checking Email Address textbox Value is displayed**
+06/14/2023 01:31:26 PM: INFO: ** Checking User Name textbox is disabled **
+06/14/2023 01:31:26 PM: INFO: ** Checking First Name textBox is disabled **
+06/14/2023 01:31:26 PM: INFO: ** Checking Last Name textbox is disabled **
+06/14/2023 01:31:26 PM: INFO: ** Checking Email Address textbox is disabled **
+06/14/2023 01:31:26 PM: INFO: ** Checking My Account button text **
+06/14/2023 01:31:26 PM: INFO: ** Checking Subscription button text **
+06/14/2023 01:31:26 PM: INFO: ** Checking Personal Details dropdown is expanded **
+06/14/2023 01:31:26 PM: INFO: ** Clicking Personal Details dropdown **
+06/14/2023 01:31:26 PM: INFO: ** Checking Personal Details dropdown is collapsed **
+06/14/2023 01:31:26 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:31:27 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:31:28 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:31:28 PM: INFO: *************** Verifying Account Home Tab ***************
+06/14/2023 01:31:30 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:31:32 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:31:38 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:31:38 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:31:38 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:31:38 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:31:38 PM: INFO: ** Clicking on Home Tab **
+06/14/2023 01:31:38 PM: INFO: ** Checking if Home Tab is opened **
+06/14/2023 01:31:38 PM: INFO: **** Home Page url is correct and home page loaded ****
+06/14/2023 01:31:38 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:31:39 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:31:40 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:31:40 PM: INFO: *************** Verifying Account First Draft Gen Tab ***************
+06/14/2023 01:31:43 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:31:44 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:31:50 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:31:50 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:31:50 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:31:50 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:31:50 PM: INFO: ** Clicking on First Draft Gen Tab **
+06/14/2023 01:31:51 PM: INFO: ** Checking if First Draft Gen Tab is opened **
+06/14/2023 01:31:51 PM: INFO: **** First Draft Gen Page url is correct and First Draft Gen page loaded ****
+06/14/2023 01:31:51 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:31:52 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:31:53 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:31:53 PM: INFO: *************** Verifying Account Rephraser Tab ***************
+06/14/2023 01:31:55 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:31:57 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:32:03 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:32:03 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:32:03 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:32:04 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:32:04 PM: INFO: ** Clicking on Rephraser Tab **
+06/14/2023 01:32:04 PM: INFO: ** Checking if Rephraser Tab is opened **
+06/14/2023 01:32:04 PM: INFO: **** Rephraser Page url is correct and Rephraser page loaded ****
+06/14/2023 01:32:04 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:32:04 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:32:06 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:32:06 PM: INFO: *************** Verifying My Account Button ***************
+06/14/2023 01:32:08 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:32:10 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:32:16 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:32:16 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:32:16 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:32:16 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:32:16 PM: INFO: ** Clicking on My Account Button **
+06/14/2023 01:32:16 PM: INFO: ** Checking if My Account Page is opened **
+06/14/2023 01:32:16 PM: INFO: **** My Account Page url is correct and My Account page loaded ****
+06/14/2023 01:32:16 PM: INFO: ====== WebDriver manager ======
+06/14/2023 01:32:17 PM: INFO: Driver [C:\Users\jillela.reddy\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+06/14/2023 01:32:18 PM: INFO: Launching default chrome browser.........
+06/14/2023 01:32:18 PM: INFO: *************** Verifying Subscription Button ***************
+06/14/2023 01:32:20 PM: INFO: **** Application URL is Opened ****
+06/14/2023 01:32:22 PM: INFO: **** Login Page is Opened ****
+06/14/2023 01:32:28 PM: INFO: **** Entered Email, Password and Clicked Login Button ****
+06/14/2023 01:32:28 PM: INFO: **** Home Page is Opened ****
+06/14/2023 01:32:28 PM: INFO: **** Profile Tab is Opened ****
+06/14/2023 01:32:28 PM: INFO: **** My Account Page is Opened ****
+06/14/2023 01:32:28 PM: INFO: ** Clicking on Subscription Button **
+06/14/2023 01:32:28 PM: INFO: ** Checking if Subscription Page is opened **
+06/14/2023 01:32:28 PM: INFO: **** Subscription Page url is correct and Subscription page loaded ****

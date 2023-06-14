@@ -22,11 +22,11 @@ class ProfileTab:
     # get my account link text
     def getMyAccountLinkText(self):
         return self.driver.find_element(By.XPATH, self.button_myAccount_xpath).text
-    
+
     # get subscription link text
     def getSubscriptionLinkText(self):
         return self.driver.find_element(By.XPATH, self.button_subscription_xpath).text
-    
+
     # get sign out button text
     def getSignOutButtonText(self):
         return self.driver.find_element(By.XPATH, self.button_signout_xpath).text
@@ -44,7 +44,7 @@ class ProfileTab:
     # is sign out button enabled
     def isSignOutButtonEnabled(self):
         return self.driver.find_element(By.XPATH, self.button_signout_xpath).is_enabled()
-    
+
     # is sign out button displayed
     def isSignOutButtonDisplayed(self):
         return self.driver.find_element(By.XPATH, self.button_signout_xpath).is_displayed()
@@ -52,7 +52,7 @@ class ProfileTab:
     # check profile title is displayed
     def isProfileTitleDisplayed(self):
         return self.driver.find_element(By.XPATH, self.txt_profileTitle_xpath).is_displayed()
-    
+
     # wait for my account page to load
     def waitForMyAccountPageToLoad(self):
         self.wait.until(EC.url_contains("myAccount"))
