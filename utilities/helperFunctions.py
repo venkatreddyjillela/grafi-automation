@@ -34,6 +34,7 @@ class HelperFunctions():
         self.lp = LoginPage(self.driver)
         # wait for login page to load
         self.lp.waitForLoginPageToLoad()
+        self.logger.info("**** Login Page is Opened ****")
         return self.lp
 
     # Open Home Page
@@ -46,6 +47,7 @@ class HelperFunctions():
             "**** Entered Email, Password and Clicked Login Button ****")
         # wait for home page to load
         self.lp.waitForHomePageToLoad()
+        self.logger.info("**** Home Page is Opened ****")
         self.hp = HomePage(self.driver)
 
         return self.hp
@@ -76,6 +78,7 @@ class HelperFunctions():
         self.logger.info("**** Entered Topic, Tone, Reading Level, Online Source and File Path and Clicked Next Button ****")
         # wait for craft first draft gen page to load
         self.fd.waitForCraftFirstDraftGenPageToLoad()
+        self.logger.info("**** Craft First Draft Gen Page is Opened ****")
 
         return self.fd
 
@@ -102,6 +105,7 @@ class HelperFunctions():
         self.logger.info("**** Entered Online Source, Tone, Reading Level and Clicked Next Button ****")
         # wait for result draft rephraser page to load
         self.rp.waitForResultDraftRephraserPageToLoad()
+        self.logger.info("**** Result Draft Rephraser Page is Opened ****")
         # Result Draft Rephraser Page
         self.rdrp = ResultDraftRephraser(self.driver)
         return self.rdrp
@@ -110,7 +114,7 @@ class HelperFunctions():
     def openProfileTab(self, setup):
         self.hp = self.openHomePage(setup)
         # click Profile dropdown button 
-        self.pt = self.ProfileTab(self.driver)
+        self.pt = ProfileTab(self.driver)
         self.pt.clickProfileDropdown()
         self.logger.info("**** Profile Tab is Opened ****")
         return self.pt

@@ -1,25 +1,21 @@
 import pytest
-from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from utilities.helperFunctions import HelperFunctions
-import time
 
-
-class Test_001_Login:
+class Test_Login:
     baseURL = ReadConfig.getApplicationURL()
     email = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()
     helper = HelperFunctions()
 
-    logger.info("*************** Test_001_Login *****************")
+    logger.info("*************** Test_Login *****************")
 
     @pytest.mark.regression
     def test_LoginPage(self, setup):
         # test login page all elements are present or not and display correct text or not 
         self.driver = setup
-        # self.driver.get(self.baseURL)
         self.lp = self.helper.openLoginPage(setup)
         # wait for login page to load
         self.lp.waitForLoginPageToLoad()

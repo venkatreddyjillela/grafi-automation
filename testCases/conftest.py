@@ -73,7 +73,7 @@ def setup(browser):
         print("Launching default chrome browser.........")
 
     # implicit wait for 10 seconds
-    driver.implicitly_wait(10)
+    # driver.implicitly_wait(10)
     # maximize window
     driver.maximize_window()
 
@@ -92,7 +92,10 @@ def browser(request):  # This will return the Browser value to setup method
 def pytest_configure(config):
     config._metadata['Project Name'] = 'Grafi'
     config._metadata['Tester'] = 'Venkata Reddy'
-    config._metadata['Browser'] = browser
+    if config.getoption("--browser") == None:
+        config._metadata['Browser'] = 'default Chrome'
+    else :
+        config._metadata['Browser'] = config.getoption("--browser")
 
 # It is hook for delete/Modify Environment info to HTML Report
 @pytest.hookimpl(optionalhook=True)
