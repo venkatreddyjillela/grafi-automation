@@ -13,13 +13,14 @@ class Test_MyAccountPage:
 
     @pytest.mark.regression
     def test_MyAccountPageElements(self, setup):
-        self.logger.info("*************** Verifying My Account Page Elements ***************")
+        self.logger.info(
+            "*************** Verifying My Account Page Elements ***************")
         self.driver = setup
         # open my account page
         self.ma = self.helper.openMyAccountPage(self.driver)
         self.logger.info("** checking logo **")
         # Check if logo is displayed
-        assert self.ma.isLogoDisplayed() == True 
+        assert self.ma.isLogoDisplayed() == True
 
         self.logger.info("** Checking Personal Info label **")
         assert self.ma.getPersonalDetailsText() == "My Personal Details"
@@ -45,7 +46,8 @@ class Test_MyAccountPage:
         self.logger.info("** Checking Last Name textbox Value is displayed**")
         assert self.ma.getLastNameTextBoxValue() != ""
 
-        self.logger.info("** Checking Email Address textbox Value is displayed**")
+        self.logger.info(
+            "** Checking Email Address textbox Value is displayed**")
         assert self.ma.getEmailAddressTextBoxValue() != ""
 
         self.logger.info("** Checking User Name textbox is disabled **")
@@ -67,21 +69,22 @@ class Test_MyAccountPage:
         assert self.ma.getSubscriptionButtonText() == "Subscription"
 
         # By default Personal Details dropdown should be expanded
-        self.logger.info("** Checking Personal Details dropdown is expanded **")
+        self.logger.info(
+            "** Checking Personal Details dropdown is expanded **")
         assert self.ma.isPersonalDetailsDropdownExpanded() == True
 
         # Click on Personal Details dropdown to collapse
         self.logger.info("** Clicking Personal Details dropdown **")
         self.ma.clickPersonalDetailsDropdown()
 
-        self.logger.info("** Checking Personal Details dropdown is collapsed **")
+        self.logger.info(
+            "** Checking Personal Details dropdown is collapsed **")
         assert self.ma.isPersonalDetailsDropdownExpanded() == False
-
-
 
     @pytest.mark.regression
     def test_AccountHomeTab(self, setup):
-        self.logger.info("*************** Verifying Account Home Tab ***************")
+        self.logger.info(
+            "*************** Verifying Account Home Tab ***************")
         self.driver = setup
         # open my account page
         self.ma = self.helper.openMyAccountPage(self.driver)
@@ -107,7 +110,8 @@ class Test_MyAccountPage:
 
     @pytest.mark.regression
     def test_AccountFirstDraftGenTab(self, setup):
-        self.logger.info("*************** Verifying Account First Draft Gen Tab ***************")
+        self.logger.info(
+            "*************** Verifying Account First Draft Gen Tab ***************")
         self.driver = setup
         # open my account page
         self.ma = self.helper.openMyAccountPage(self.driver)
@@ -126,14 +130,16 @@ class Test_MyAccountPage:
                 "**** First Draft Gen Page url is correct and First Draft Gen page loaded ****")
             assert True
         else:
-            self.logger.error("**** First Draft Gen Page url is incorrect ****")
+            self.logger.error(
+                "**** First Draft Gen Page url is incorrect ****")
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_FirstDraftGenPageUrl.png")
             assert False
 
     @pytest.mark.regression
     def test_AccountRephraserTab(self, setup):
-        self.logger.info("*************** Verifying Account Rephraser Tab ***************")
+        self.logger.info(
+            "*************** Verifying Account Rephraser Tab ***************")
         self.driver = setup
         # open my account page
         self.ma = self.helper.openMyAccountPage(self.driver)
@@ -159,7 +165,8 @@ class Test_MyAccountPage:
 
     @pytest.mark.regression
     def test_MyAccountButton(self, setup):
-        self.logger.info("*************** Verifying My Account Button ***************")
+        self.logger.info(
+            "*************** Verifying My Account Button ***************")
         self.driver = setup
         # open my account page
         self.ma = self.helper.openMyAccountPage(self.driver)
@@ -183,7 +190,8 @@ class Test_MyAccountPage:
 
     @pytest.mark.regression
     def test_SubscriptionButton(self, setup):
-        self.logger.info("*************** Verifying Subscription Button ***************")
+        self.logger.info(
+            "*************** Verifying Subscription Button ***************")
         self.driver = setup
         # open my account page
         self.ma = self.helper.openMyAccountPage(self.driver)
@@ -207,7 +215,3 @@ class Test_MyAccountPage:
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_SubscriptionPageUrl.png")
             assert False
-
-
-
-

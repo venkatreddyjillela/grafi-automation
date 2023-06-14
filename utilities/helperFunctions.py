@@ -11,6 +11,7 @@ from pageObjects.ResultDraftRephraserPage import ResultDraftRephraser
 import time
 from TestData.testData import firstDraftGenPageData
 
+
 class HelperFunctions():
     baseURL = ReadConfig.getApplicationURL()
     email = ReadConfig.getUseremail()
@@ -51,39 +52,43 @@ class HelperFunctions():
         self.hp = HomePage(self.driver)
 
         return self.hp
-    
+
     # Open Curate first draft generator page
     def openCurateFirstDraftGenPage(self, setup):
         self.hp = self.openHomePage(setup)
-        self.logger.info("**************** wait for 5 seconds ****************")
+        self.logger.info(
+            "**************** wait for 5 seconds ****************")
         # click on the First Draft Gen button
         self.logger.info(
             "**** Clicked First Draft Gen Button In Home Page ****")
         self.hp.clickFirstDraftGen()
         time.sleep(5)
-        self.logger.info("**************** clicked first draft gen  ****************")
+        self.logger.info(
+            "**************** clicked first draft gen  ****************")
         # wait for curate first draft gen page to load
         self.hp.waitForCurateFirstDraftGenPageToLoad()
         self.logger.info("**** First Draft Gen Page is Opened ****")
         # CurateFirstDraftGen
         self.fd = CurateFirstDraftGen(self.driver)
         return self.fd
-    
+
     # Open Craft first draft generator page
     def openCraftFirstDraftGenPage(self, setup):
         # Open Curate first draft generator page
         self.fd = self.openCurateFirstDraftGenPage(setup)
         # Enter all the details in the Curate first draft generator page and click next button
-        self.fd.enterCurateFirstDraftGenDetails(self.topic, self.tone, self.reading_level, online_source=[self.online_source1,self.online_source2], file_path=[self.file_path1,self.file_path2])
-        self.logger.info("**** Entered Topic, Tone, Reading Level, Online Source and File Path and Clicked Next Button ****")
+        self.fd.enterCurateFirstDraftGenDetails(self.topic, self.tone, self.reading_level, online_source=[
+                                                self.online_source1, self.online_source2], file_path=[self.file_path1, self.file_path2])
+        self.logger.info(
+            "**** Entered Topic, Tone, Reading Level, Online Source and File Path and Clicked Next Button ****")
         # wait for craft first draft gen page to load
         self.fd.waitForCraftFirstDraftGenPageToLoad()
         self.logger.info("**** Craft First Draft Gen Page is Opened ****")
 
         return self.fd
 
-
     # Open Rephraser page
+
     def openRephraserPage(self, setup):
         self.hp = self.openHomePage(setup)
         # click on the Rephraser button
@@ -95,30 +100,32 @@ class HelperFunctions():
         # Rephraser
         self.rp = Rephraser(self.driver)
         return self.rp
-    
+
     # Open Result Draft Rephraser Page
     def openResultDraftRephraserPage(self, setup):
         # Open Home Page
         self.rp = self.openRephraserPage(setup)
         # Enter all the details in the Rephraser page and click next button
-        self.rp.enterRephraserDetails(self.online_source1, self.tone, self.reading_level)
-        self.logger.info("**** Entered Online Source, Tone, Reading Level and Clicked Next Button ****")
+        self.rp.enterRephraserDetails(
+            self.online_source1, self.tone, self.reading_level)
+        self.logger.info(
+            "**** Entered Online Source, Tone, Reading Level and Clicked Next Button ****")
         # wait for result draft rephraser page to load
         self.rp.waitForResultDraftRephraserPageToLoad()
         self.logger.info("**** Result Draft Rephraser Page is Opened ****")
         # Result Draft Rephraser Page
         self.rdrp = ResultDraftRephraser(self.driver)
         return self.rdrp
-    
+
     # Open Profile Tab
     def openProfileTab(self, setup):
         self.hp = self.openHomePage(setup)
-        # click Profile dropdown button 
+        # click Profile dropdown button
         self.pt = ProfileTab(self.driver)
         self.pt.clickProfileDropdown()
         self.logger.info("**** Profile Tab is Opened ****")
         return self.pt
-    
+
     # Open My Account Page
     def openMyAccountPage(self, setup):
         self.pt = self.openProfileTab(setup)

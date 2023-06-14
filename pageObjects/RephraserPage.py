@@ -3,7 +3,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-
 class Rephraser:
     # Rephraser Page
     logo_grafi_xpath = '//img[@alt="grafi logo"]'
@@ -32,7 +31,7 @@ class Rephraser:
 
     def isLogoDisplayed(self):
         return self.driver.find_element(By.XPATH, self.logo_grafi_xpath).is_displayed()
-    
+
     def getTextFirstDraftGenTab(self):
         return self.driver.find_element(By.XPATH, self.link_firstDraftGenTab_xpath).text
 
@@ -64,18 +63,17 @@ class Rephraser:
 
     def getHeaderText(self):
         return self.driver.find_element(By.XPATH, self.txt_header_xpath).text
-    
+
     def getUploadUrlText(self):
         return self.driver.find_element(By.XPATH, self.txt_uploadUrlText_xpath).text
 
      # is url text box enabled
     def isUploadUrlTextBoxEnabled(self):
         return self.driver.find_element(By.XPATH, self.textbox_uploadUrl_xpath).is_enabled()
-    
+
     # get topic textbox placeholder
     def getUploadUrlTextBoxPlaceholder(self):
         return self.driver.find_element(By.XPATH, self.textbox_uploadUrl_xpath).get_attribute("placeholder")
-
 
     def setUploadUrl(self, uploadUrl):
         uploadUrl_element = self.driver.find_element(
@@ -169,7 +167,6 @@ class Rephraser:
     def clickSubmit(self):
         self.driver.find_element(By.XPATH, self.button_submit_xpath).click()
 
-
     def enterRephraserDetails(self, uploadUrl, tone, reading_level):
         self.setUploadUrl(uploadUrl)
         self.clickTone()
@@ -179,4 +176,5 @@ class Rephraser:
 
     # wait for result draft rephraser page to load
     def waitForResultDraftRephraserPageToLoad(self):
-        WebDriverWait(self.driver, 120).until(EC.url_contains("repurpose/Draft"))
+        WebDriverWait(self.driver, 120).until(
+            EC.url_contains("repurpose/Draft"))

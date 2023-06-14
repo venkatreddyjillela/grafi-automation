@@ -323,7 +323,7 @@ class Test_004_RephraserPage:
             "**** Started Test Submit Buttoni in Rephraser Page ****")
         self.driver = setup
         self.rp = self.helper.openRephraserPage(setup)
-        
+
         UPLOAD_URL = self.upload_url
         TONE = self.tone
         READING_LEVEL = self.reading_level

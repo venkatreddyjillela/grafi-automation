@@ -3,7 +3,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
 import time
-        
 
 
 class CurateFirstDraftGen:
@@ -66,14 +65,15 @@ class CurateFirstDraftGen:
 
     def isHomeTabSelected(self):
         return self.driver.find_element(By.XPATH, self.link_homeTab_xpath).get_attribute("aria-selected")
-    
+
     # click Home tab
     def clickHomeTab(self):
         self.driver.find_element(By.XPATH, self.link_homeTab_xpath).click()
 
     # click Rephraser tab
     def clickRephraserTab(self):
-        self.driver.find_element(By.XPATH, self.link_rephraserTab_xpath).click()
+        self.driver.find_element(
+            By.XPATH, self.link_rephraserTab_xpath).click()
 
     # click First Draft Generator tab
     def clickFirstDraftGenTab(self):
@@ -201,21 +201,23 @@ class CurateFirstDraftGen:
     def clickAddUrl(self):
         # self.driver.find_element(By.XPATH, self.button_addUrl_xpath).click()
         # wait for the button to be clickable
-        self.wait.until(EC.element_to_be_clickable((By.XPATH, self.button_addUrl_xpath))).click()
+        self.wait.until(EC.element_to_be_clickable(
+            (By.XPATH, self.button_addUrl_xpath))).click()
 
     def isAddUrlButtonEnabled(self):
         return self.driver.find_element(By.XPATH, self.button_addUrl_xpath).is_enabled()
-    
+
     # get online source added url for verification
     def getOnlineSourceAddedUrl(self):
-        online_source_urls = self.driver.find_elements(By.XPATH, self.txt_addOnlineSource_xpath)
+        online_source_urls = self.driver.find_elements(
+            By.XPATH, self.txt_addOnlineSource_xpath)
         urls = []
         for source_url in online_source_urls:
             urls.append(source_url.text)
         return urls
-        
 
     # get uploadable sources text
+
     def getTextUploadableSources(self):
         return self.driver.find_element(By.XPATH, self.txt_UploadableSources_xpath).text
 
@@ -273,7 +275,7 @@ class CurateFirstDraftGen:
 
     # enter all the details in the curate first draft gen page
     def enterCurateFirstDraftGenDetails(self, topic, tone, reading_level, online_sources=[], file_paths=[], drag_file_paths=[]):
-        # enter topic 
+        # enter topic
         self.setTopic(topic)
         # click tone dropdown
         self.clickTone()

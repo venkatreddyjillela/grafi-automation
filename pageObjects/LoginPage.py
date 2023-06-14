@@ -24,10 +24,10 @@ class LoginPage:
 
     def getLoginHeader(self):
         return self.driver.find_element(By.XPATH, self.txt_loginHeader_xpath).text
-    
+
     def getEmailLabel(self):
         return self.driver.find_element(By.XPATH, self.txt_emailLabel_xpath).text
-    
+
     def getPasswordLabel(self):
         return self.driver.find_element(By.XPATH, self.txt_passwordLabel_xpath).text
 
@@ -62,7 +62,7 @@ class LoginPage:
 
     def getNewUserText(self):
         return self.driver.find_element(By.XPATH, self.txt_newUser_xpath).text
-    
+
     # get register link text
     def getRegisterLinkText(self):
         return self.driver.find_element(By.XPATH, self.link_register_xpath).text
@@ -79,11 +79,11 @@ class LoginPage:
 
     def isLoginButtonEnabled(self):
         return self.driver.find_element(By.XPATH, self.button_login_xpath).is_enabled()
-    
+
     # login button dipalyed or not
     def isLoginButtonDisplayed(self):
         return self.driver.find_element(By.XPATH, self.button_login_xpath).is_displayed()
-    
+
     def userLogin(self, email, password):
         self.setEmail(email)
         self.setPassword(password)
@@ -92,19 +92,19 @@ class LoginPage:
     # email text box placeholder
     def getEmailPlaceholder(self):
         return self.driver.find_element(By.XPATH, self.textbox_email_xpath).get_attribute("placeholder")
-    
+
     # password text box placeholder
     def getPasswordPlaceholder(self):
         return self.driver.find_element(By.XPATH, self.textbox_password_xpath).get_attribute("placeholder")
-    
+
     # get error message
     def getErrorMessage(self):
         return self.driver.find_element(By.XPATH, self.txt_error_xpath).text
-    
+
     # get title of the page
     def getTitle(self):
         return self.driver.title
-    
+
     # wait for forgot password page to appear
     def waitForForgotPasswordPageToLoad(self):
         self.wait.until(EC.url_contains("reset-credentials"))

@@ -28,7 +28,6 @@ class RegistrationPage:
 
     link_back_xpath = '//a[normalize-space()="Back"]'
 
-
     def __init__(self, driver):
         self.driver = driver
 

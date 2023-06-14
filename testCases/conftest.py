@@ -1,3 +1,4 @@
+import os
 import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -7,18 +8,21 @@ from utilities.customLogger import LogGen
 
 logger = LogGen.loggen()
 
-import os
 
 location = os.getcwd() + "\\Downloads"
 
+
 @pytest.fixture()
 def setup(browser):
-    if browser=='firefox':
-        from selenium.webdriver.firefox.service import Service        
+    if browser == 'firefox':
+        from selenium.webdriver.firefox.service import Service
         from selenium.webdriver.firefox.options import Options
         firefox_options = webdriver.FirefoxOptions()
-        firefox_options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/msword")  # MIME type of the file you want to download (ms word is used here)
-        firefox_options.set_preference("browser.download.manager.showWhenStarting", False)
+        # MIME type of the file you want to download (ms word is used here)
+        firefox_options.set_preference(
+            "browser.helperApps.neverAsk.saveToDisk", "application/msword")
+        firefox_options.set_preference(
+            "browser.download.manager.showWhenStarting", False)
         firefox_options.set_preference("browser.download.folderList", 2)
         firefox_options.set_preference("browser.download.dir", location)
 
@@ -32,9 +36,8 @@ def setup(browser):
         driver = webdriver.Firefox(service=service, options=firefox_options)
         logger.info("Launching firefox browser.........")
         print("Launching firefox browser.........")
-        
 
-    elif browser=='Edge':
+    elif browser == 'Edge':
         from selenium.webdriver.edge.service import Service
         from selenium.webdriver.edge.options import Options
         preferences = {"download.default_directory": location}
@@ -55,7 +58,8 @@ def setup(browser):
     else:
         from selenium.webdriver.chrome.options import Options
         from selenium.webdriver.chrome.service import Service
-        preferences = {"download.default_directory": location, "plugins.always_open_pdf_externally": True}
+        preferences = {"download.default_directory": location,
+                       "plugins.always_open_pdf_externally": True}
         # Create Chrome options object
         chrome_options = Options()
         chrome_options.add_experimental_option("prefs", preferences)
@@ -63,7 +67,7 @@ def setup(browser):
 
         # Download the ChromeDriver executable using the WebDriver Manager
         executable_path = ChromeDriverManager().install()
-       
+
         # Create a Service object
         service = Service(executable_path)
 
@@ -79,8 +83,10 @@ def setup(browser):
 
     return driver
 
+
 def pytest_addoption(parser):    # This will get the value from CLI /hooks
     parser.addoption("--browser")
+
 
 @pytest.fixture()
 def browser(request):  # This will return the Browser value to setup method
@@ -89,15 +95,19 @@ def browser(request):  # This will return the Browser value to setup method
 ########### pytest HTML Report ################
 
 # It is hook for Adding Environment info to HTML Report
+
+
 def pytest_configure(config):
     config._metadata['Project Name'] = 'Grafi'
     config._metadata['Tester'] = 'Venkata Reddy'
     if config.getoption("--browser") == None:
         config._metadata['Browser'] = 'default Chrome'
-    else :
+    else:
         config._metadata['Browser'] = config.getoption("--browser")
 
 # It is hook for delete/Modify Environment info to HTML Report
+
+
 @pytest.hookimpl(optionalhook=True)
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)

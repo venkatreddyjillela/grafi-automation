@@ -22,7 +22,6 @@ class Subscription:
     txt_paymentHistory_xpath = '//h3[normalize-space()="Payment History"]'
     drp_paymentHistory_xpath = '(//div[@id="panel1a-header"])[3]/div[2]'
 
-
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)

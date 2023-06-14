@@ -4,6 +4,7 @@ from utilities.customLogger import LogGen
 from utilities.helperFunctions import HelperFunctions
 from pageObjects.ProfileTab import ProfileTab
 
+
 class Test_ProfileTab:
     baseURL = ReadConfig.getApplicationURL()
     logger = LogGen.loggen()
@@ -13,7 +14,8 @@ class Test_ProfileTab:
 
     @pytest.mark.regression
     def test_profileTabElements(self, setup):
-        self.logger.info("*************** test_profileTabElements ***************")
+        self.logger.info(
+            "*************** test_profileTabElements ***************")
         self.driver = setup
         # Open Home Page
         self.hp = self.helper.openHomePage(setup)
@@ -21,37 +23,50 @@ class Test_ProfileTab:
         self.pt = ProfileTab(setup)
         # Click on Profile dropdown
         self.pt.clickProfileDropdown()
-        self.logger.info("*************** Click Profile dropdown ***************")
+        self.logger.info(
+            "*************** Click Profile dropdown ***************")
 
         # Verify My Account link text
-        self.logger.info("*************** Verify My Account link text ***************")
+        self.logger.info(
+            "*************** Verify My Account link text ***************")
         assert self.pt.getMyAccountLinkText() == "My Account"
-        self.logger.info("*************** My Account link text is correct ***************")
+        self.logger.info(
+            "*************** My Account link text is correct ***************")
 
         # Verify Subscription link text
-        self.logger.info("*************** Verify Subscription link text ***************")
+        self.logger.info(
+            "*************** Verify Subscription link text ***************")
         assert self.pt.getSubscriptionLinkText() == "Subscription"
-        self.logger.info("*************** Subscription link text is correct ***************")
+        self.logger.info(
+            "*************** Subscription link text is correct ***************")
 
         # Verify Sign Out button text
-        self.logger.info("*************** Verify Sign Out button text ***************")
+        self.logger.info(
+            "*************** Verify Sign Out button text ***************")
         assert self.pt.getSignOutButtonText() == "Sign Out"
-        self.logger.info("*************** Sign Out button text is correct ***************")
+        self.logger.info(
+            "*************** Sign Out button text is correct ***************")
 
         # Verify Sign Out button is enabled
-        self.logger.info("*************** Verify Sign Out button is enabled ***************")
+        self.logger.info(
+            "*************** Verify Sign Out button is enabled ***************")
         assert self.pt.isSignOutButtonEnabled() == True
-        self.logger.info("*************** Sign Out button is enabled ***************")
+        self.logger.info(
+            "*************** Sign Out button is enabled ***************")
 
         # Verify Sign Out button is displayed
-        self.logger.info("*************** Verify Sign Out button is displayed ***************")
+        self.logger.info(
+            "*************** Verify Sign Out button is displayed ***************")
         assert self.pt.isSignOutButtonDisplayed() == True
-        self.logger.info("*************** Sign Out button is displayed ***************")
+        self.logger.info(
+            "*************** Sign Out button is displayed ***************")
 
         # Verify Profile title is displayed
-        self.logger.info("*************** Verify Profile title is displayed ***************")
+        self.logger.info(
+            "*************** Verify Profile title is displayed ***************")
         assert self.pt.isProfileTitleDisplayed() == True
-        self.logger.info("*************** Profile title is displayed ***************")
+        self.logger.info(
+            "*************** Profile title is displayed ***************")
 
         # close browser
         self.driver.close()
@@ -67,19 +82,23 @@ class Test_ProfileTab:
         self.pt = ProfileTab(setup)
         # Click on Profile dropdown
         self.pt.clickProfileDropdown()
-        self.logger.info("*************** Click Profile dropdown ***************")
+        self.logger.info(
+            "*************** Click Profile dropdown ***************")
         # Click on My Account
         self.pt.clickMyAccount()
         self.logger.info("*************** Click My Account ***************")
         # Wait for My Account page to load
         self.pt.waitForMyAccountPageToLoad()
-        self.logger.info("*************** My Account page loaded ***************")
+        self.logger.info(
+            "*************** My Account page loaded ***************")
         # Verify My Account page URL
-        self.logger.info("*************** Verify My Account page URL ***************")
+        self.logger.info(
+            "*************** Verify My Account page URL ***************")
         actual_url = self.driver.current_url
         expected_url = self.baseURL + "myAccount"
         if actual_url == expected_url:
-            self.logger.info("**** myAccount Page url is correct and myAccount page loaded ****")
+            self.logger.info(
+                "**** myAccount Page url is correct and myAccount page loaded ****")
             assert True
         else:
             self.logger.error("**** myAccount Page url is incorrect ****")
@@ -93,7 +112,8 @@ class Test_ProfileTab:
     @pytest.mark.regression
     @pytest.mark.sanity
     def test_subscriptionLink(self, setup):
-        self.logger.info("*************** test_subscriptionLink ***************")
+        self.logger.info(
+            "*************** test_subscriptionLink ***************")
         self.driver = setup
         # Open Home Page
         self.hp = self.helper.openHomePage(setup)
@@ -101,19 +121,23 @@ class Test_ProfileTab:
         self.pt = ProfileTab(setup)
         # Click on Profile dropdown
         self.pt.clickProfileDropdown()
-        self.logger.info("*************** Click Profile dropdown ***************")
+        self.logger.info(
+            "*************** Click Profile dropdown ***************")
         # Click on Subscription
         self.pt.clickSubscription()
         self.logger.info("*************** Click Subscription ***************")
         # Wait for Subscription page to load
         self.pt.waitForSubscriptionPageToLoad()
-        self.logger.info("*************** Subscription page loaded ***************")
+        self.logger.info(
+            "*************** Subscription page loaded ***************")
         # Verify Subscription page URL
-        self.logger.info("*************** Verify Subscription page URL ***************")
+        self.logger.info(
+            "*************** Verify Subscription page URL ***************")
         actual_url = self.driver.current_url
         expected_url = self.baseURL + "subscription"
         if actual_url == expected_url:
-            self.logger.info("**** Subscription Page url is correct and Subscription page loaded ****")
+            self.logger.info(
+                "**** Subscription Page url is correct and Subscription page loaded ****")
             assert True
         else:
             self.logger.error("**** Subscription Page url is incorrect ****")
@@ -135,18 +159,23 @@ class Test_ProfileTab:
         self.pt = ProfileTab(setup)
         # Click on Profile dropdown
         self.pt.clickProfileDropdown()
-        self.logger.info("*************** Click Profile dropdown ***************")
+        self.logger.info(
+            "*************** Click Profile dropdown ***************")
         # Click on Sign Out button
         self.pt.clickSignOutButton()
-        self.logger.info("*************** Click Sign Out button ***************")
+        self.logger.info(
+            "*************** Click Sign Out button ***************")
         # Wait for Login In page to load
         self.pt.waitForLoginPageToLoad()
-        self.logger.info("*************** Login In page loaded ***************")
+        self.logger.info(
+            "*************** Login In page loaded ***************")
         # Verify Login In page URL
-        self.logger.info("*************** Verify Login In page URL ***************")
+        self.logger.info(
+            "*************** Verify Login In page URL ***************")
         actual_url = self.driver.current_url
         if "openid-connect" in actual_url:
-            self.logger.info("**** Login In Page url is correct and Login In page loaded ****")
+            self.logger.info(
+                "**** Login In Page url is correct and Login In page loaded ****")
             assert True
         else:
             self.logger.error("**** Login In Page url is incorrect ****")
@@ -156,7 +185,3 @@ class Test_ProfileTab:
 
         # close browser
         self.driver.close()
-
-
-
-        

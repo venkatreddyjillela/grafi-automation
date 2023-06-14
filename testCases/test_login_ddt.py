@@ -10,7 +10,7 @@ import time
 class Test_DDT_Login():
     baseURL = ReadConfig.getApplicationURL()
     path = ".//TestData/LoginData.xlsx"
-    logger = LogGen.loggen() 
+    logger = LogGen.loggen()
     helper = HelperFunctions()
 
     @pytest.mark.regression
@@ -20,8 +20,9 @@ class Test_DDT_Login():
         self.logger.info("******* Starting Login DDT Test **********")
 
         self.rows = XLUtils.getRowCount(self.path, 'Sheet1')
-        self.logger.info('Number of rows = ' +  str(self.rows))
-        self.logger.info('Number of credentials login is verfied : ' +  str(self.rows-1))
+        self.logger.info('Number of rows = ' + str(self.rows))
+        self.logger.info(
+            'Number of credentials login is verfied : ' + str(self.rows-1))
         lst_status = []
 
         for r in range(2, self.rows+1):
@@ -37,7 +38,7 @@ class Test_DDT_Login():
             if self.password:
                 self.lp.setPassword(self.password)
             self.lp.clickLogin()
-            try :
+            try:
                 # wait for home page to load
                 self.lp.waitForHomePageToLoad()
             except:
@@ -58,12 +59,14 @@ class Test_DDT_Login():
                     self.logger.error("**** failed ****")
                     lst_status.append("Fail")
 
-                try :
+                try:
                     if self.lp.getErrorMessage() == error_message:
-                        self.logger.error("**** Error message is displayed for successful login ****")
+                        self.logger.error(
+                            "**** Error message is displayed for successful login ****")
                         assert False
-                except :
-                    self.logger.info("**** Error message is not displayed ****")
+                except:
+                    self.logger.info(
+                        "**** Error message is not displayed ****")
                     assert True
 
             elif current_url != expected_url:
@@ -77,8 +80,9 @@ class Test_DDT_Login():
                 if self.lp.getErrorMessage() == error_message:
                     self.logger.info("**** Error message is displayed ****")
                     assert True
-                else :
-                    self.logger.error("**** Error message is not displayed for login failure ****")
+                else:
+                    self.logger.error(
+                        "**** Error message is not displayed for login failure ****")
                     assert False
 
             self.logger.info(lst_status)

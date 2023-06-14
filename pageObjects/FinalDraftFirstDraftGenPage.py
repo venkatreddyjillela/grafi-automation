@@ -77,6 +77,7 @@ class FinalDraftFirstDraftGen:
     def closeHelp(self):
         self.driver.find_element(By.XPATH, self.button_Xmark_xpath).click()
 
-    #wait for final draft first draft gen page to load
+    # wait for final draft first draft gen page to load
     def waitForFinalDraftFirstDraftGenPageToLoad(self):
-        WebDriverWait(self.driver, 600).until(EC.url_contains("inputContent/draft"))
+        WebDriverWait(self.driver, 600).until(
+            EC.url_contains("inputContent/draft"))

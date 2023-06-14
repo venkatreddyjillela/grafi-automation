@@ -3,6 +3,7 @@ from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from utilities.helperFunctions import HelperFunctions
 
+
 class Test_Login:
     baseURL = ReadConfig.getApplicationURL()
     email = ReadConfig.getUseremail()
@@ -14,7 +15,7 @@ class Test_Login:
 
     @pytest.mark.regression
     def test_LoginPage(self, setup):
-        # test login page all elements are present or not and display correct text or not 
+        # test login page all elements are present or not and display correct text or not
         self.driver = setup
         self.lp = self.helper.openLoginPage(setup)
         # wait for login page to load
@@ -35,7 +36,7 @@ class Test_Login:
 
         self.logger.info("****Login Header Test ****")
 
-        # test login Header 
+        # test login Header
         login_label = self.lp.getLoginHeader()
         if login_label == "Login":
             self.logger.info("****Login Header Test Passed ****")
@@ -130,7 +131,7 @@ class Test_Login:
                 ".\\Screenshots\\"+"test_GrafiLogo.png")
             assert False
 
-        # test logo text 
+        # test logo text
         self.logger.info("****Grafi Logo Text Test ****")
         logo_text = self.lp.getLogoText()
         if 'Convert your thoughts into words with AI' in logo_text and 'Generate high-quality content at a breathtaking pace' in logo_text:
@@ -149,7 +150,8 @@ class Test_Login:
             self.logger.info("****Email Text Box Placeholder Test Passed ****")
             assert True
         else:
-            self.logger.error("****Email Text Box Placeholder Test Failed ****")
+            self.logger.error(
+                "****Email Text Box Placeholder Test Failed ****")
             self.driver.save_screenshot(
                 ".\\Screenshots\\"+"test_EmailPlaceholder.png")
             assert False
@@ -158,10 +160,12 @@ class Test_Login:
         self.logger.info("****Password Text Box Placeholder Test ****")
         password_placeholder = self.lp.getPasswordPlaceholder()
         if password_placeholder == "Password":
-            self.logger.info("****Password Text Box Placeholder Test Passed ****")
+            self.logger.info(
+                "****Password Text Box Placeholder Test Passed ****")
             assert True
         else:
-            self.logger.error("****Password Text Box Placeholder Test Failed ****")
+            self.logger.error(
+                "****Password Text Box Placeholder Test Failed ****")
             self.driver.save_screenshot(
                 ".\\Screenshots\\"+"test_PasswordPlaceholder.png")
             assert False
@@ -196,7 +200,7 @@ class Test_Login:
     @pytest.mark.regression
     @pytest.mark.sanity
     def test_forgetPasswordLink(self, setup):
-        ## test forgot password Link functionality
+        # test forgot password Link functionality
         self.logger.info("****Test Forgot Password Link Functionality ****")
         self.driver = setup
         # self.driver.get(self.baseURL)
@@ -213,27 +217,28 @@ class Test_Login:
         current_url = self.driver.current_url
         if 'reset-credentials' in current_url:
             self.logger.info("****Forgot Password Page is opened****")
-            self.logger.info("****Forgot Password Link Functionality Passed ****")
+            self.logger.info(
+                "****Forgot Password Link Functionality Passed ****")
             assert True
         else:
             self.logger.error("****Forgot Password Page is not opened****")
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_ForgotPasswordPage.png")
-            self.logger.info("****Forgot Password Link Functionality Failed and Screenshot Saved ****")
+            self.logger.info(
+                "****Forgot Password Link Functionality Failed and Screenshot Saved ****")
             assert False
-        
+
         # close browser
         self.driver.close()
-
 
     @pytest.mark.regression
     @pytest.mark.sanity
     def test_registrationLink(self, setup):
-        ## test registration Link functionality
+        # test registration Link functionality
         self.logger.info("****Test Registration Link Functionality ****")
         self.driver = setup
         # self.driver.get(self.baseURL)
-        
+
         # self.lp = LoginPage(self.driver)
 
         self.lp = self.helper.openLoginPage(setup)
@@ -254,7 +259,8 @@ class Test_Login:
             self.logger.error("****Registration Page is not opened****")
             self.driver.save_screenshot(
                 ".\\Screenshots\\" + "test_RegistrationPage.png")
-            self.logger.info("****Registration Link Functionality Failed and Screenshot Saved ****")
+            self.logger.info(
+                "****Registration Link Functionality Failed and Screenshot Saved ****")
             assert False
 
         # close browser
@@ -263,7 +269,7 @@ class Test_Login:
     @pytest.mark.regression
     @pytest.mark.sanity
     def test_login(self, setup):
-        ## test login functionality
+        # test login functionality
         self.logger.info("****Test Login Functionality ****")
         self.driver = setup
         # self.driver.get(self.baseURL)
@@ -282,7 +288,7 @@ class Test_Login:
 
         # wait for home page to load
         self.lp.waitForHomePageToLoad()
-        
+
         current_url = self.driver.current_url
         if current_url == self.baseURL + 'home':
             self.logger.info("****Home Page is opened****")
