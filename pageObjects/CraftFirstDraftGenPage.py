@@ -1,25 +1,38 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class CraftFirstDraftGen:
     # First Draft Craft Page
 
+    # logo on the page
+    logo_grafi_xpath = '//img[@alt="grafi logo"]'
+
+    # Tabs on the page
+    link_firstDraftGenTab_xpath = '//a[normalize-space()="First Draft Generator"]'
+    link_rephraserTab_xpath = '//a[normalize-space()="Rephraser"]'
+    link_homeTab_xpath = '//a[normalize-space()="Home"]'
+
     # Header
     hdr_yourPieceOutline_xpath = '//p[@class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter outlineHeader fontFamilyPoppins fontWeight-600 css-1oy63y8"]'
 
     # Seo Subtopics
+    txt_seoSubtopicsTitle_xpath = "//p[normalize-space()='Subtopic recommendations from Grafi']"
     lst_seoSubtopics_xpath = '(//div[@class="MuiGrid-root boxContent null css-rfnosa"])[2]/div'
     txt_subtopicNo_xpath = '(//div[@class="MuiGrid-root boxContent null css-rfnosa"])[1]/div[8]/div[1]/p'
     txt_subtopicText_xpath = '(//div[@class="MuiGrid-root boxContent null css-rfnosa"])[1]/div[8]/div[2]/p'
     button_plus_xpath = '(//div[@class="MuiGrid-root boxContent null css-rfnosa"])[1]/div[8]/div[3]/button'
 
     # Grafi Subtopics
+    txt_grafiSubtopicsTitle_xpath = '//p[contains(text(),"Subtopic recommendations based on GRAFI")]'
     lst_grafiSubtopics_xpath = '(//div[@class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 boxOutline css-15j76c0"])[2]/div/div'
     txt_grafiSubtopicNo_xpath = '(//div[@class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 boxOutline css-15j76c0"])[2]/div/div[8]/div[1]/p'
     txt_grafiSubtopicText_xpath = '(//div[@class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 boxOutline css-15j76c0"])[2]/div/div[8]/div[2]/p'
     button_plus_xpath = '(//div[@class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 boxOutline css-15j76c0"])[2]/div/div[8]/div[3]/button'
 
     # References
+    txt_referencesTitle_xpath = "//p[normalize-space()='Subtopic recommendations from Grafi']"
     lst_references_xpath = '(//div[@class="MuiGrid-root MuiGrid-container boxContent null css-1d3bbye"])[1]/div'
     txt_referenceNo_xpath = '(//div[@class="MuiGrid-root MuiGrid-container boxContent null css-1d3bbye"])[1]/div[8]/div[1]/p'
     txt_referenceText_xpath = '(//div[@class="MuiGrid-root MuiGrid-container boxContent null css-1d3bbye"])[1]/div[8]/div[2]/a'
@@ -27,12 +40,17 @@ class CraftFirstDraftGen:
     checkbox_reference_xpath = '(//div[@class="MuiGrid-root MuiGrid-container boxContent null css-1d3bbye"])[1]/div[8]/div[4]/span'
 
     # add subtopic
+    txt_addSubtopicTitle_xpath = "//p[normalize-space()='Craft Your Outline Here']"
     textbox_subtopic_xpath = '//input[@id="craftTopicsInput"]'
     button_addSubtopic_xpath = '//button[@id="addSubtopicButton"]'
 
     # word count dropdown
+    txt_wordCountTitle_xpath = "//p[@class='MuiFormHelperText-root']"
     dropdown_wordCount_xpath = '//div[@id="mui-component-select-wordCountDropDown"]'
     lst_wordCount_xpath = '//ul[@role="listbox"]/li'
+
+    # create your outline
+    txt_createYourOutlineTitle_xpath = "//h1[normalize-space()='Create your outline']"
 
     # Generate button
     button_generate_xpath = '//button[normalize-space()="Generate"]'
@@ -42,12 +60,35 @@ class CraftFirstDraftGen:
 
     def __init__(self, driver):
         self.driver = driver
+        self.wait = WebDriverWait(self.driver, 10)
+        self.wait2 = WebDriverWait(self.driver, 300)
+
+
+    def isLogoDisplayed(self):
+        return self.driver.find_element(By.XPATH, self.logo_grafi_xpath).is_displayed()
+
+    # click Home tab
+    def clickHomeTab(self):
+        self.driver.find_element(By.XPATH, self.link_homeTab_xpath).click()
+
+    # click Rephraser tab
+    def clickRephraserTab(self):
+        self.driver.find_element(
+            By.XPATH, self.link_rephraserTab_xpath).click()
+
+    # click First Draft Generator tab
+    def clickFirstDraftGenTab(self):
+        self.driver.find_element(
+            By.XPATH, self.link_firstDraftGenTab_xpath).click()
 
     # Header
     def getYourPieceOutlineHeader(self):
         return self.driver.find_element(By.XPATH, self.hdr_yourPieceOutline_xpath).text
 
     # Seo Subtopics
+    def getSeoSubtopicsTitle(self):
+        return self.driver.find_element(By.XPATH, self.txt_seoSubtopicsTitle_xpath).text
+
     def getCountSeoSubtopics(self):
         return len(self.driver.find_elements(By.XPATH, self.lst_seoSubtopics_xpath))
 
@@ -78,6 +119,9 @@ class CraftFirstDraftGen:
             '8', str(countSeoSubtopics))).click()
 
     # Grafi Subtopics
+    def getGrafiSubtopicsTitle(self):
+        return self.driver.find_element(By.XPATH, self.txt_grafiSubtopicsTitle_xpath).text
+
     def getCountGrafiSubtopics(self):
         return len(self.driver.find_elements(By.XPATH, self.lst_grafiSubtopics_xpath))
 
@@ -108,6 +152,9 @@ class CraftFirstDraftGen:
             '8', str(countGrafiSubtopics))).click()
 
     # References
+    def getReferencesTitle(self):
+        return self.driver.find_element(By.XPATH, self.txt_referencesTitle_xpath).text
+
     def getCountReferences(self):
         return len(self.driver.find_elements(By.XPATH, self.lst_references_xpath))
 
@@ -188,6 +235,9 @@ class CraftFirstDraftGen:
                 self.addReference(i)
 
     # Own subtopic
+    def getAddSubtopicTitle(self):
+        return self.driver.find_element(By.XPATH, self.txt_addSubtopicTitle_xpath).text
+
     def setSubtopic(self, subtopic_text):
         subtopic_element = self.driver.find_element(
             By.XPATH, self.txt_subtopic_xpath)
@@ -199,6 +249,9 @@ class CraftFirstDraftGen:
             By.XPATH, self.button_addSubtopic_xpath).click()
 
     # Word count
+    def getWordCountTitle(self):
+        return self.driver.find_element(By.XPATH, self.txt_wordCountTitle_xpath).text
+
     def clickWordCountDropdown(self):
         self.driver.find_element(
             By.XPATH, self.dropdown_wordCount_xpath).click()
@@ -211,6 +264,10 @@ class CraftFirstDraftGen:
                 word_count_element.click()
                 break
 
+    # create your timeline
+    def getTimelineTitle(self):
+        return self.driver.find_element(By.XPATH, self.txt_createYourOutlineTitle_xpath).text
+
     # Generate button
     def clickGenerate(self):
         self.driver.find_element(By.XPATH, self.button_generate_xpath).click()
@@ -218,3 +275,19 @@ class CraftFirstDraftGen:
     # Back button
     def clickBack(self):
         self.driver.find_element(By.XPATH, self.button_back_xpath).click()
+
+        # wait for home page to load
+    def waitForHomePageToLoad(self):
+        self.wait.until(EC.url_contains("home"))
+
+    # wait for Rephraser page to load
+    def waitForRephraserPageToLoad(self):
+        self.wait.until(EC.url_contains("repurpose"))
+
+    # wait for Curate page to load
+    def waitForCuratePageToLoad(self):
+        self.wait.until(EC.url_contains("inputContent"))
+
+    # wait for final draft page to load
+    def waitForFinalDraftPageToLoad(self):
+        self.wait.until(EC.url_contains("inputContent/draft"))
