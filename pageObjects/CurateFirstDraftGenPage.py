@@ -41,7 +41,8 @@ class CurateFirstDraftGen:
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(self.driver, 30)
+        self.wait = WebDriverWait(self.driver, 10)
+        self.wait2 = WebDriverWait(self.driver, 120)
         # Initialize an ActionChains object
         self.actions = ActionChains(self.driver)
 
@@ -307,7 +308,7 @@ class CurateFirstDraftGen:
 
     # wait for craft first draft page to load
     def waitForCraftFirstDraftGenPageToLoad(self):
-        self.wait.until(EC.url_contains("constructYourOutline"))
+        self.wait2.until(EC.url_contains("constructYourOutline"))
 
     # wait for home page to load
     def waitForHomePageToLoad(self):
